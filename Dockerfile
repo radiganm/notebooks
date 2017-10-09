@@ -44,6 +44,10 @@
 # RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
   RUN mkdir -p /opt
+  RUN mkdir -p /notebooks
+  COPY ./home /root
+
+  EXPOSE 8888
 
   # entry point
   ADD ./ctl /usr/bin

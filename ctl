@@ -89,10 +89,10 @@ EOT
   cmd=$1; shift
   case $cmd in
     notebook)
-      ipython notebook --no-browser
+      ipython notebook --ip='*' --no-browser
       ;;
     notebook-ui)
-      ipython notebook --browser=firefox
+      ipython notebook --ip='*' --browser=firefox
       ;;
     util)
       util $*
