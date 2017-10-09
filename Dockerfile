@@ -43,6 +43,9 @@
 # # clean up APT
 # RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+  RUN python  -m pip install sympy
+  RUN python3 -m pip install sympy
+
   RUN mkdir -p /opt
   RUN mkdir -p /notebooks
   COPY ./home /root
