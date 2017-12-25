@@ -11,7 +11,7 @@
 
   for src in `find $srcdir -type f -name "*.py" | sort`; do
     dx=${src%/*}; fx=${src##*/}; nx=${fx%.*}; ex=${f##*.}
-    dst=$dx/$fx.ipynb
+    dst=$dx/$nx.ipynb
     echo "converting $src $dst ..."
     $r/py-convert $src $dst
     echo "done."
