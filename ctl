@@ -1,8 +1,9 @@
 #!/bin/bash
-## ctl
-##
-## Copyright 2016 Mac Radigan
-## All Rights Reserved
+### ctl
+###
+### Copyright 2016 Mac Radigan
+### All Rights Reserved
+
 
   d=${0%/*}; f=${0##*/}; n=${f%.*}; e=${f##*.}
   if [ -f /opt/current.env ]; 
@@ -104,4 +105,4 @@ EOT
 
   exit $S__SUCCESS
 
-## *EOF*
+### *EOF*

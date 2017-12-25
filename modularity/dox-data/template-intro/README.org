@@ -1,0 +1,26 @@
+#+TITLE: {{META_TITLE}}
+#+AUTHOR: {{META_AUTHOR}}
+#+LICENSE: {{META_LICENSE_SHORT}}
+#+SPDX-License-Identifier: {{META_LICENSE_SPDX}}
+
+* [[modularity.ipynb][Overview]]
+
+- [[modularity.ipynb][Overview: modularity.ipynb]]
+
+* Examples
+
+** by Base
+
+{% for b_n, b in enumerate(bs) %}
+- [[./examples/base/modulus_{{'%4.4d'%b}}.ipynb][base b = {{b}}: ./examples/base/modulus_{{'%4.4d'%b}}.ipynb]]
+
+{% endfor %}
+
+** by Modulus
+
+{% for m_n, m in enumerate(ms) %}
+- [[./examples/modulus/base_{{'%4.4d'%m}}.ipynb][modulus m = {{m}}: ./examples/modulus/base_{{'%4.4d'%m}}.ipynb]]
+
+{% endfor %}
+
+ # *EOF* 

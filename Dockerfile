@@ -1,7 +1,7 @@
-## Dockerfile for notebooks
-##
-## Copyright 2016 Mac Radigan
-## All Rights Reserved
+### Dockerfile for notebooks
+###
+### Copyright 2016 Mac Radigan
+### All Rights Reserved
 
   FROM ubuntu:latest
 
@@ -57,4 +57,4 @@
   RUN chmod 775 /usr/bin/ctl
   ENTRYPOINT ["/usr/bin/ctl"]
 
-## *EOF*
+### *EOF*

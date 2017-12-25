@@ -1,4 +1,30 @@
 #+TITLE: notebooks
-#+AUTHOR: Mac Radigan
+#+AUTHOR: Copyright 2016 Mac Radigan, All Rights Reserved
+
+* Jupyter notebooks, and a Jupyter notebook server in a Docker container
+
+** getting started
+
+*** start the Jupyter Notebook server
+
+#+begin_src bash :tangle ./start_server.sh
+
+  make        ## builds the Docker container
+  make run    ## starts the Docker container
+
+#+end_src
+
+*** navigate a browser the Notebook directory
+
+#+begin_src bash :tangle ./view_notebooks.sh
+
+  make ui     ## (OPTIONAL) navigates Firefox web browser from within Docker container to http://localhost:8888
+
+  ## - OR -
+
+  ${DEFAULT_WEB_BROWSER} http://localhost:8888   ## DIY
+
+#+end_src
+
 
  # *EOF* 

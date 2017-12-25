@@ -1,0 +1,119 @@
+#!/bin/bash
+### py-convert
+###
+### Copyright 2016 Mac Radigan
+### All Rights Reserved
+
+  d=${0%/*}; f=${0##*/}; n=${f%.*}; e=${f##*.}
+  r=`readlink -f $d`
+
+  set -euo pipefail
+  IFS=$'\n\t'
+
+
+  ### cells:
+  #
+  # <codecell>
+  # <headingcell level=1>
+  # <htmlcell>
+  # <markdowncell>
+  # <plaintextcell>
+  # <rawcell>
+  #
+
+  ## python script to ipython notebook conversion
+  function py-to-ipynb-without-upgrade {
+    infile=${1}; shift
+    outfile=${1}; shift
+    if [[ -z $infile ]] || [[ -z $outfile ]]
+    then
+      echo "py-to-ipynb <infile.py> <outfile.ipynb>"
+    else
+    python3 - <<EOT
+import IPython.nbformat.current as nbf
+nb = nbf.read(open('${infile}', 'r'), 'py')
+nbf.write(nb, open('${outfile}', 'w'), 'ipynb')
+EOT
+      # jupyter nbconvert --to notebook --execute --inplace $outfile
+    fi
+  }
+
+  ## python script to ipython notebook conversion (v4 upgrade)
+  function py-to-ipynb {
+    infile=${1}; shift
+    outfile=${1}; shift
+    if [[ -z $infile ]] || [[ -z $outfile ]]
+    then
+      echo "py-to-ipynb <infile.py> <outfile.ipynb>"
+    else
+    python3 - <<EOT
+from IPython.nbformat import v3, v4
+with open("${infile}") as fpin:
+  text = fpin.read()
+nbook = v3.reads_py(text)
+nbook = v4.upgrade(nbook)  # upgrade v3 to v4
+jsonform = v4.writes(nbook) + "\n"
+with open("${outfile}", "w") as fpout:
+  fpout.write(jsonform)
+EOT
+      jupyter nbconvert --to notebook --execute --inplace $outfile
+    fi
+  }
+
+  if [ -f /opt/current.env ]; 
+  then
+    .  /opt/current.env
+  fi
+
+  S__SUCCESS=0
+  S__NO_SUCH_COMMAND=1
+
+  usage()
+  {
+    >&2 cat <<-EOT 
+		$f <infile> <outfile>
+EOT
+    exit ${S__SUCCESS}
+  }
+
+  die()
+  {
+    code=$1; shift
+    msg=$1;  shift
+    (>&2 echo "ERROR ${code}: ${msg}")
+    exit $code
+  }
+
+  warn()
+  {
+    code=$1; shift
+    msg=$1;  shift
+    (>&2 echo "WARN ${code}: ${msg}")
+    exit $code
+  }
+
+  if [[ "$#" == "0" ]]; then
+    usage
+  fi
+
+  run()
+  {
+    cmd=$1; shift
+    $cmd $*
+  }
+
+  sigint()
+  {
+    (>&2 echo "shutting down")
+    kill 0
+  }
+
+  trap sigint SIGINT
+
+  infile=$1;  shift
+  outfile=$1; shift
+  py-to-ipynb $infile $outfile
+
+  exit $S__SUCCESS
+  
+### *EOF*
