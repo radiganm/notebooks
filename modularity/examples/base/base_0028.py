@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=2) ##   X[n] = 28^n mod 2
@@ -91,10 +91,10 @@ example(b=28, m=2) ##   X[n] = 28^n mod 2
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,3\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=3) ##   X[n] = 28^n mod 3
@@ -128,10 +128,10 @@ example(b=28, m=3) ##   X[n] = 28^n mod 3
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,4\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,4\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=4) ##   X[n] = 28^n mod 4
@@ -154,21 +154,21 @@ example(b=28, m=4) ##   X[n] = 28^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,5\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,5\right)} \mathbf{H}^{\left(28,5\right)} \mathbf{H}^{\left(28,5\right)} \mathbf{H}^{\left(28,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,5\right)} \left(\mathbf{H}^{\left(28,5\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,5\right)} = \{ , 3,4,2 \cdots \} = \left[ \mathbf{G}^{\left(28,5\right)} \mathbf{H}^{\left(28,5\right)} \mathbf{H}^{\left(28,5\right)} \mathbf{H}^{\left(28,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,5\right)} \left(\mathbf{H}^{\left(28,5\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,5\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,5\right)} = \{  \}
+# \mathbf{H}^{\left(28,5\right)} = \{ 3,4,2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,5\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=28, m=5) ##   X[n] = 28^n mod 5
@@ -202,10 +202,10 @@ example(b=28, m=5) ##   X[n] = 28^n mod 5
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,6\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=6) ##   X[n] = 28^n mod 6
@@ -239,10 +239,10 @@ example(b=28, m=6) ##   X[n] = 28^n mod 6
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,7\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=7) ##   X[n] = 28^n mod 7
@@ -276,10 +276,10 @@ example(b=28, m=7) ##   X[n] = 28^n mod 7
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,8\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,8\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=8) ##   X[n] = 28^n mod 8
@@ -313,10 +313,10 @@ example(b=28, m=8) ##   X[n] = 28^n mod 8
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,9\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,9\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=9) ##   X[n] = 28^n mod 9
@@ -339,21 +339,21 @@ example(b=28, m=9) ##   X[n] = 28^n mod 9
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,10\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,10\right)} \mathbf{H}^{\left(28,10\right)} \mathbf{H}^{\left(28,10\right)} \mathbf{H}^{\left(28,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,10\right)} \left(\mathbf{H}^{\left(28,10\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,10\right)} = \{ , 8,4,2 \cdots \} = \left[ \mathbf{G}^{\left(28,10\right)} \mathbf{H}^{\left(28,10\right)} \mathbf{H}^{\left(28,10\right)} \mathbf{H}^{\left(28,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,10\right)} \left(\mathbf{H}^{\left(28,10\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,10\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,10\right)} = \{  \}
+# \mathbf{H}^{\left(28,10\right)} = \{ 8,4,2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,10\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=28, m=10) ##   X[n] = 28^n mod 10
@@ -376,21 +376,21 @@ example(b=28, m=10) ##   X[n] = 28^n mod 10
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,11\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,11\right)} \mathbf{H}^{\left(28,11\right)} \mathbf{H}^{\left(28,11\right)} \mathbf{H}^{\left(28,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,11\right)} \left(\mathbf{H}^{\left(28,11\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,11\right)} = \{ ,  6, 3, 7, 9,10, 5, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(28,11\right)} \mathbf{H}^{\left(28,11\right)} \mathbf{H}^{\left(28,11\right)} \mathbf{H}^{\left(28,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,11\right)} \left(\mathbf{H}^{\left(28,11\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,11\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,11\right)} = \{  \}
+# \mathbf{H}^{\left(28,11\right)} = \{  6, 3, 7, 9,10, 5, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,11\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=28, m=11) ##   X[n] = 28^n mod 11
@@ -424,10 +424,10 @@ example(b=28, m=11) ##   X[n] = 28^n mod 11
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,12\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,12\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=12) ##   X[n] = 28^n mod 12
@@ -450,21 +450,21 @@ example(b=28, m=12) ##   X[n] = 28^n mod 12
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,13\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,13\right)} \mathbf{H}^{\left(28,13\right)} \mathbf{H}^{\left(28,13\right)} \mathbf{H}^{\left(28,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,13\right)} \left(\mathbf{H}^{\left(28,13\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,13\right)} = \{ ,  2, 4, 8, 3, 6,12,11, 9, 5,10, 7, \cdots \} = \left[ \mathbf{G}^{\left(28,13\right)} \mathbf{H}^{\left(28,13\right)} \mathbf{H}^{\left(28,13\right)} \mathbf{H}^{\left(28,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,13\right)} \left(\mathbf{H}^{\left(28,13\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,13\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,13\right)} = \{  \}
+# \mathbf{H}^{\left(28,13\right)} = \{  2, 4, 8, 3, 6,12,11, 9, 5,10, 7, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,13\right)}\right| = 12 
 # \end{aligned}
 # <codecell>
 example(b=28, m=13) ##   X[n] = 28^n mod 13
@@ -498,10 +498,10 @@ example(b=28, m=13) ##   X[n] = 28^n mod 13
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,14\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=14) ##   X[n] = 28^n mod 14
@@ -524,21 +524,21 @@ example(b=28, m=14) ##   X[n] = 28^n mod 14
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,15\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,15\right)} \mathbf{H}^{\left(28,15\right)} \mathbf{H}^{\left(28,15\right)} \mathbf{H}^{\left(28,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,15\right)} \left(\mathbf{H}^{\left(28,15\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,15\right)} = \{ , 13, 4, 7, \cdots \} = \left[ \mathbf{G}^{\left(28,15\right)} \mathbf{H}^{\left(28,15\right)} \mathbf{H}^{\left(28,15\right)} \mathbf{H}^{\left(28,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,15\right)} \left(\mathbf{H}^{\left(28,15\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,15\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,15\right)} = \{  \}
+# \mathbf{H}^{\left(28,15\right)} = \{ 13, 4, 7, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,15\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=28, m=15) ##   X[n] = 28^n mod 15
@@ -572,10 +572,10 @@ example(b=28, m=15) ##   X[n] = 28^n mod 15
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,16\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,16\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=16) ##   X[n] = 28^n mod 16
@@ -598,21 +598,21 @@ example(b=28, m=16) ##   X[n] = 28^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,17\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,17\right)} \mathbf{H}^{\left(28,17\right)} \mathbf{H}^{\left(28,17\right)} \mathbf{H}^{\left(28,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,17\right)} \left(\mathbf{H}^{\left(28,17\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,17\right)} = \{ , 11, 2, 5, 4,10, 8, 3,16, 6,15,12,13, 7, 9,14, \cdots \} = \left[ \mathbf{G}^{\left(28,17\right)} \mathbf{H}^{\left(28,17\right)} \mathbf{H}^{\left(28,17\right)} \mathbf{H}^{\left(28,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,17\right)} \left(\mathbf{H}^{\left(28,17\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,17\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,17\right)} = \{  \}
+# \mathbf{H}^{\left(28,17\right)} = \{ 11, 2, 5, 4,10, 8, 3,16, 6,15,12,13, 7, 9,14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,17\right)}\right| = 16 
 # \end{aligned}
 # <codecell>
 example(b=28, m=17) ##   X[n] = 28^n mod 17
@@ -646,10 +646,10 @@ example(b=28, m=17) ##   X[n] = 28^n mod 17
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,18\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,18\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=18) ##   X[n] = 28^n mod 18
@@ -672,21 +672,21 @@ example(b=28, m=18) ##   X[n] = 28^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,19\right)} \mathbf{H}^{\left(28,19\right)} \mathbf{H}^{\left(28,19\right)} \mathbf{H}^{\left(28,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,19\right)} \left(\mathbf{H}^{\left(28,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,19\right)} = \{ ,  9, 5, 7, 6,16,11, 4,17, \cdots \} = \left[ \mathbf{G}^{\left(28,19\right)} \mathbf{H}^{\left(28,19\right)} \mathbf{H}^{\left(28,19\right)} \mathbf{H}^{\left(28,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,19\right)} \left(\mathbf{H}^{\left(28,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,19\right)} = \{  \}
+# \mathbf{H}^{\left(28,19\right)} = \{  9, 5, 7, 6,16,11, 4,17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,19\right)}\right| = 9 
 # \end{aligned}
 # <codecell>
 example(b=28, m=19) ##   X[n] = 28^n mod 19
@@ -709,21 +709,21 @@ example(b=28, m=19) ##   X[n] = 28^n mod 19
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,20\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,20\right)} \mathbf{H}^{\left(28,20\right)} \mathbf{H}^{\left(28,20\right)} \mathbf{H}^{\left(28,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,20\right)} \left(\mathbf{H}^{\left(28,20\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,20\right)} = \{ ,  8, 4,12, \cdots \} = \left[ \mathbf{G}^{\left(28,20\right)} \mathbf{H}^{\left(28,20\right)} \mathbf{H}^{\left(28,20\right)} \mathbf{H}^{\left(28,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,20\right)} \left(\mathbf{H}^{\left(28,20\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,20\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,20\right)} = \{  \}
+# \mathbf{H}^{\left(28,20\right)} = \{  8, 4,12, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,20\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,20\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=28, m=20) ##   X[n] = 28^n mod 20
@@ -757,10 +757,10 @@ example(b=28, m=20) ##   X[n] = 28^n mod 20
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,21\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=21) ##   X[n] = 28^n mod 21
@@ -783,21 +783,21 @@ example(b=28, m=21) ##   X[n] = 28^n mod 21
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,22\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,22\right)} \mathbf{H}^{\left(28,22\right)} \mathbf{H}^{\left(28,22\right)} \mathbf{H}^{\left(28,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,22\right)} \left(\mathbf{H}^{\left(28,22\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,22\right)} = \{ ,  6,14,18,20,10,16, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(28,22\right)} \mathbf{H}^{\left(28,22\right)} \mathbf{H}^{\left(28,22\right)} \mathbf{H}^{\left(28,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,22\right)} \left(\mathbf{H}^{\left(28,22\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,22\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,22\right)} = \{  \}
+# \mathbf{H}^{\left(28,22\right)} = \{  6,14,18,20,10,16, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,22\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=28, m=22) ##   X[n] = 28^n mod 22
@@ -820,21 +820,21 @@ example(b=28, m=22) ##   X[n] = 28^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,23\right)} \left(\mathbf{H}^{\left(28,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,23\right)} = \{ ,  5, 2,10, 4,20, 8,17,16,11, 9,22,18,21,13,19, 3,15, 6, 7,12,14, \cdots \} = \left[ \mathbf{G}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,23\right)} \left(\mathbf{H}^{\left(28,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,23\right)} = \{  \}
+# \mathbf{H}^{\left(28,23\right)} = \{  5, 2,10, 4,20, 8,17,16,11, 9,22,18,21,13,19, 3,15, 6, 7,12,14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,23\right)}\right| = 22 
 # \end{aligned}
 # <codecell>
 example(b=28, m=23) ##   X[n] = 28^n mod 23
@@ -868,10 +868,10 @@ example(b=28, m=23) ##   X[n] = 28^n mod 23
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,24\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,24\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=24) ##   X[n] = 28^n mod 24
@@ -894,21 +894,21 @@ example(b=28, m=24) ##   X[n] = 28^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,25\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,25\right)} \mathbf{H}^{\left(28,25\right)} \mathbf{H}^{\left(28,25\right)} \mathbf{H}^{\left(28,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,25\right)} \left(\mathbf{H}^{\left(28,25\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,25\right)} = \{ ,  3, 9, 2, 6,18, 4,12,11, 8,24,22,16,23,19, 7,21,13,14,17, \cdots \} = \left[ \mathbf{G}^{\left(28,25\right)} \mathbf{H}^{\left(28,25\right)} \mathbf{H}^{\left(28,25\right)} \mathbf{H}^{\left(28,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,25\right)} \left(\mathbf{H}^{\left(28,25\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,25\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,25\right)} = \{  \}
+# \mathbf{H}^{\left(28,25\right)} = \{  3, 9, 2, 6,18, 4,12,11, 8,24,22,16,23,19, 7,21,13,14,17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,25\right)}\right| = 20 
 # \end{aligned}
 # <codecell>
 example(b=28, m=25) ##   X[n] = 28^n mod 25
@@ -931,21 +931,21 @@ example(b=28, m=25) ##   X[n] = 28^n mod 25
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,26\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,26\right)} \mathbf{H}^{\left(28,26\right)} \mathbf{H}^{\left(28,26\right)} \mathbf{H}^{\left(28,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,26\right)} \left(\mathbf{H}^{\left(28,26\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,26\right)} = \{ ,  2, 4, 8,16, 6,12,24,22,18,10,20, \cdots \} = \left[ \mathbf{G}^{\left(28,26\right)} \mathbf{H}^{\left(28,26\right)} \mathbf{H}^{\left(28,26\right)} \mathbf{H}^{\left(28,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,26\right)} \left(\mathbf{H}^{\left(28,26\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,26\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,26\right)} = \{  \}
+# \mathbf{H}^{\left(28,26\right)} = \{  2, 4, 8,16, 6,12,24,22,18,10,20, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,26\right)}\right| = 12 
 # \end{aligned}
 # <codecell>
 example(b=28, m=26) ##   X[n] = 28^n mod 26
@@ -979,10 +979,10 @@ example(b=28, m=26) ##   X[n] = 28^n mod 26
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,27\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,27\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=27) ##   X[n] = 28^n mod 27
@@ -1016,10 +1016,10 @@ example(b=28, m=27) ##   X[n] = 28^n mod 27
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,28\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,28\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=28, m=28) ##   X[n] = 28^n mod 28
@@ -1042,21 +1042,21 @@ example(b=28, m=28) ##   X[n] = 28^n mod 28
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,29\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,29\right)} \mathbf{H}^{\left(28,29\right)} \mathbf{H}^{\left(28,29\right)} \mathbf{H}^{\left(28,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,29\right)} \left(\mathbf{H}^{\left(28,29\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,29\right)} = \{ , 28, \cdots \} = \left[ \mathbf{G}^{\left(28,29\right)} \mathbf{H}^{\left(28,29\right)} \mathbf{H}^{\left(28,29\right)} \mathbf{H}^{\left(28,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,29\right)} \left(\mathbf{H}^{\left(28,29\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,29\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,29\right)} = \{  \}
+# \mathbf{H}^{\left(28,29\right)} = \{ 28, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,29\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=28, m=29) ##   X[n] = 28^n mod 29
@@ -1079,21 +1079,21 @@ example(b=28, m=29) ##   X[n] = 28^n mod 29
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,30\right)} \left(\mathbf{H}^{\left(28,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,30\right)} = \{ , 28, 4,22, \cdots \} = \left[ \mathbf{G}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,30\right)} \left(\mathbf{H}^{\left(28,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,30\right)} = \{  \}
+# \mathbf{H}^{\left(28,30\right)} = \{ 28, 4,22, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(28,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(28,30\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=28, m=30) ##   X[n] = 28^n mod 30

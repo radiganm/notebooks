@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=2) ##   X[n] = 18^n mod 2
@@ -91,10 +91,10 @@ example(b=18, m=2) ##   X[n] = 18^n mod 2
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,3\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=3) ##   X[n] = 18^n mod 3
@@ -128,10 +128,10 @@ example(b=18, m=3) ##   X[n] = 18^n mod 3
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,4\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,4\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=4) ##   X[n] = 18^n mod 4
@@ -154,21 +154,21 @@ example(b=18, m=4) ##   X[n] = 18^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,5\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,5\right)} \mathbf{H}^{\left(18,5\right)} \mathbf{H}^{\left(18,5\right)} \mathbf{H}^{\left(18,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,5\right)} \left(\mathbf{H}^{\left(18,5\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,5\right)} = \{ , 3,4,2 \cdots \} = \left[ \mathbf{G}^{\left(18,5\right)} \mathbf{H}^{\left(18,5\right)} \mathbf{H}^{\left(18,5\right)} \mathbf{H}^{\left(18,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,5\right)} \left(\mathbf{H}^{\left(18,5\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,5\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,5\right)} = \{  \}
+# \mathbf{H}^{\left(18,5\right)} = \{ 3,4,2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,5\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=18, m=5) ##   X[n] = 18^n mod 5
@@ -202,10 +202,10 @@ example(b=18, m=5) ##   X[n] = 18^n mod 5
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,6\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=6) ##   X[n] = 18^n mod 6
@@ -228,21 +228,21 @@ example(b=18, m=6) ##   X[n] = 18^n mod 6
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,7\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,7\right)} \mathbf{H}^{\left(18,7\right)} \mathbf{H}^{\left(18,7\right)} \mathbf{H}^{\left(18,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,7\right)} \left(\mathbf{H}^{\left(18,7\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,7\right)} = \{ , 4,2 \cdots \} = \left[ \mathbf{G}^{\left(18,7\right)} \mathbf{H}^{\left(18,7\right)} \mathbf{H}^{\left(18,7\right)} \mathbf{H}^{\left(18,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,7\right)} \left(\mathbf{H}^{\left(18,7\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,7\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,7\right)} = \{  \}
+# \mathbf{H}^{\left(18,7\right)} = \{ 4,2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,7\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=18, m=7) ##   X[n] = 18^n mod 7
@@ -265,21 +265,21 @@ example(b=18, m=7) ##   X[n] = 18^n mod 7
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,8\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,8\right)} \mathbf{H}^{\left(18,8\right)} \mathbf{H}^{\left(18,8\right)} \mathbf{H}^{\left(18,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,8\right)} \left(\mathbf{H}^{\left(18,8\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,8\right)} = \{ 2,  \cdots \} = \left[ \mathbf{G}^{\left(18,8\right)} \mathbf{H}^{\left(18,8\right)} \mathbf{H}^{\left(18,8\right)} \mathbf{H}^{\left(18,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,8\right)} \left(\mathbf{H}^{\left(18,8\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(18,8\right)} = \{  \}
+# \mathbf{G}^{\left(18,8\right)} = \{ 2 \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(18,8\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,8\right)}\right| = 2 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,8\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=8) ##   X[n] = 18^n mod 8
@@ -313,10 +313,10 @@ example(b=18, m=8) ##   X[n] = 18^n mod 8
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,9\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,9\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=9) ##   X[n] = 18^n mod 9
@@ -339,21 +339,21 @@ example(b=18, m=9) ##   X[n] = 18^n mod 9
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,10\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,10\right)} \mathbf{H}^{\left(18,10\right)} \mathbf{H}^{\left(18,10\right)} \mathbf{H}^{\left(18,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,10\right)} \left(\mathbf{H}^{\left(18,10\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,10\right)} = \{ , 8,4,2 \cdots \} = \left[ \mathbf{G}^{\left(18,10\right)} \mathbf{H}^{\left(18,10\right)} \mathbf{H}^{\left(18,10\right)} \mathbf{H}^{\left(18,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,10\right)} \left(\mathbf{H}^{\left(18,10\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,10\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,10\right)} = \{  \}
+# \mathbf{H}^{\left(18,10\right)} = \{ 8,4,2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,10\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=18, m=10) ##   X[n] = 18^n mod 10
@@ -376,21 +376,21 @@ example(b=18, m=10) ##   X[n] = 18^n mod 10
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,11\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,11\right)} \mathbf{H}^{\left(18,11\right)} \mathbf{H}^{\left(18,11\right)} \mathbf{H}^{\left(18,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,11\right)} \left(\mathbf{H}^{\left(18,11\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,11\right)} = \{ ,  7, 5, 2, 3,10, 4, 6, 9, 8, \cdots \} = \left[ \mathbf{G}^{\left(18,11\right)} \mathbf{H}^{\left(18,11\right)} \mathbf{H}^{\left(18,11\right)} \mathbf{H}^{\left(18,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,11\right)} \left(\mathbf{H}^{\left(18,11\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,11\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,11\right)} = \{  \}
+# \mathbf{H}^{\left(18,11\right)} = \{  7, 5, 2, 3,10, 4, 6, 9, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,11\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=18, m=11) ##   X[n] = 18^n mod 11
@@ -424,10 +424,10 @@ example(b=18, m=11) ##   X[n] = 18^n mod 11
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,12\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,12\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=12) ##   X[n] = 18^n mod 12
@@ -450,21 +450,21 @@ example(b=18, m=12) ##   X[n] = 18^n mod 12
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,13\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,13\right)} \mathbf{H}^{\left(18,13\right)} \mathbf{H}^{\left(18,13\right)} \mathbf{H}^{\left(18,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,13\right)} \left(\mathbf{H}^{\left(18,13\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,13\right)} = \{ ,  5,12, 8, \cdots \} = \left[ \mathbf{G}^{\left(18,13\right)} \mathbf{H}^{\left(18,13\right)} \mathbf{H}^{\left(18,13\right)} \mathbf{H}^{\left(18,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,13\right)} \left(\mathbf{H}^{\left(18,13\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,13\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,13\right)} = \{  \}
+# \mathbf{H}^{\left(18,13\right)} = \{  5,12, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,13\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=18, m=13) ##   X[n] = 18^n mod 13
@@ -487,21 +487,21 @@ example(b=18, m=13) ##   X[n] = 18^n mod 13
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,14\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,14\right)} \mathbf{H}^{\left(18,14\right)} \mathbf{H}^{\left(18,14\right)} \mathbf{H}^{\left(18,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,14\right)} \left(\mathbf{H}^{\left(18,14\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,14\right)} = \{ , 4,2 \cdots \} = \left[ \mathbf{G}^{\left(18,14\right)} \mathbf{H}^{\left(18,14\right)} \mathbf{H}^{\left(18,14\right)} \mathbf{H}^{\left(18,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,14\right)} \left(\mathbf{H}^{\left(18,14\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,14\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,14\right)} = \{  \}
+# \mathbf{H}^{\left(18,14\right)} = \{ 4,2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,14\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=18, m=14) ##   X[n] = 18^n mod 14
@@ -524,21 +524,21 @@ example(b=18, m=14) ##   X[n] = 18^n mod 14
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,15\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,15\right)} \mathbf{H}^{\left(18,15\right)} \mathbf{H}^{\left(18,15\right)} \mathbf{H}^{\left(18,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,15\right)} \left(\mathbf{H}^{\left(18,15\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,15\right)} = \{ ,  3, 9,12, \cdots \} = \left[ \mathbf{G}^{\left(18,15\right)} \mathbf{H}^{\left(18,15\right)} \mathbf{H}^{\left(18,15\right)} \mathbf{H}^{\left(18,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,15\right)} \left(\mathbf{H}^{\left(18,15\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,15\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,15\right)} = \{  \}
+# \mathbf{H}^{\left(18,15\right)} = \{  3, 9,12, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,15\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=18, m=15) ##   X[n] = 18^n mod 15
@@ -561,21 +561,21 @@ example(b=18, m=15) ##   X[n] = 18^n mod 15
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,16\right)} \mathbf{H}^{\left(18,16\right)} \mathbf{H}^{\left(18,16\right)} \mathbf{H}^{\left(18,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,16\right)} \left(\mathbf{H}^{\left(18,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(18,16\right)} \mathbf{H}^{\left(18,16\right)} \mathbf{H}^{\left(18,16\right)} \mathbf{H}^{\left(18,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,16\right)} \left(\mathbf{H}^{\left(18,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(18,16\right)} = \{  \}
+# \mathbf{G}^{\left(18,16\right)} = \{ 2,4 \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(18,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,16\right)}\right| = 3 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,16\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=16) ##   X[n] = 18^n mod 16
@@ -609,10 +609,10 @@ example(b=18, m=16) ##   X[n] = 18^n mod 16
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,17\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=17) ##   X[n] = 18^n mod 17
@@ -646,10 +646,10 @@ example(b=18, m=17) ##   X[n] = 18^n mod 17
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,18\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,18\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=18) ##   X[n] = 18^n mod 18
@@ -672,21 +672,21 @@ example(b=18, m=18) ##   X[n] = 18^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,19\right)} \mathbf{H}^{\left(18,19\right)} \mathbf{H}^{\left(18,19\right)} \mathbf{H}^{\left(18,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,19\right)} \left(\mathbf{H}^{\left(18,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,19\right)} = \{ , 18, \cdots \} = \left[ \mathbf{G}^{\left(18,19\right)} \mathbf{H}^{\left(18,19\right)} \mathbf{H}^{\left(18,19\right)} \mathbf{H}^{\left(18,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,19\right)} \left(\mathbf{H}^{\left(18,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,19\right)} = \{  \}
+# \mathbf{H}^{\left(18,19\right)} = \{ 18, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,19\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=18, m=19) ##   X[n] = 18^n mod 19
@@ -709,21 +709,21 @@ example(b=18, m=19) ##   X[n] = 18^n mod 19
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,20\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,20\right)} \mathbf{H}^{\left(18,20\right)} \mathbf{H}^{\left(18,20\right)} \mathbf{H}^{\left(18,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,20\right)} \left(\mathbf{H}^{\left(18,20\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,20\right)} = \{ ,  4,12,16, \cdots \} = \left[ \mathbf{G}^{\left(18,20\right)} \mathbf{H}^{\left(18,20\right)} \mathbf{H}^{\left(18,20\right)} \mathbf{H}^{\left(18,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,20\right)} \left(\mathbf{H}^{\left(18,20\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,20\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,20\right)} = \{  \}
+# \mathbf{H}^{\left(18,20\right)} = \{  4,12,16, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,20\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,20\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=18, m=20) ##   X[n] = 18^n mod 20
@@ -746,21 +746,21 @@ example(b=18, m=20) ##   X[n] = 18^n mod 20
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,21\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,21\right)} \mathbf{H}^{\left(18,21\right)} \mathbf{H}^{\left(18,21\right)} \mathbf{H}^{\left(18,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,21\right)} \left(\mathbf{H}^{\left(18,21\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,21\right)} = \{ , 18, 9, \cdots \} = \left[ \mathbf{G}^{\left(18,21\right)} \mathbf{H}^{\left(18,21\right)} \mathbf{H}^{\left(18,21\right)} \mathbf{H}^{\left(18,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,21\right)} \left(\mathbf{H}^{\left(18,21\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,21\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,21\right)} = \{  \}
+# \mathbf{H}^{\left(18,21\right)} = \{ 18, 9, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,21\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=18, m=21) ##   X[n] = 18^n mod 21
@@ -783,21 +783,21 @@ example(b=18, m=21) ##   X[n] = 18^n mod 21
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,22\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,22\right)} \mathbf{H}^{\left(18,22\right)} \mathbf{H}^{\left(18,22\right)} \mathbf{H}^{\left(18,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,22\right)} \left(\mathbf{H}^{\left(18,22\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,22\right)} = \{ , 18,16, 2,14,10, 4, 6,20, 8, \cdots \} = \left[ \mathbf{G}^{\left(18,22\right)} \mathbf{H}^{\left(18,22\right)} \mathbf{H}^{\left(18,22\right)} \mathbf{H}^{\left(18,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,22\right)} \left(\mathbf{H}^{\left(18,22\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,22\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,22\right)} = \{  \}
+# \mathbf{H}^{\left(18,22\right)} = \{ 18,16, 2,14,10, 4, 6,20, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,22\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=18, m=22) ##   X[n] = 18^n mod 22
@@ -820,21 +820,21 @@ example(b=18, m=22) ##   X[n] = 18^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,23\right)} \left(\mathbf{H}^{\left(18,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,23\right)} = \{ , 18, 2,13, 4, 3, 8, 6,16,12, 9, \cdots \} = \left[ \mathbf{G}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,23\right)} \left(\mathbf{H}^{\left(18,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,23\right)} = \{  \}
+# \mathbf{H}^{\left(18,23\right)} = \{ 18, 2,13, 4, 3, 8, 6,16,12, 9, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,23\right)}\right| = 11 
 # \end{aligned}
 # <codecell>
 example(b=18, m=23) ##   X[n] = 18^n mod 23
@@ -857,21 +857,21 @@ example(b=18, m=23) ##   X[n] = 18^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,24\right)} \left(\mathbf{H}^{\left(18,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,24\right)} = \{ 18,,  \cdots \} = \left[ \mathbf{G}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,24\right)} \left(\mathbf{H}^{\left(18,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(18,24\right)} = \{  \}
+# \mathbf{G}^{\left(18,24\right)} = \{ 18, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(18,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,24\right)}\right| = 2 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,24\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=24) ##   X[n] = 18^n mod 24
@@ -894,21 +894,21 @@ example(b=18, m=24) ##   X[n] = 18^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,25\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,25\right)} \mathbf{H}^{\left(18,25\right)} \mathbf{H}^{\left(18,25\right)} \mathbf{H}^{\left(18,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,25\right)} \left(\mathbf{H}^{\left(18,25\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,25\right)} = \{ , 18,24, 7, \cdots \} = \left[ \mathbf{G}^{\left(18,25\right)} \mathbf{H}^{\left(18,25\right)} \mathbf{H}^{\left(18,25\right)} \mathbf{H}^{\left(18,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,25\right)} \left(\mathbf{H}^{\left(18,25\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,25\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,25\right)} = \{  \}
+# \mathbf{H}^{\left(18,25\right)} = \{ 18,24, 7, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,25\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=18, m=25) ##   X[n] = 18^n mod 25
@@ -931,21 +931,21 @@ example(b=18, m=25) ##   X[n] = 18^n mod 25
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,26\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,26\right)} \mathbf{H}^{\left(18,26\right)} \mathbf{H}^{\left(18,26\right)} \mathbf{H}^{\left(18,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,26\right)} \left(\mathbf{H}^{\left(18,26\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,26\right)} = \{ , 18,12, 8, \cdots \} = \left[ \mathbf{G}^{\left(18,26\right)} \mathbf{H}^{\left(18,26\right)} \mathbf{H}^{\left(18,26\right)} \mathbf{H}^{\left(18,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,26\right)} \left(\mathbf{H}^{\left(18,26\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,26\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,26\right)} = \{  \}
+# \mathbf{H}^{\left(18,26\right)} = \{ 18,12, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,26\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=18, m=26) ##   X[n] = 18^n mod 26
@@ -979,10 +979,10 @@ example(b=18, m=26) ##   X[n] = 18^n mod 26
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,27\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,27\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=18, m=27) ##   X[n] = 18^n mod 27
@@ -1005,21 +1005,21 @@ example(b=18, m=27) ##   X[n] = 18^n mod 27
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,28\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,28\right)} \mathbf{H}^{\left(18,28\right)} \mathbf{H}^{\left(18,28\right)} \mathbf{H}^{\left(18,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,28\right)} \left(\mathbf{H}^{\left(18,28\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,28\right)} = \{ , 16, 8, \cdots \} = \left[ \mathbf{G}^{\left(18,28\right)} \mathbf{H}^{\left(18,28\right)} \mathbf{H}^{\left(18,28\right)} \mathbf{H}^{\left(18,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,28\right)} \left(\mathbf{H}^{\left(18,28\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,28\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,28\right)} = \{  \}
+# \mathbf{H}^{\left(18,28\right)} = \{ 16, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,28\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,28\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=18, m=28) ##   X[n] = 18^n mod 28
@@ -1042,21 +1042,23 @@ example(b=18, m=28) ##   X[n] = 18^n mod 28
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,29\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,29\right)} \mathbf{H}^{\left(18,29\right)} \mathbf{H}^{\left(18,29\right)} \mathbf{H}^{\left(18,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,29\right)} \left(\mathbf{H}^{\left(18,29\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,29\right)} = \{ , 18, 5, 3,25,15, 9,17,16,27,22,19,23, 8,28,11,24,26, 4,14,20,12,13, 2, 7,
+ 10, 6,21, \cdots \} = \left[ \mathbf{G}^{\left(18,29\right)} \mathbf{H}^{\left(18,29\right)} \mathbf{H}^{\left(18,29\right)} \mathbf{H}^{\left(18,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,29\right)} \left(\mathbf{H}^{\left(18,29\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,29\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,29\right)} = \{  \}
+# \mathbf{H}^{\left(18,29\right)} = \{ 18, 5, 3,25,15, 9,17,16,27,22,19,23, 8,28,11,24,26, 4,14,20,12,13, 2, 7,
+ 10, 6,21, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,29\right)}\right| = 28 
 # \end{aligned}
 # <codecell>
 example(b=18, m=29) ##   X[n] = 18^n mod 29
@@ -1079,21 +1081,21 @@ example(b=18, m=29) ##   X[n] = 18^n mod 29
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,30\right)} \left(\mathbf{H}^{\left(18,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,30\right)} = \{ , 18,24,12, \cdots \} = \left[ \mathbf{G}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,30\right)} \left(\mathbf{H}^{\left(18,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,30\right)} = \{  \}
+# \mathbf{H}^{\left(18,30\right)} = \{ 18,24,12, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(18,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(18,30\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=18, m=30) ##   X[n] = 18^n mod 30

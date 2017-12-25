@@ -43,21 +43,21 @@ def example(b,m):
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left({{b}},{{mx}}\right)} = \{ {{Gs}}, {{Hs}} \cdots \} = \left[ \mathbf{G}^{\left({{b}},{{mx}}\right)} \mathbf{H}^{\left({{b}},{{mx}}\right)} \mathbf{H}^{\left({{b}},{{mx}}\right)} \mathbf{H}^{\left({{b}},{{mx}}\right)} \cdots \right] = \left[ \mathbf{G}^{\left({{b}},{{mx}}\right)} \left(\mathbf{H}^{\left({{b}},{{mx}}\right)}\right)^{*} \right]
+# \mathbf{X}^{\left({{b}},{{mx}}\right)} = \{ {{dat[b][mx]['Gs']}}, {{dat[b][mx]['Hs']}} \cdots \} = \left[ \mathbf{G}^{\left({{b}},{{mx}}\right)} \mathbf{H}^{\left({{b}},{{mx}}\right)} \mathbf{H}^{\left({{b}},{{mx}}\right)} \mathbf{H}^{\left({{b}},{{mx}}\right)} \cdots \right] = \left[ \mathbf{G}^{\left({{b}},{{mx}}\right)} \left(\mathbf{H}^{\left({{b}},{{mx}}\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left({{b}},{{mx}}\right)} = \{ {{Gs}} \}
+# \mathbf{G}^{\left({{b}},{{mx}}\right)} = \{ {{dat[b][mx]['Gs']}} \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left({{b}},{{mx}}\right)} = \{ {{Hs}} \}
+# \mathbf{H}^{\left({{b}},{{mx}}\right)} = \{ {{dat[b][mx]['Hs']}} \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left({{b}},{{mx}}\right)}\right| = {{G_N}}
+# \left|\mathbf{G}^{\left({{b}},{{mx}}\right)}\right| = {{dat[b][mx]['G_N']}} 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left({{b}},{{mx}}\right)}\right| = {{H_N}}
+# \left|\mathbf{H}^{\left({{b}},{{mx}}\right)}\right| = {{dat[b][mx]['H_N']}} 
 # \end{aligned}
 # <codecell>
 example(b={{b}}, m={{mx}}) ##   X[n] = {{b}}^n mod {{mx}}

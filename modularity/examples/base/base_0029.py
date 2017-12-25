@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=29, m=2) ##   X[n] = 29^n mod 2
@@ -80,21 +80,21 @@ example(b=29, m=2) ##   X[n] = 29^n mod 2
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,3\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,3\right)} \mathbf{H}^{\left(29,3\right)} \mathbf{H}^{\left(29,3\right)} \mathbf{H}^{\left(29,3\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,3\right)} \left(\mathbf{H}^{\left(29,3\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,3\right)} = \{ , 2 \cdots \} = \left[ \mathbf{G}^{\left(29,3\right)} \mathbf{H}^{\left(29,3\right)} \mathbf{H}^{\left(29,3\right)} \mathbf{H}^{\left(29,3\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,3\right)} \left(\mathbf{H}^{\left(29,3\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,3\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,3\right)} = \{  \}
+# \mathbf{H}^{\left(29,3\right)} = \{ 2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,3\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=3) ##   X[n] = 29^n mod 3
@@ -128,10 +128,10 @@ example(b=29, m=3) ##   X[n] = 29^n mod 3
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,4\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,4\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=29, m=4) ##   X[n] = 29^n mod 4
@@ -154,21 +154,21 @@ example(b=29, m=4) ##   X[n] = 29^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,5\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,5\right)} \mathbf{H}^{\left(29,5\right)} \mathbf{H}^{\left(29,5\right)} \mathbf{H}^{\left(29,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,5\right)} \left(\mathbf{H}^{\left(29,5\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,5\right)} = \{ , 4 \cdots \} = \left[ \mathbf{G}^{\left(29,5\right)} \mathbf{H}^{\left(29,5\right)} \mathbf{H}^{\left(29,5\right)} \mathbf{H}^{\left(29,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,5\right)} \left(\mathbf{H}^{\left(29,5\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,5\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,5\right)} = \{  \}
+# \mathbf{H}^{\left(29,5\right)} = \{ 4 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,5\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=5) ##   X[n] = 29^n mod 5
@@ -191,21 +191,21 @@ example(b=29, m=5) ##   X[n] = 29^n mod 5
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,6\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,6\right)} \mathbf{H}^{\left(29,6\right)} \mathbf{H}^{\left(29,6\right)} \mathbf{H}^{\left(29,6\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,6\right)} \left(\mathbf{H}^{\left(29,6\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,6\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(29,6\right)} \mathbf{H}^{\left(29,6\right)} \mathbf{H}^{\left(29,6\right)} \mathbf{H}^{\left(29,6\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,6\right)} \left(\mathbf{H}^{\left(29,6\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,6\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,6\right)} = \{  \}
+# \mathbf{H}^{\left(29,6\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,6\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=6) ##   X[n] = 29^n mod 6
@@ -239,10 +239,10 @@ example(b=29, m=6) ##   X[n] = 29^n mod 6
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,7\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=29, m=7) ##   X[n] = 29^n mod 7
@@ -265,21 +265,21 @@ example(b=29, m=7) ##   X[n] = 29^n mod 7
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,8\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,8\right)} \mathbf{H}^{\left(29,8\right)} \mathbf{H}^{\left(29,8\right)} \mathbf{H}^{\left(29,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,8\right)} \left(\mathbf{H}^{\left(29,8\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,8\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(29,8\right)} \mathbf{H}^{\left(29,8\right)} \mathbf{H}^{\left(29,8\right)} \mathbf{H}^{\left(29,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,8\right)} \left(\mathbf{H}^{\left(29,8\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,8\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,8\right)} = \{  \}
+# \mathbf{H}^{\left(29,8\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,8\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,8\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=8) ##   X[n] = 29^n mod 8
@@ -302,21 +302,21 @@ example(b=29, m=8) ##   X[n] = 29^n mod 8
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,9\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,9\right)} \mathbf{H}^{\left(29,9\right)} \mathbf{H}^{\left(29,9\right)} \mathbf{H}^{\left(29,9\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,9\right)} \left(\mathbf{H}^{\left(29,9\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,9\right)} = \{ , 2,4,8,7,5 \cdots \} = \left[ \mathbf{G}^{\left(29,9\right)} \mathbf{H}^{\left(29,9\right)} \mathbf{H}^{\left(29,9\right)} \mathbf{H}^{\left(29,9\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,9\right)} \left(\mathbf{H}^{\left(29,9\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,9\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,9\right)} = \{  \}
+# \mathbf{H}^{\left(29,9\right)} = \{ 2,4,8,7,5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,9\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,9\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=29, m=9) ##   X[n] = 29^n mod 9
@@ -339,21 +339,21 @@ example(b=29, m=9) ##   X[n] = 29^n mod 9
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,10\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,10\right)} \mathbf{H}^{\left(29,10\right)} \mathbf{H}^{\left(29,10\right)} \mathbf{H}^{\left(29,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,10\right)} \left(\mathbf{H}^{\left(29,10\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,10\right)} = \{ , 9 \cdots \} = \left[ \mathbf{G}^{\left(29,10\right)} \mathbf{H}^{\left(29,10\right)} \mathbf{H}^{\left(29,10\right)} \mathbf{H}^{\left(29,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,10\right)} \left(\mathbf{H}^{\left(29,10\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,10\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,10\right)} = \{  \}
+# \mathbf{H}^{\left(29,10\right)} = \{ 9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,10\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=10) ##   X[n] = 29^n mod 10
@@ -376,21 +376,21 @@ example(b=29, m=10) ##   X[n] = 29^n mod 10
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,11\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,11\right)} \mathbf{H}^{\left(29,11\right)} \mathbf{H}^{\left(29,11\right)} \mathbf{H}^{\left(29,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,11\right)} \left(\mathbf{H}^{\left(29,11\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,11\right)} = \{ ,  7, 5, 2, 3,10, 4, 6, 9, 8, \cdots \} = \left[ \mathbf{G}^{\left(29,11\right)} \mathbf{H}^{\left(29,11\right)} \mathbf{H}^{\left(29,11\right)} \mathbf{H}^{\left(29,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,11\right)} \left(\mathbf{H}^{\left(29,11\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,11\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,11\right)} = \{  \}
+# \mathbf{H}^{\left(29,11\right)} = \{  7, 5, 2, 3,10, 4, 6, 9, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,11\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=29, m=11) ##   X[n] = 29^n mod 11
@@ -413,21 +413,21 @@ example(b=29, m=11) ##   X[n] = 29^n mod 11
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,12\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,12\right)} \mathbf{H}^{\left(29,12\right)} \mathbf{H}^{\left(29,12\right)} \mathbf{H}^{\left(29,12\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,12\right)} \left(\mathbf{H}^{\left(29,12\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,12\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(29,12\right)} \mathbf{H}^{\left(29,12\right)} \mathbf{H}^{\left(29,12\right)} \mathbf{H}^{\left(29,12\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,12\right)} \left(\mathbf{H}^{\left(29,12\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,12\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,12\right)} = \{  \}
+# \mathbf{H}^{\left(29,12\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,12\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,12\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=12) ##   X[n] = 29^n mod 12
@@ -450,21 +450,21 @@ example(b=29, m=12) ##   X[n] = 29^n mod 12
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,13\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,13\right)} \mathbf{H}^{\left(29,13\right)} \mathbf{H}^{\left(29,13\right)} \mathbf{H}^{\left(29,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,13\right)} \left(\mathbf{H}^{\left(29,13\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,13\right)} = \{ , 3,9 \cdots \} = \left[ \mathbf{G}^{\left(29,13\right)} \mathbf{H}^{\left(29,13\right)} \mathbf{H}^{\left(29,13\right)} \mathbf{H}^{\left(29,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,13\right)} \left(\mathbf{H}^{\left(29,13\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,13\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,13\right)} = \{  \}
+# \mathbf{H}^{\left(29,13\right)} = \{ 3,9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,13\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=29, m=13) ##   X[n] = 29^n mod 13
@@ -498,10 +498,10 @@ example(b=29, m=13) ##   X[n] = 29^n mod 13
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,14\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=29, m=14) ##   X[n] = 29^n mod 14
@@ -524,21 +524,21 @@ example(b=29, m=14) ##   X[n] = 29^n mod 14
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,15\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,15\right)} \mathbf{H}^{\left(29,15\right)} \mathbf{H}^{\left(29,15\right)} \mathbf{H}^{\left(29,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,15\right)} \left(\mathbf{H}^{\left(29,15\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,15\right)} = \{ , 14, \cdots \} = \left[ \mathbf{G}^{\left(29,15\right)} \mathbf{H}^{\left(29,15\right)} \mathbf{H}^{\left(29,15\right)} \mathbf{H}^{\left(29,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,15\right)} \left(\mathbf{H}^{\left(29,15\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,15\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,15\right)} = \{  \}
+# \mathbf{H}^{\left(29,15\right)} = \{ 14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,15\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=15) ##   X[n] = 29^n mod 15
@@ -561,21 +561,21 @@ example(b=29, m=15) ##   X[n] = 29^n mod 15
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,16\right)} \left(\mathbf{H}^{\left(29,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,16\right)} = \{ , 13, 9, 5, \cdots \} = \left[ \mathbf{G}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,16\right)} \left(\mathbf{H}^{\left(29,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,16\right)} = \{  \}
+# \mathbf{H}^{\left(29,16\right)} = \{ 13, 9, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,16\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,16\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=29, m=16) ##   X[n] = 29^n mod 16
@@ -598,21 +598,21 @@ example(b=29, m=16) ##   X[n] = 29^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,17\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,17\right)} \mathbf{H}^{\left(29,17\right)} \mathbf{H}^{\left(29,17\right)} \mathbf{H}^{\left(29,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,17\right)} \left(\mathbf{H}^{\left(29,17\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,17\right)} = \{ , 12, 8,11,13, 3, 2, 7,16, 5, 9, 6, 4,14,15,10, \cdots \} = \left[ \mathbf{G}^{\left(29,17\right)} \mathbf{H}^{\left(29,17\right)} \mathbf{H}^{\left(29,17\right)} \mathbf{H}^{\left(29,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,17\right)} \left(\mathbf{H}^{\left(29,17\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,17\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,17\right)} = \{  \}
+# \mathbf{H}^{\left(29,17\right)} = \{ 12, 8,11,13, 3, 2, 7,16, 5, 9, 6, 4,14,15,10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,17\right)}\right| = 16 
 # \end{aligned}
 # <codecell>
 example(b=29, m=17) ##   X[n] = 29^n mod 17
@@ -635,21 +635,21 @@ example(b=29, m=17) ##   X[n] = 29^n mod 17
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,18\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,18\right)} \mathbf{H}^{\left(29,18\right)} \mathbf{H}^{\left(29,18\right)} \mathbf{H}^{\left(29,18\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,18\right)} \left(\mathbf{H}^{\left(29,18\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,18\right)} = \{ , 11,13,17, 7, 5, \cdots \} = \left[ \mathbf{G}^{\left(29,18\right)} \mathbf{H}^{\left(29,18\right)} \mathbf{H}^{\left(29,18\right)} \mathbf{H}^{\left(29,18\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,18\right)} \left(\mathbf{H}^{\left(29,18\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,18\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,18\right)} = \{  \}
+# \mathbf{H}^{\left(29,18\right)} = \{ 11,13,17, 7, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,18\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,18\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=29, m=18) ##   X[n] = 29^n mod 18
@@ -672,21 +672,21 @@ example(b=29, m=18) ##   X[n] = 29^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,19\right)} \mathbf{H}^{\left(29,19\right)} \mathbf{H}^{\left(29,19\right)} \mathbf{H}^{\left(29,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,19\right)} \left(\mathbf{H}^{\left(29,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,19\right)} = \{ , 10, 5,12, 6, 3,11,15,17,18, 9,14, 7,13,16, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(29,19\right)} \mathbf{H}^{\left(29,19\right)} \mathbf{H}^{\left(29,19\right)} \mathbf{H}^{\left(29,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,19\right)} \left(\mathbf{H}^{\left(29,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,19\right)} = \{  \}
+# \mathbf{H}^{\left(29,19\right)} = \{ 10, 5,12, 6, 3,11,15,17,18, 9,14, 7,13,16, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,19\right)}\right| = 18 
 # \end{aligned}
 # <codecell>
 example(b=29, m=19) ##   X[n] = 29^n mod 19
@@ -709,21 +709,21 @@ example(b=29, m=19) ##   X[n] = 29^n mod 19
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,20\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,20\right)} \mathbf{H}^{\left(29,20\right)} \mathbf{H}^{\left(29,20\right)} \mathbf{H}^{\left(29,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,20\right)} \left(\mathbf{H}^{\left(29,20\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,20\right)} = \{ , 9 \cdots \} = \left[ \mathbf{G}^{\left(29,20\right)} \mathbf{H}^{\left(29,20\right)} \mathbf{H}^{\left(29,20\right)} \mathbf{H}^{\left(29,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,20\right)} \left(\mathbf{H}^{\left(29,20\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,20\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,20\right)} = \{  \}
+# \mathbf{H}^{\left(29,20\right)} = \{ 9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,20\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,20\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=20) ##   X[n] = 29^n mod 20
@@ -746,21 +746,21 @@ example(b=29, m=20) ##   X[n] = 29^n mod 20
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,21\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,21\right)} \mathbf{H}^{\left(29,21\right)} \mathbf{H}^{\left(29,21\right)} \mathbf{H}^{\left(29,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,21\right)} \left(\mathbf{H}^{\left(29,21\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,21\right)} = \{ , 8 \cdots \} = \left[ \mathbf{G}^{\left(29,21\right)} \mathbf{H}^{\left(29,21\right)} \mathbf{H}^{\left(29,21\right)} \mathbf{H}^{\left(29,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,21\right)} \left(\mathbf{H}^{\left(29,21\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,21\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,21\right)} = \{  \}
+# \mathbf{H}^{\left(29,21\right)} = \{ 8 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,21\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=21) ##   X[n] = 29^n mod 21
@@ -783,21 +783,21 @@ example(b=29, m=21) ##   X[n] = 29^n mod 21
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,22\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,22\right)} \mathbf{H}^{\left(29,22\right)} \mathbf{H}^{\left(29,22\right)} \mathbf{H}^{\left(29,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,22\right)} \left(\mathbf{H}^{\left(29,22\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,22\right)} = \{ ,  7, 5,13, 3,21,15,17, 9,19, \cdots \} = \left[ \mathbf{G}^{\left(29,22\right)} \mathbf{H}^{\left(29,22\right)} \mathbf{H}^{\left(29,22\right)} \mathbf{H}^{\left(29,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,22\right)} \left(\mathbf{H}^{\left(29,22\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,22\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,22\right)} = \{  \}
+# \mathbf{H}^{\left(29,22\right)} = \{  7, 5,13, 3,21,15,17, 9,19, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,22\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=29, m=22) ##   X[n] = 29^n mod 22
@@ -820,21 +820,21 @@ example(b=29, m=22) ##   X[n] = 29^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,23\right)} \left(\mathbf{H}^{\left(29,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,23\right)} = \{ ,  6,13, 9, 8, 2,12, 3,18,16, 4, \cdots \} = \left[ \mathbf{G}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,23\right)} \left(\mathbf{H}^{\left(29,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,23\right)} = \{  \}
+# \mathbf{H}^{\left(29,23\right)} = \{  6,13, 9, 8, 2,12, 3,18,16, 4, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,23\right)}\right| = 11 
 # \end{aligned}
 # <codecell>
 example(b=29, m=23) ##   X[n] = 29^n mod 23
@@ -857,21 +857,21 @@ example(b=29, m=23) ##   X[n] = 29^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,24\right)} \left(\mathbf{H}^{\left(29,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,24\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,24\right)} \left(\mathbf{H}^{\left(29,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,24\right)} = \{  \}
+# \mathbf{H}^{\left(29,24\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,24\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,24\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=24) ##   X[n] = 29^n mod 24
@@ -894,21 +894,21 @@ example(b=29, m=24) ##   X[n] = 29^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,25\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,25\right)} \mathbf{H}^{\left(29,25\right)} \mathbf{H}^{\left(29,25\right)} \mathbf{H}^{\left(29,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,25\right)} \left(\mathbf{H}^{\left(29,25\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,25\right)} = \{ ,  4,16,14, 6,24,21, 9,11,19, \cdots \} = \left[ \mathbf{G}^{\left(29,25\right)} \mathbf{H}^{\left(29,25\right)} \mathbf{H}^{\left(29,25\right)} \mathbf{H}^{\left(29,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,25\right)} \left(\mathbf{H}^{\left(29,25\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,25\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,25\right)} = \{  \}
+# \mathbf{H}^{\left(29,25\right)} = \{  4,16,14, 6,24,21, 9,11,19, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,25\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=29, m=25) ##   X[n] = 29^n mod 25
@@ -931,21 +931,21 @@ example(b=29, m=25) ##   X[n] = 29^n mod 25
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,26\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,26\right)} \mathbf{H}^{\left(29,26\right)} \mathbf{H}^{\left(29,26\right)} \mathbf{H}^{\left(29,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,26\right)} \left(\mathbf{H}^{\left(29,26\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,26\right)} = \{ , 3,9 \cdots \} = \left[ \mathbf{G}^{\left(29,26\right)} \mathbf{H}^{\left(29,26\right)} \mathbf{H}^{\left(29,26\right)} \mathbf{H}^{\left(29,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,26\right)} \left(\mathbf{H}^{\left(29,26\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,26\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,26\right)} = \{  \}
+# \mathbf{H}^{\left(29,26\right)} = \{ 3,9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,26\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=29, m=26) ##   X[n] = 29^n mod 26
@@ -968,21 +968,21 @@ example(b=29, m=26) ##   X[n] = 29^n mod 26
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,27\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,27\right)} \mathbf{H}^{\left(29,27\right)} \mathbf{H}^{\left(29,27\right)} \mathbf{H}^{\left(29,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,27\right)} \left(\mathbf{H}^{\left(29,27\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,27\right)} = \{ ,  2, 4, 8,16, 5,10,20,13,26,25,23,19,11,22,17, 7,14, \cdots \} = \left[ \mathbf{G}^{\left(29,27\right)} \mathbf{H}^{\left(29,27\right)} \mathbf{H}^{\left(29,27\right)} \mathbf{H}^{\left(29,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,27\right)} \left(\mathbf{H}^{\left(29,27\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,27\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,27\right)} = \{  \}
+# \mathbf{H}^{\left(29,27\right)} = \{  2, 4, 8,16, 5,10,20,13,26,25,23,19,11,22,17, 7,14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,27\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,27\right)}\right| = 18 
 # \end{aligned}
 # <codecell>
 example(b=29, m=27) ##   X[n] = 29^n mod 27
@@ -1016,10 +1016,10 @@ example(b=29, m=27) ##   X[n] = 29^n mod 27
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,28\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,28\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=29, m=28) ##   X[n] = 29^n mod 28
@@ -1053,10 +1053,10 @@ example(b=29, m=28) ##   X[n] = 29^n mod 28
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,29\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=29, m=29) ##   X[n] = 29^n mod 29
@@ -1079,21 +1079,21 @@ example(b=29, m=29) ##   X[n] = 29^n mod 29
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,30\right)} \left(\mathbf{H}^{\left(29,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,30\right)} = \{ , 29, \cdots \} = \left[ \mathbf{G}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,30\right)} \left(\mathbf{H}^{\left(29,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,30\right)} = \{  \}
+# \mathbf{H}^{\left(29,30\right)} = \{ 29, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(29,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,30\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=29, m=30) ##   X[n] = 29^n mod 30

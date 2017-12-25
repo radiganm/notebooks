@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=2) ##   X[n] = 9^n mod 2
@@ -91,10 +91,10 @@ example(b=9, m=2) ##   X[n] = 9^n mod 2
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,3\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=3) ##   X[n] = 9^n mod 3
@@ -128,10 +128,10 @@ example(b=9, m=3) ##   X[n] = 9^n mod 3
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,4\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,4\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=4) ##   X[n] = 9^n mod 4
@@ -154,21 +154,21 @@ example(b=9, m=4) ##   X[n] = 9^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,5\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,5\right)} \mathbf{H}^{\left(9,5\right)} \mathbf{H}^{\left(9,5\right)} \mathbf{H}^{\left(9,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,5\right)} \left(\mathbf{H}^{\left(9,5\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,5\right)} = \{ , 4 \cdots \} = \left[ \mathbf{G}^{\left(9,5\right)} \mathbf{H}^{\left(9,5\right)} \mathbf{H}^{\left(9,5\right)} \mathbf{H}^{\left(9,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,5\right)} \left(\mathbf{H}^{\left(9,5\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,5\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,5\right)} = \{  \}
+# \mathbf{H}^{\left(9,5\right)} = \{ 4 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,5\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=9, m=5) ##   X[n] = 9^n mod 5
@@ -202,10 +202,10 @@ example(b=9, m=5) ##   X[n] = 9^n mod 5
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,6\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=6) ##   X[n] = 9^n mod 6
@@ -228,21 +228,21 @@ example(b=9, m=6) ##   X[n] = 9^n mod 6
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,7\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,7\right)} \mathbf{H}^{\left(9,7\right)} \mathbf{H}^{\left(9,7\right)} \mathbf{H}^{\left(9,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,7\right)} \left(\mathbf{H}^{\left(9,7\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,7\right)} = \{ , 2,4 \cdots \} = \left[ \mathbf{G}^{\left(9,7\right)} \mathbf{H}^{\left(9,7\right)} \mathbf{H}^{\left(9,7\right)} \mathbf{H}^{\left(9,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,7\right)} \left(\mathbf{H}^{\left(9,7\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,7\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,7\right)} = \{  \}
+# \mathbf{H}^{\left(9,7\right)} = \{ 2,4 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,7\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=9, m=7) ##   X[n] = 9^n mod 7
@@ -276,10 +276,10 @@ example(b=9, m=7) ##   X[n] = 9^n mod 7
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,8\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,8\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=8) ##   X[n] = 9^n mod 8
@@ -313,10 +313,10 @@ example(b=9, m=8) ##   X[n] = 9^n mod 8
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,9\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,9\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=9) ##   X[n] = 9^n mod 9
@@ -339,21 +339,21 @@ example(b=9, m=9) ##   X[n] = 9^n mod 9
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,10\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,10\right)} \mathbf{H}^{\left(9,10\right)} \mathbf{H}^{\left(9,10\right)} \mathbf{H}^{\left(9,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,10\right)} \left(\mathbf{H}^{\left(9,10\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,10\right)} = \{ , 9 \cdots \} = \left[ \mathbf{G}^{\left(9,10\right)} \mathbf{H}^{\left(9,10\right)} \mathbf{H}^{\left(9,10\right)} \mathbf{H}^{\left(9,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,10\right)} \left(\mathbf{H}^{\left(9,10\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,10\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,10\right)} = \{  \}
+# \mathbf{H}^{\left(9,10\right)} = \{ 9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,10\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=9, m=10) ##   X[n] = 9^n mod 10
@@ -376,21 +376,21 @@ example(b=9, m=10) ##   X[n] = 9^n mod 10
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,11\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,11\right)} \mathbf{H}^{\left(9,11\right)} \mathbf{H}^{\left(9,11\right)} \mathbf{H}^{\left(9,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,11\right)} \left(\mathbf{H}^{\left(9,11\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,11\right)} = \{ , 9,4,3,5 \cdots \} = \left[ \mathbf{G}^{\left(9,11\right)} \mathbf{H}^{\left(9,11\right)} \mathbf{H}^{\left(9,11\right)} \mathbf{H}^{\left(9,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,11\right)} \left(\mathbf{H}^{\left(9,11\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,11\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,11\right)} = \{  \}
+# \mathbf{H}^{\left(9,11\right)} = \{ 9,4,3,5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,11\right)}\right| = 5 
 # \end{aligned}
 # <codecell>
 example(b=9, m=11) ##   X[n] = 9^n mod 11
@@ -424,10 +424,10 @@ example(b=9, m=11) ##   X[n] = 9^n mod 11
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,12\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,12\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=12) ##   X[n] = 9^n mod 12
@@ -450,21 +450,21 @@ example(b=9, m=12) ##   X[n] = 9^n mod 12
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,13\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,13\right)} \mathbf{H}^{\left(9,13\right)} \mathbf{H}^{\left(9,13\right)} \mathbf{H}^{\left(9,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,13\right)} \left(\mathbf{H}^{\left(9,13\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,13\right)} = \{ , 9,3 \cdots \} = \left[ \mathbf{G}^{\left(9,13\right)} \mathbf{H}^{\left(9,13\right)} \mathbf{H}^{\left(9,13\right)} \mathbf{H}^{\left(9,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,13\right)} \left(\mathbf{H}^{\left(9,13\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,13\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,13\right)} = \{  \}
+# \mathbf{H}^{\left(9,13\right)} = \{ 9,3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,13\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=9, m=13) ##   X[n] = 9^n mod 13
@@ -487,21 +487,21 @@ example(b=9, m=13) ##   X[n] = 9^n mod 13
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,14\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,14\right)} \mathbf{H}^{\left(9,14\right)} \mathbf{H}^{\left(9,14\right)} \mathbf{H}^{\left(9,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,14\right)} \left(\mathbf{H}^{\left(9,14\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,14\right)} = \{ ,  9,11, \cdots \} = \left[ \mathbf{G}^{\left(9,14\right)} \mathbf{H}^{\left(9,14\right)} \mathbf{H}^{\left(9,14\right)} \mathbf{H}^{\left(9,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,14\right)} \left(\mathbf{H}^{\left(9,14\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,14\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,14\right)} = \{  \}
+# \mathbf{H}^{\left(9,14\right)} = \{  9,11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,14\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=9, m=14) ##   X[n] = 9^n mod 14
@@ -524,21 +524,21 @@ example(b=9, m=14) ##   X[n] = 9^n mod 14
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,15\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,15\right)} \mathbf{H}^{\left(9,15\right)} \mathbf{H}^{\left(9,15\right)} \mathbf{H}^{\left(9,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,15\right)} \left(\mathbf{H}^{\left(9,15\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,15\right)} = \{ , 9 \cdots \} = \left[ \mathbf{G}^{\left(9,15\right)} \mathbf{H}^{\left(9,15\right)} \mathbf{H}^{\left(9,15\right)} \mathbf{H}^{\left(9,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,15\right)} \left(\mathbf{H}^{\left(9,15\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,15\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,15\right)} = \{  \}
+# \mathbf{H}^{\left(9,15\right)} = \{ 9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,15\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=9, m=15) ##   X[n] = 9^n mod 15
@@ -561,21 +561,21 @@ example(b=9, m=15) ##   X[n] = 9^n mod 15
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,16\right)} \left(\mathbf{H}^{\left(9,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,16\right)} = \{ , 9 \cdots \} = \left[ \mathbf{G}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,16\right)} \left(\mathbf{H}^{\left(9,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,16\right)} = \{  \}
+# \mathbf{H}^{\left(9,16\right)} = \{ 9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,16\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,16\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=9, m=16) ##   X[n] = 9^n mod 16
@@ -598,21 +598,21 @@ example(b=9, m=16) ##   X[n] = 9^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,17\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,17\right)} \mathbf{H}^{\left(9,17\right)} \mathbf{H}^{\left(9,17\right)} \mathbf{H}^{\left(9,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,17\right)} \left(\mathbf{H}^{\left(9,17\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,17\right)} = \{ ,  9,13,15,16, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(9,17\right)} \mathbf{H}^{\left(9,17\right)} \mathbf{H}^{\left(9,17\right)} \mathbf{H}^{\left(9,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,17\right)} \left(\mathbf{H}^{\left(9,17\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,17\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,17\right)} = \{  \}
+# \mathbf{H}^{\left(9,17\right)} = \{  9,13,15,16, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,17\right)}\right| = 8 
 # \end{aligned}
 # <codecell>
 example(b=9, m=17) ##   X[n] = 9^n mod 17
@@ -646,10 +646,10 @@ example(b=9, m=17) ##   X[n] = 9^n mod 17
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,18\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,18\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=18) ##   X[n] = 9^n mod 18
@@ -672,21 +672,21 @@ example(b=9, m=18) ##   X[n] = 9^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,19\right)} \mathbf{H}^{\left(9,19\right)} \mathbf{H}^{\left(9,19\right)} \mathbf{H}^{\left(9,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,19\right)} \left(\mathbf{H}^{\left(9,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,19\right)} = \{ ,  9, 5, 7, 6,16,11, 4,17, \cdots \} = \left[ \mathbf{G}^{\left(9,19\right)} \mathbf{H}^{\left(9,19\right)} \mathbf{H}^{\left(9,19\right)} \mathbf{H}^{\left(9,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,19\right)} \left(\mathbf{H}^{\left(9,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,19\right)} = \{  \}
+# \mathbf{H}^{\left(9,19\right)} = \{  9, 5, 7, 6,16,11, 4,17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,19\right)}\right| = 9 
 # \end{aligned}
 # <codecell>
 example(b=9, m=19) ##   X[n] = 9^n mod 19
@@ -709,21 +709,21 @@ example(b=9, m=19) ##   X[n] = 9^n mod 19
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,20\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,20\right)} \mathbf{H}^{\left(9,20\right)} \mathbf{H}^{\left(9,20\right)} \mathbf{H}^{\left(9,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,20\right)} \left(\mathbf{H}^{\left(9,20\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,20\right)} = \{ , 9 \cdots \} = \left[ \mathbf{G}^{\left(9,20\right)} \mathbf{H}^{\left(9,20\right)} \mathbf{H}^{\left(9,20\right)} \mathbf{H}^{\left(9,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,20\right)} \left(\mathbf{H}^{\left(9,20\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,20\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,20\right)} = \{  \}
+# \mathbf{H}^{\left(9,20\right)} = \{ 9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,20\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,20\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=9, m=20) ##   X[n] = 9^n mod 20
@@ -746,21 +746,21 @@ example(b=9, m=20) ##   X[n] = 9^n mod 20
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,21\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,21\right)} \mathbf{H}^{\left(9,21\right)} \mathbf{H}^{\left(9,21\right)} \mathbf{H}^{\left(9,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,21\right)} \left(\mathbf{H}^{\left(9,21\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,21\right)} = \{ ,  9,18, \cdots \} = \left[ \mathbf{G}^{\left(9,21\right)} \mathbf{H}^{\left(9,21\right)} \mathbf{H}^{\left(9,21\right)} \mathbf{H}^{\left(9,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,21\right)} \left(\mathbf{H}^{\left(9,21\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,21\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,21\right)} = \{  \}
+# \mathbf{H}^{\left(9,21\right)} = \{  9,18, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,21\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=9, m=21) ##   X[n] = 9^n mod 21
@@ -783,21 +783,21 @@ example(b=9, m=21) ##   X[n] = 9^n mod 21
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,22\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,22\right)} \mathbf{H}^{\left(9,22\right)} \mathbf{H}^{\left(9,22\right)} \mathbf{H}^{\left(9,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,22\right)} \left(\mathbf{H}^{\left(9,22\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,22\right)} = \{ ,  9,15, 3, 5, \cdots \} = \left[ \mathbf{G}^{\left(9,22\right)} \mathbf{H}^{\left(9,22\right)} \mathbf{H}^{\left(9,22\right)} \mathbf{H}^{\left(9,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,22\right)} \left(\mathbf{H}^{\left(9,22\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,22\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,22\right)} = \{  \}
+# \mathbf{H}^{\left(9,22\right)} = \{  9,15, 3, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,22\right)}\right| = 5 
 # \end{aligned}
 # <codecell>
 example(b=9, m=22) ##   X[n] = 9^n mod 22
@@ -820,21 +820,21 @@ example(b=9, m=22) ##   X[n] = 9^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,23\right)} \left(\mathbf{H}^{\left(9,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,23\right)} = \{ ,  9,12,16, 6, 8, 3, 4,13, 2,18, \cdots \} = \left[ \mathbf{G}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,23\right)} \left(\mathbf{H}^{\left(9,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,23\right)} = \{  \}
+# \mathbf{H}^{\left(9,23\right)} = \{  9,12,16, 6, 8, 3, 4,13, 2,18, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,23\right)}\right| = 11 
 # \end{aligned}
 # <codecell>
 example(b=9, m=23) ##   X[n] = 9^n mod 23
@@ -868,10 +868,10 @@ example(b=9, m=23) ##   X[n] = 9^n mod 23
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,24\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,24\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=24) ##   X[n] = 9^n mod 24
@@ -894,21 +894,21 @@ example(b=9, m=24) ##   X[n] = 9^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,25\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,25\right)} \mathbf{H}^{\left(9,25\right)} \mathbf{H}^{\left(9,25\right)} \mathbf{H}^{\left(9,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,25\right)} \left(\mathbf{H}^{\left(9,25\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,25\right)} = \{ ,  9, 6, 4,11,24,16,19,21,14, \cdots \} = \left[ \mathbf{G}^{\left(9,25\right)} \mathbf{H}^{\left(9,25\right)} \mathbf{H}^{\left(9,25\right)} \mathbf{H}^{\left(9,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,25\right)} \left(\mathbf{H}^{\left(9,25\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,25\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,25\right)} = \{  \}
+# \mathbf{H}^{\left(9,25\right)} = \{  9, 6, 4,11,24,16,19,21,14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,25\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=9, m=25) ##   X[n] = 9^n mod 25
@@ -931,21 +931,21 @@ example(b=9, m=25) ##   X[n] = 9^n mod 25
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,26\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,26\right)} \mathbf{H}^{\left(9,26\right)} \mathbf{H}^{\left(9,26\right)} \mathbf{H}^{\left(9,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,26\right)} \left(\mathbf{H}^{\left(9,26\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,26\right)} = \{ , 9,3 \cdots \} = \left[ \mathbf{G}^{\left(9,26\right)} \mathbf{H}^{\left(9,26\right)} \mathbf{H}^{\left(9,26\right)} \mathbf{H}^{\left(9,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,26\right)} \left(\mathbf{H}^{\left(9,26\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,26\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,26\right)} = \{  \}
+# \mathbf{H}^{\left(9,26\right)} = \{ 9,3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,26\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=9, m=26) ##   X[n] = 9^n mod 26
@@ -979,10 +979,10 @@ example(b=9, m=26) ##   X[n] = 9^n mod 26
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,27\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,27\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=9, m=27) ##   X[n] = 9^n mod 27
@@ -1005,21 +1005,21 @@ example(b=9, m=27) ##   X[n] = 9^n mod 27
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,28\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,28\right)} \mathbf{H}^{\left(9,28\right)} \mathbf{H}^{\left(9,28\right)} \mathbf{H}^{\left(9,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,28\right)} \left(\mathbf{H}^{\left(9,28\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,28\right)} = \{ ,  9,25, \cdots \} = \left[ \mathbf{G}^{\left(9,28\right)} \mathbf{H}^{\left(9,28\right)} \mathbf{H}^{\left(9,28\right)} \mathbf{H}^{\left(9,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,28\right)} \left(\mathbf{H}^{\left(9,28\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,28\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,28\right)} = \{  \}
+# \mathbf{H}^{\left(9,28\right)} = \{  9,25, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,28\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,28\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=9, m=28) ##   X[n] = 9^n mod 28
@@ -1042,21 +1042,21 @@ example(b=9, m=28) ##   X[n] = 9^n mod 28
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,29\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,29\right)} \mathbf{H}^{\left(9,29\right)} \mathbf{H}^{\left(9,29\right)} \mathbf{H}^{\left(9,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,29\right)} \left(\mathbf{H}^{\left(9,29\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,29\right)} = \{ ,  9,23, 4, 7, 5,16,28,20, 6,25,22,24,13, \cdots \} = \left[ \mathbf{G}^{\left(9,29\right)} \mathbf{H}^{\left(9,29\right)} \mathbf{H}^{\left(9,29\right)} \mathbf{H}^{\left(9,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,29\right)} \left(\mathbf{H}^{\left(9,29\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,29\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,29\right)} = \{  \}
+# \mathbf{H}^{\left(9,29\right)} = \{  9,23, 4, 7, 5,16,28,20, 6,25,22,24,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,29\right)}\right| = 14 
 # \end{aligned}
 # <codecell>
 example(b=9, m=29) ##   X[n] = 9^n mod 29
@@ -1079,21 +1079,21 @@ example(b=9, m=29) ##   X[n] = 9^n mod 29
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,30\right)} \left(\mathbf{H}^{\left(9,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,30\right)} = \{ ,  9, \cdots \} = \left[ \mathbf{G}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,30\right)} \left(\mathbf{H}^{\left(9,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,30\right)} = \{  \}
+# \mathbf{H}^{\left(9,30\right)} = \{  9, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(9,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,30\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=9, m=30) ##   X[n] = 9^n mod 30

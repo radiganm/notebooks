@@ -80,21 +80,21 @@ example(b=2, m=16) ##   X[n] = 2^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(3,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(3,16\right)} \mathbf{H}^{\left(3,16\right)} \mathbf{H}^{\left(3,16\right)} \mathbf{H}^{\left(3,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,16\right)} \left(\mathbf{H}^{\left(3,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(3,16\right)} = \{ ,  3, 9,11, \cdots \} = \left[ \mathbf{G}^{\left(3,16\right)} \mathbf{H}^{\left(3,16\right)} \mathbf{H}^{\left(3,16\right)} \mathbf{H}^{\left(3,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,16\right)} \left(\mathbf{H}^{\left(3,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(3,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(3,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(3,16\right)} = \{  \}
+# \mathbf{H}^{\left(3,16\right)} = \{  3, 9,11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(3,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(3,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(3,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(3,16\right)}\right| = 4
 # \end{aligned}
 # <codecell>
 example(b=3, m=16) ##   X[n] = 3^n mod 16
@@ -117,18 +117,18 @@ example(b=3, m=16) ##   X[n] = 3^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(4,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(4,16\right)} \mathbf{H}^{\left(4,16\right)} \mathbf{H}^{\left(4,16\right)} \mathbf{H}^{\left(4,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(4,16\right)} \left(\mathbf{H}^{\left(4,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(4,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(4,16\right)} \mathbf{H}^{\left(4,16\right)} \mathbf{H}^{\left(4,16\right)} \mathbf{H}^{\left(4,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(4,16\right)} \left(\mathbf{H}^{\left(4,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(4,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(4,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(4,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(4,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(4,16\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(4,16\right)}\right| = 1
@@ -154,21 +154,21 @@ example(b=4, m=16) ##   X[n] = 4^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(5,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(5,16\right)} \mathbf{H}^{\left(5,16\right)} \mathbf{H}^{\left(5,16\right)} \mathbf{H}^{\left(5,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(5,16\right)} \left(\mathbf{H}^{\left(5,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(5,16\right)} = \{ ,  5, 9,13, \cdots \} = \left[ \mathbf{G}^{\left(5,16\right)} \mathbf{H}^{\left(5,16\right)} \mathbf{H}^{\left(5,16\right)} \mathbf{H}^{\left(5,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(5,16\right)} \left(\mathbf{H}^{\left(5,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(5,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(5,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(5,16\right)} = \{  \}
+# \mathbf{H}^{\left(5,16\right)} = \{  5, 9,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(5,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(5,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(5,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(5,16\right)}\right| = 4
 # \end{aligned}
 # <codecell>
 example(b=5, m=16) ##   X[n] = 5^n mod 16
@@ -191,11 +191,11 @@ example(b=5, m=16) ##   X[n] = 5^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(6,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(6,16\right)} \mathbf{H}^{\left(6,16\right)} \mathbf{H}^{\left(6,16\right)} \mathbf{H}^{\left(6,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(6,16\right)} \left(\mathbf{H}^{\left(6,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(6,16\right)} = \{ 6,4,  \cdots \} = \left[ \mathbf{G}^{\left(6,16\right)} \mathbf{H}^{\left(6,16\right)} \mathbf{H}^{\left(6,16\right)} \mathbf{H}^{\left(6,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(6,16\right)} \left(\mathbf{H}^{\left(6,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(6,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(6,16\right)} = \{ 6,4 \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(6,16\right)} = \{  \}
@@ -228,21 +228,21 @@ example(b=6, m=16) ##   X[n] = 6^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(7,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(7,16\right)} \mathbf{H}^{\left(7,16\right)} \mathbf{H}^{\left(7,16\right)} \mathbf{H}^{\left(7,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,16\right)} \left(\mathbf{H}^{\left(7,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(7,16\right)} = \{ , 7 \cdots \} = \left[ \mathbf{G}^{\left(7,16\right)} \mathbf{H}^{\left(7,16\right)} \mathbf{H}^{\left(7,16\right)} \mathbf{H}^{\left(7,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,16\right)} \left(\mathbf{H}^{\left(7,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(7,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(7,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(7,16\right)} = \{  \}
+# \mathbf{H}^{\left(7,16\right)} = \{ 7 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(7,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(7,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(7,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(7,16\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=7, m=16) ##   X[n] = 7^n mod 16
@@ -265,18 +265,18 @@ example(b=7, m=16) ##   X[n] = 7^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(8,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(8,16\right)} \mathbf{H}^{\left(8,16\right)} \mathbf{H}^{\left(8,16\right)} \mathbf{H}^{\left(8,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(8,16\right)} \left(\mathbf{H}^{\left(8,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(8,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(8,16\right)} \mathbf{H}^{\left(8,16\right)} \mathbf{H}^{\left(8,16\right)} \mathbf{H}^{\left(8,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(8,16\right)} \left(\mathbf{H}^{\left(8,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(8,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(8,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(8,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(8,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(8,16\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(8,16\right)}\right| = 1
@@ -302,21 +302,21 @@ example(b=8, m=16) ##   X[n] = 8^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,16\right)} \left(\mathbf{H}^{\left(9,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,16\right)} = \{ , 9 \cdots \} = \left[ \mathbf{G}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \mathbf{H}^{\left(9,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,16\right)} \left(\mathbf{H}^{\left(9,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(9,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(9,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,16\right)} = \{  \}
+# \mathbf{H}^{\left(9,16\right)} = \{ 9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(9,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(9,16\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=9, m=16) ##   X[n] = 9^n mod 16
@@ -339,11 +339,11 @@ example(b=9, m=16) ##   X[n] = 9^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(10,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(10,16\right)} \mathbf{H}^{\left(10,16\right)} \mathbf{H}^{\left(10,16\right)} \mathbf{H}^{\left(10,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(10,16\right)} \left(\mathbf{H}^{\left(10,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(10,16\right)} = \{ 10, 4,,  \cdots \} = \left[ \mathbf{G}^{\left(10,16\right)} \mathbf{H}^{\left(10,16\right)} \mathbf{H}^{\left(10,16\right)} \mathbf{H}^{\left(10,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(10,16\right)} \left(\mathbf{H}^{\left(10,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(10,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(10,16\right)} = \{ 10, 4, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(10,16\right)} = \{  \}
@@ -376,21 +376,21 @@ example(b=10, m=16) ##   X[n] = 10^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,16\right)} \left(\mathbf{H}^{\left(11,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,16\right)} = \{ , 11, 9, 3, \cdots \} = \left[ \mathbf{G}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,16\right)} \left(\mathbf{H}^{\left(11,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(11,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(11,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,16\right)} = \{  \}
+# \mathbf{H}^{\left(11,16\right)} = \{ 11, 9, 3, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(11,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,16\right)}\right| = 4
 # \end{aligned}
 # <codecell>
 example(b=11, m=16) ##   X[n] = 11^n mod 16
@@ -413,18 +413,18 @@ example(b=11, m=16) ##   X[n] = 11^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(12,16\right)} \mathbf{H}^{\left(12,16\right)} \mathbf{H}^{\left(12,16\right)} \mathbf{H}^{\left(12,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,16\right)} \left(\mathbf{H}^{\left(12,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,16\right)} \mathbf{H}^{\left(12,16\right)} \mathbf{H}^{\left(12,16\right)} \mathbf{H}^{\left(12,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,16\right)} \left(\mathbf{H}^{\left(12,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(12,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(12,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(12,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(12,16\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(12,16\right)}\right| = 1
@@ -450,21 +450,21 @@ example(b=12, m=16) ##   X[n] = 12^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(13,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(13,16\right)} \mathbf{H}^{\left(13,16\right)} \mathbf{H}^{\left(13,16\right)} \mathbf{H}^{\left(13,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(13,16\right)} \left(\mathbf{H}^{\left(13,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(13,16\right)} = \{ , 13, 9, 5, \cdots \} = \left[ \mathbf{G}^{\left(13,16\right)} \mathbf{H}^{\left(13,16\right)} \mathbf{H}^{\left(13,16\right)} \mathbf{H}^{\left(13,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(13,16\right)} \left(\mathbf{H}^{\left(13,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(13,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(13,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(13,16\right)} = \{  \}
+# \mathbf{H}^{\left(13,16\right)} = \{ 13, 9, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(13,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(13,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(13,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(13,16\right)}\right| = 4
 # \end{aligned}
 # <codecell>
 example(b=13, m=16) ##   X[n] = 13^n mod 16
@@ -487,11 +487,11 @@ example(b=13, m=16) ##   X[n] = 13^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(14,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(14,16\right)} \mathbf{H}^{\left(14,16\right)} \mathbf{H}^{\left(14,16\right)} \mathbf{H}^{\left(14,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(14,16\right)} \left(\mathbf{H}^{\left(14,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(14,16\right)} = \{ 14, 4,,  \cdots \} = \left[ \mathbf{G}^{\left(14,16\right)} \mathbf{H}^{\left(14,16\right)} \mathbf{H}^{\left(14,16\right)} \mathbf{H}^{\left(14,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(14,16\right)} \left(\mathbf{H}^{\left(14,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(14,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(14,16\right)} = \{ 14, 4, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(14,16\right)} = \{  \}
@@ -524,21 +524,21 @@ example(b=14, m=16) ##   X[n] = 14^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(15,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(15,16\right)} \mathbf{H}^{\left(15,16\right)} \mathbf{H}^{\left(15,16\right)} \mathbf{H}^{\left(15,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,16\right)} \left(\mathbf{H}^{\left(15,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(15,16\right)} = \{ , 15, \cdots \} = \left[ \mathbf{G}^{\left(15,16\right)} \mathbf{H}^{\left(15,16\right)} \mathbf{H}^{\left(15,16\right)} \mathbf{H}^{\left(15,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,16\right)} \left(\mathbf{H}^{\left(15,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(15,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(15,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(15,16\right)} = \{  \}
+# \mathbf{H}^{\left(15,16\right)} = \{ 15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(15,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(15,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(15,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(15,16\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=15, m=16) ##   X[n] = 15^n mod 16
@@ -561,18 +561,18 @@ example(b=15, m=16) ##   X[n] = 15^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(16,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(16,16\right)} \mathbf{H}^{\left(16,16\right)} \mathbf{H}^{\left(16,16\right)} \mathbf{H}^{\left(16,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(16,16\right)} \left(\mathbf{H}^{\left(16,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(16,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(16,16\right)} \mathbf{H}^{\left(16,16\right)} \mathbf{H}^{\left(16,16\right)} \mathbf{H}^{\left(16,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(16,16\right)} \left(\mathbf{H}^{\left(16,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(16,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(16,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(16,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(16,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(16,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(16,16\right)}\right| = 1
@@ -598,18 +598,18 @@ example(b=16, m=16) ##   X[n] = 16^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(17,16\right)} \mathbf{H}^{\left(17,16\right)} \mathbf{H}^{\left(17,16\right)} \mathbf{H}^{\left(17,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,16\right)} \left(\mathbf{H}^{\left(17,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,16\right)} \mathbf{H}^{\left(17,16\right)} \mathbf{H}^{\left(17,16\right)} \mathbf{H}^{\left(17,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,16\right)} \left(\mathbf{H}^{\left(17,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(17,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(17,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(17,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(17,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(17,16\right)}\right| = 1
@@ -672,21 +672,21 @@ example(b=18, m=16) ##   X[n] = 18^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(19,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(19,16\right)} \mathbf{H}^{\left(19,16\right)} \mathbf{H}^{\left(19,16\right)} \mathbf{H}^{\left(19,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,16\right)} \left(\mathbf{H}^{\left(19,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(19,16\right)} = \{ ,  3, 9,11, \cdots \} = \left[ \mathbf{G}^{\left(19,16\right)} \mathbf{H}^{\left(19,16\right)} \mathbf{H}^{\left(19,16\right)} \mathbf{H}^{\left(19,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,16\right)} \left(\mathbf{H}^{\left(19,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(19,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(19,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(19,16\right)} = \{  \}
+# \mathbf{H}^{\left(19,16\right)} = \{  3, 9,11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(19,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(19,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(19,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(19,16\right)}\right| = 4
 # \end{aligned}
 # <codecell>
 example(b=19, m=16) ##   X[n] = 19^n mod 16
@@ -709,18 +709,18 @@ example(b=19, m=16) ##   X[n] = 19^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(20,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(20,16\right)} \mathbf{H}^{\left(20,16\right)} \mathbf{H}^{\left(20,16\right)} \mathbf{H}^{\left(20,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(20,16\right)} \left(\mathbf{H}^{\left(20,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(20,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(20,16\right)} \mathbf{H}^{\left(20,16\right)} \mathbf{H}^{\left(20,16\right)} \mathbf{H}^{\left(20,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(20,16\right)} \left(\mathbf{H}^{\left(20,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(20,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(20,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(20,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(20,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(20,16\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(20,16\right)}\right| = 1
@@ -746,21 +746,21 @@ example(b=20, m=16) ##   X[n] = 20^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,16\right)} \left(\mathbf{H}^{\left(21,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,16\right)} = \{ ,  5, 9,13, \cdots \} = \left[ \mathbf{G}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,16\right)} \left(\mathbf{H}^{\left(21,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(21,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(21,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,16\right)} = \{  \}
+# \mathbf{H}^{\left(21,16\right)} = \{  5, 9,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(21,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,16\right)}\right| = 4
 # \end{aligned}
 # <codecell>
 example(b=21, m=16) ##   X[n] = 21^n mod 16
@@ -783,11 +783,11 @@ example(b=21, m=16) ##   X[n] = 21^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(22,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(22,16\right)} \mathbf{H}^{\left(22,16\right)} \mathbf{H}^{\left(22,16\right)} \mathbf{H}^{\left(22,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(22,16\right)} \left(\mathbf{H}^{\left(22,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(22,16\right)} = \{ 6,4,  \cdots \} = \left[ \mathbf{G}^{\left(22,16\right)} \mathbf{H}^{\left(22,16\right)} \mathbf{H}^{\left(22,16\right)} \mathbf{H}^{\left(22,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(22,16\right)} \left(\mathbf{H}^{\left(22,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(22,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(22,16\right)} = \{ 6,4 \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(22,16\right)} = \{  \}
@@ -820,21 +820,21 @@ example(b=22, m=16) ##   X[n] = 22^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(23,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(23,16\right)} \mathbf{H}^{\left(23,16\right)} \mathbf{H}^{\left(23,16\right)} \mathbf{H}^{\left(23,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,16\right)} \left(\mathbf{H}^{\left(23,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(23,16\right)} = \{ , 7 \cdots \} = \left[ \mathbf{G}^{\left(23,16\right)} \mathbf{H}^{\left(23,16\right)} \mathbf{H}^{\left(23,16\right)} \mathbf{H}^{\left(23,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,16\right)} \left(\mathbf{H}^{\left(23,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(23,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(23,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(23,16\right)} = \{  \}
+# \mathbf{H}^{\left(23,16\right)} = \{ 7 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(23,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(23,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(23,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(23,16\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=23, m=16) ##   X[n] = 23^n mod 16
@@ -857,18 +857,18 @@ example(b=23, m=16) ##   X[n] = 23^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(24,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(24,16\right)} \mathbf{H}^{\left(24,16\right)} \mathbf{H}^{\left(24,16\right)} \mathbf{H}^{\left(24,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(24,16\right)} \left(\mathbf{H}^{\left(24,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(24,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(24,16\right)} \mathbf{H}^{\left(24,16\right)} \mathbf{H}^{\left(24,16\right)} \mathbf{H}^{\left(24,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(24,16\right)} \left(\mathbf{H}^{\left(24,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(24,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(24,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(24,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(24,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(24,16\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(24,16\right)}\right| = 1
@@ -894,21 +894,21 @@ example(b=24, m=16) ##   X[n] = 24^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(25,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(25,16\right)} \mathbf{H}^{\left(25,16\right)} \mathbf{H}^{\left(25,16\right)} \mathbf{H}^{\left(25,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(25,16\right)} \left(\mathbf{H}^{\left(25,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(25,16\right)} = \{ , 9 \cdots \} = \left[ \mathbf{G}^{\left(25,16\right)} \mathbf{H}^{\left(25,16\right)} \mathbf{H}^{\left(25,16\right)} \mathbf{H}^{\left(25,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(25,16\right)} \left(\mathbf{H}^{\left(25,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(25,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(25,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(25,16\right)} = \{  \}
+# \mathbf{H}^{\left(25,16\right)} = \{ 9 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(25,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(25,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(25,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(25,16\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=25, m=16) ##   X[n] = 25^n mod 16
@@ -931,11 +931,11 @@ example(b=25, m=16) ##   X[n] = 25^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,16\right)} \left(\mathbf{H}^{\left(26,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,16\right)} = \{ 10, 4,,  \cdots \} = \left[ \mathbf{G}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,16\right)} \left(\mathbf{H}^{\left(26,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(26,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(26,16\right)} = \{ 10, 4, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(26,16\right)} = \{  \}
@@ -968,21 +968,21 @@ example(b=26, m=16) ##   X[n] = 26^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(27,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(27,16\right)} \mathbf{H}^{\left(27,16\right)} \mathbf{H}^{\left(27,16\right)} \mathbf{H}^{\left(27,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,16\right)} \left(\mathbf{H}^{\left(27,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(27,16\right)} = \{ , 11, 9, 3, \cdots \} = \left[ \mathbf{G}^{\left(27,16\right)} \mathbf{H}^{\left(27,16\right)} \mathbf{H}^{\left(27,16\right)} \mathbf{H}^{\left(27,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,16\right)} \left(\mathbf{H}^{\left(27,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(27,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(27,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(27,16\right)} = \{  \}
+# \mathbf{H}^{\left(27,16\right)} = \{ 11, 9, 3, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(27,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(27,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(27,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(27,16\right)}\right| = 4
 # \end{aligned}
 # <codecell>
 example(b=27, m=16) ##   X[n] = 27^n mod 16
@@ -1005,18 +1005,18 @@ example(b=27, m=16) ##   X[n] = 27^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(28,16\right)} \mathbf{H}^{\left(28,16\right)} \mathbf{H}^{\left(28,16\right)} \mathbf{H}^{\left(28,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,16\right)} \left(\mathbf{H}^{\left(28,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,16\right)} \mathbf{H}^{\left(28,16\right)} \mathbf{H}^{\left(28,16\right)} \mathbf{H}^{\left(28,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,16\right)} \left(\mathbf{H}^{\left(28,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(28,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(28,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(28,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(28,16\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(28,16\right)}\right| = 1
@@ -1042,21 +1042,21 @@ example(b=28, m=16) ##   X[n] = 28^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,16\right)} \left(\mathbf{H}^{\left(29,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,16\right)} = \{ , 13, 9, 5, \cdots \} = \left[ \mathbf{G}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \mathbf{H}^{\left(29,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,16\right)} \left(\mathbf{H}^{\left(29,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(29,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(29,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,16\right)} = \{  \}
+# \mathbf{H}^{\left(29,16\right)} = \{ 13, 9, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,16\right)}\right| = 3
+# \left|\mathbf{G}^{\left(29,16\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(29,16\right)}\right| = 4
 # \end{aligned}
 # <codecell>
 example(b=29, m=16) ##   X[n] = 29^n mod 16
@@ -1079,11 +1079,11 @@ example(b=29, m=16) ##   X[n] = 29^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(30,16\right)} = \{ 2,4,  \cdots \} = \left[ \mathbf{G}^{\left(30,16\right)} \mathbf{H}^{\left(30,16\right)} \mathbf{H}^{\left(30,16\right)} \mathbf{H}^{\left(30,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(30,16\right)} \left(\mathbf{H}^{\left(30,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(30,16\right)} = \{ 14, 4,,  \cdots \} = \left[ \mathbf{G}^{\left(30,16\right)} \mathbf{H}^{\left(30,16\right)} \mathbf{H}^{\left(30,16\right)} \mathbf{H}^{\left(30,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(30,16\right)} \left(\mathbf{H}^{\left(30,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(30,16\right)} = \{ 2,4 \}
+# \mathbf{G}^{\left(30,16\right)} = \{ 14, 4, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(30,16\right)} = \{  \}

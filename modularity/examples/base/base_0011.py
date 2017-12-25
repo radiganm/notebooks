@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=11, m=2) ##   X[n] = 11^n mod 2
@@ -80,21 +80,21 @@ example(b=11, m=2) ##   X[n] = 11^n mod 2
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,3\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,3\right)} \mathbf{H}^{\left(11,3\right)} \mathbf{H}^{\left(11,3\right)} \mathbf{H}^{\left(11,3\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,3\right)} \left(\mathbf{H}^{\left(11,3\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,3\right)} = \{ , 2 \cdots \} = \left[ \mathbf{G}^{\left(11,3\right)} \mathbf{H}^{\left(11,3\right)} \mathbf{H}^{\left(11,3\right)} \mathbf{H}^{\left(11,3\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,3\right)} \left(\mathbf{H}^{\left(11,3\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,3\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,3\right)} = \{  \}
+# \mathbf{H}^{\left(11,3\right)} = \{ 2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,3\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=3) ##   X[n] = 11^n mod 3
@@ -117,21 +117,21 @@ example(b=11, m=3) ##   X[n] = 11^n mod 3
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,4\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,4\right)} \left(\mathbf{H}^{\left(11,4\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,4\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,4\right)} \left(\mathbf{H}^{\left(11,4\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,4\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,4\right)} = \{  \}
+# \mathbf{H}^{\left(11,4\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,4\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,4\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=4) ##   X[n] = 11^n mod 4
@@ -165,10 +165,10 @@ example(b=11, m=4) ##   X[n] = 11^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,5\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=11, m=5) ##   X[n] = 11^n mod 5
@@ -191,21 +191,21 @@ example(b=11, m=5) ##   X[n] = 11^n mod 5
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,6\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,6\right)} \mathbf{H}^{\left(11,6\right)} \mathbf{H}^{\left(11,6\right)} \mathbf{H}^{\left(11,6\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,6\right)} \left(\mathbf{H}^{\left(11,6\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,6\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(11,6\right)} \mathbf{H}^{\left(11,6\right)} \mathbf{H}^{\left(11,6\right)} \mathbf{H}^{\left(11,6\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,6\right)} \left(\mathbf{H}^{\left(11,6\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,6\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,6\right)} = \{  \}
+# \mathbf{H}^{\left(11,6\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,6\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=6) ##   X[n] = 11^n mod 6
@@ -228,21 +228,21 @@ example(b=11, m=6) ##   X[n] = 11^n mod 6
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,7\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,7\right)} \mathbf{H}^{\left(11,7\right)} \mathbf{H}^{\left(11,7\right)} \mathbf{H}^{\left(11,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,7\right)} \left(\mathbf{H}^{\left(11,7\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,7\right)} = \{ , 4,2 \cdots \} = \left[ \mathbf{G}^{\left(11,7\right)} \mathbf{H}^{\left(11,7\right)} \mathbf{H}^{\left(11,7\right)} \mathbf{H}^{\left(11,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,7\right)} \left(\mathbf{H}^{\left(11,7\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,7\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,7\right)} = \{  \}
+# \mathbf{H}^{\left(11,7\right)} = \{ 4,2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,7\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=11, m=7) ##   X[n] = 11^n mod 7
@@ -265,21 +265,21 @@ example(b=11, m=7) ##   X[n] = 11^n mod 7
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,8\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,8\right)} \mathbf{H}^{\left(11,8\right)} \mathbf{H}^{\left(11,8\right)} \mathbf{H}^{\left(11,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,8\right)} \left(\mathbf{H}^{\left(11,8\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,8\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(11,8\right)} \mathbf{H}^{\left(11,8\right)} \mathbf{H}^{\left(11,8\right)} \mathbf{H}^{\left(11,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,8\right)} \left(\mathbf{H}^{\left(11,8\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,8\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,8\right)} = \{  \}
+# \mathbf{H}^{\left(11,8\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,8\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,8\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=8) ##   X[n] = 11^n mod 8
@@ -302,21 +302,21 @@ example(b=11, m=8) ##   X[n] = 11^n mod 8
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,9\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,9\right)} \mathbf{H}^{\left(11,9\right)} \mathbf{H}^{\left(11,9\right)} \mathbf{H}^{\left(11,9\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,9\right)} \left(\mathbf{H}^{\left(11,9\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,9\right)} = \{ , 2,4,8,7,5 \cdots \} = \left[ \mathbf{G}^{\left(11,9\right)} \mathbf{H}^{\left(11,9\right)} \mathbf{H}^{\left(11,9\right)} \mathbf{H}^{\left(11,9\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,9\right)} \left(\mathbf{H}^{\left(11,9\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,9\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,9\right)} = \{  \}
+# \mathbf{H}^{\left(11,9\right)} = \{ 2,4,8,7,5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,9\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,9\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=11, m=9) ##   X[n] = 11^n mod 9
@@ -350,10 +350,10 @@ example(b=11, m=9) ##   X[n] = 11^n mod 9
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,10\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=11, m=10) ##   X[n] = 11^n mod 10
@@ -387,10 +387,10 @@ example(b=11, m=10) ##   X[n] = 11^n mod 10
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,11\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=11, m=11) ##   X[n] = 11^n mod 11
@@ -413,21 +413,21 @@ example(b=11, m=11) ##   X[n] = 11^n mod 11
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,12\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,12\right)} \mathbf{H}^{\left(11,12\right)} \mathbf{H}^{\left(11,12\right)} \mathbf{H}^{\left(11,12\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,12\right)} \left(\mathbf{H}^{\left(11,12\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,12\right)} = \{ , 11, \cdots \} = \left[ \mathbf{G}^{\left(11,12\right)} \mathbf{H}^{\left(11,12\right)} \mathbf{H}^{\left(11,12\right)} \mathbf{H}^{\left(11,12\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,12\right)} \left(\mathbf{H}^{\left(11,12\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,12\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,12\right)} = \{  \}
+# \mathbf{H}^{\left(11,12\right)} = \{ 11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,12\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,12\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=12) ##   X[n] = 11^n mod 12
@@ -450,21 +450,21 @@ example(b=11, m=12) ##   X[n] = 11^n mod 12
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,13\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,13\right)} \mathbf{H}^{\left(11,13\right)} \mathbf{H}^{\left(11,13\right)} \mathbf{H}^{\left(11,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,13\right)} \left(\mathbf{H}^{\left(11,13\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,13\right)} = \{ , 11, 4, 5, 3, 7,12, 2, 9, 8,10, 6, \cdots \} = \left[ \mathbf{G}^{\left(11,13\right)} \mathbf{H}^{\left(11,13\right)} \mathbf{H}^{\left(11,13\right)} \mathbf{H}^{\left(11,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,13\right)} \left(\mathbf{H}^{\left(11,13\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,13\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,13\right)} = \{  \}
+# \mathbf{H}^{\left(11,13\right)} = \{ 11, 4, 5, 3, 7,12, 2, 9, 8,10, 6, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,13\right)}\right| = 12 
 # \end{aligned}
 # <codecell>
 example(b=11, m=13) ##   X[n] = 11^n mod 13
@@ -487,21 +487,21 @@ example(b=11, m=13) ##   X[n] = 11^n mod 13
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,14\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,14\right)} \mathbf{H}^{\left(11,14\right)} \mathbf{H}^{\left(11,14\right)} \mathbf{H}^{\left(11,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,14\right)} \left(\mathbf{H}^{\left(11,14\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,14\right)} = \{ , 11, 9, \cdots \} = \left[ \mathbf{G}^{\left(11,14\right)} \mathbf{H}^{\left(11,14\right)} \mathbf{H}^{\left(11,14\right)} \mathbf{H}^{\left(11,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,14\right)} \left(\mathbf{H}^{\left(11,14\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,14\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,14\right)} = \{  \}
+# \mathbf{H}^{\left(11,14\right)} = \{ 11, 9, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,14\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=11, m=14) ##   X[n] = 11^n mod 14
@@ -524,21 +524,21 @@ example(b=11, m=14) ##   X[n] = 11^n mod 14
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,15\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,15\right)} \mathbf{H}^{\left(11,15\right)} \mathbf{H}^{\left(11,15\right)} \mathbf{H}^{\left(11,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,15\right)} \left(\mathbf{H}^{\left(11,15\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,15\right)} = \{ , 11, \cdots \} = \left[ \mathbf{G}^{\left(11,15\right)} \mathbf{H}^{\left(11,15\right)} \mathbf{H}^{\left(11,15\right)} \mathbf{H}^{\left(11,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,15\right)} \left(\mathbf{H}^{\left(11,15\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,15\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,15\right)} = \{  \}
+# \mathbf{H}^{\left(11,15\right)} = \{ 11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,15\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=15) ##   X[n] = 11^n mod 15
@@ -561,21 +561,21 @@ example(b=11, m=15) ##   X[n] = 11^n mod 15
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,16\right)} \left(\mathbf{H}^{\left(11,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,16\right)} = \{ , 11, 9, 3, \cdots \} = \left[ \mathbf{G}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \mathbf{H}^{\left(11,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,16\right)} \left(\mathbf{H}^{\left(11,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,16\right)} = \{  \}
+# \mathbf{H}^{\left(11,16\right)} = \{ 11, 9, 3, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,16\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,16\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=11, m=16) ##   X[n] = 11^n mod 16
@@ -598,21 +598,21 @@ example(b=11, m=16) ##   X[n] = 11^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,17\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,17\right)} \mathbf{H}^{\left(11,17\right)} \mathbf{H}^{\left(11,17\right)} \mathbf{H}^{\left(11,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,17\right)} \left(\mathbf{H}^{\left(11,17\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,17\right)} = \{ , 11, 2, 5, 4,10, 8, 3,16, 6,15,12,13, 7, 9,14, \cdots \} = \left[ \mathbf{G}^{\left(11,17\right)} \mathbf{H}^{\left(11,17\right)} \mathbf{H}^{\left(11,17\right)} \mathbf{H}^{\left(11,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,17\right)} \left(\mathbf{H}^{\left(11,17\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,17\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,17\right)} = \{  \}
+# \mathbf{H}^{\left(11,17\right)} = \{ 11, 2, 5, 4,10, 8, 3,16, 6,15,12,13, 7, 9,14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,17\right)}\right| = 16 
 # \end{aligned}
 # <codecell>
 example(b=11, m=17) ##   X[n] = 11^n mod 17
@@ -635,21 +635,21 @@ example(b=11, m=17) ##   X[n] = 11^n mod 17
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,18\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,18\right)} \mathbf{H}^{\left(11,18\right)} \mathbf{H}^{\left(11,18\right)} \mathbf{H}^{\left(11,18\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,18\right)} \left(\mathbf{H}^{\left(11,18\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,18\right)} = \{ , 11,13,17, 7, 5, \cdots \} = \left[ \mathbf{G}^{\left(11,18\right)} \mathbf{H}^{\left(11,18\right)} \mathbf{H}^{\left(11,18\right)} \mathbf{H}^{\left(11,18\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,18\right)} \left(\mathbf{H}^{\left(11,18\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,18\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,18\right)} = \{  \}
+# \mathbf{H}^{\left(11,18\right)} = \{ 11,13,17, 7, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,18\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,18\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=11, m=18) ##   X[n] = 11^n mod 18
@@ -672,21 +672,21 @@ example(b=11, m=18) ##   X[n] = 11^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,19\right)} \mathbf{H}^{\left(11,19\right)} \mathbf{H}^{\left(11,19\right)} \mathbf{H}^{\left(11,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,19\right)} \left(\mathbf{H}^{\left(11,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,19\right)} = \{ , 11, 7, \cdots \} = \left[ \mathbf{G}^{\left(11,19\right)} \mathbf{H}^{\left(11,19\right)} \mathbf{H}^{\left(11,19\right)} \mathbf{H}^{\left(11,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,19\right)} \left(\mathbf{H}^{\left(11,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,19\right)} = \{  \}
+# \mathbf{H}^{\left(11,19\right)} = \{ 11, 7, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,19\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=11, m=19) ##   X[n] = 11^n mod 19
@@ -709,21 +709,21 @@ example(b=11, m=19) ##   X[n] = 11^n mod 19
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,20\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,20\right)} \mathbf{H}^{\left(11,20\right)} \mathbf{H}^{\left(11,20\right)} \mathbf{H}^{\left(11,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,20\right)} \left(\mathbf{H}^{\left(11,20\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,20\right)} = \{ , 11, \cdots \} = \left[ \mathbf{G}^{\left(11,20\right)} \mathbf{H}^{\left(11,20\right)} \mathbf{H}^{\left(11,20\right)} \mathbf{H}^{\left(11,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,20\right)} \left(\mathbf{H}^{\left(11,20\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,20\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,20\right)} = \{  \}
+# \mathbf{H}^{\left(11,20\right)} = \{ 11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,20\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,20\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=20) ##   X[n] = 11^n mod 20
@@ -746,21 +746,21 @@ example(b=11, m=20) ##   X[n] = 11^n mod 20
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,21\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,21\right)} \mathbf{H}^{\left(11,21\right)} \mathbf{H}^{\left(11,21\right)} \mathbf{H}^{\left(11,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,21\right)} \left(\mathbf{H}^{\left(11,21\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,21\right)} = \{ , 11,16, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(11,21\right)} \mathbf{H}^{\left(11,21\right)} \mathbf{H}^{\left(11,21\right)} \mathbf{H}^{\left(11,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,21\right)} \left(\mathbf{H}^{\left(11,21\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,21\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,21\right)} = \{  \}
+# \mathbf{H}^{\left(11,21\right)} = \{ 11,16, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,21\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=11, m=21) ##   X[n] = 11^n mod 21
@@ -794,10 +794,10 @@ example(b=11, m=21) ##   X[n] = 11^n mod 21
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,22\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=11, m=22) ##   X[n] = 11^n mod 22
@@ -820,21 +820,21 @@ example(b=11, m=22) ##   X[n] = 11^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,23\right)} \left(\mathbf{H}^{\left(11,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,23\right)} = \{ , 11, 6,20,13, 5, 9, 7, 8,19, 2,22,12,17, 3,10,18,14,16,15, 4,21, \cdots \} = \left[ \mathbf{G}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,23\right)} \left(\mathbf{H}^{\left(11,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,23\right)} = \{  \}
+# \mathbf{H}^{\left(11,23\right)} = \{ 11, 6,20,13, 5, 9, 7, 8,19, 2,22,12,17, 3,10,18,14,16,15, 4,21, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,23\right)}\right| = 22 
 # \end{aligned}
 # <codecell>
 example(b=11, m=23) ##   X[n] = 11^n mod 23
@@ -857,21 +857,21 @@ example(b=11, m=23) ##   X[n] = 11^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,24\right)} \left(\mathbf{H}^{\left(11,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,24\right)} = \{ , 11, \cdots \} = \left[ \mathbf{G}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,24\right)} \left(\mathbf{H}^{\left(11,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,24\right)} = \{  \}
+# \mathbf{H}^{\left(11,24\right)} = \{ 11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,24\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,24\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=24) ##   X[n] = 11^n mod 24
@@ -894,21 +894,21 @@ example(b=11, m=24) ##   X[n] = 11^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,25\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,25\right)} \mathbf{H}^{\left(11,25\right)} \mathbf{H}^{\left(11,25\right)} \mathbf{H}^{\left(11,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,25\right)} \left(\mathbf{H}^{\left(11,25\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,25\right)} = \{ , 11,21, 6,16, \cdots \} = \left[ \mathbf{G}^{\left(11,25\right)} \mathbf{H}^{\left(11,25\right)} \mathbf{H}^{\left(11,25\right)} \mathbf{H}^{\left(11,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,25\right)} \left(\mathbf{H}^{\left(11,25\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,25\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,25\right)} = \{  \}
+# \mathbf{H}^{\left(11,25\right)} = \{ 11,21, 6,16, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,25\right)}\right| = 5 
 # \end{aligned}
 # <codecell>
 example(b=11, m=25) ##   X[n] = 11^n mod 25
@@ -931,21 +931,21 @@ example(b=11, m=25) ##   X[n] = 11^n mod 25
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,26\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,26\right)} \mathbf{H}^{\left(11,26\right)} \mathbf{H}^{\left(11,26\right)} \mathbf{H}^{\left(11,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,26\right)} \left(\mathbf{H}^{\left(11,26\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,26\right)} = \{ , 11,17, 5, 3, 7,25,15, 9,21,23,19, \cdots \} = \left[ \mathbf{G}^{\left(11,26\right)} \mathbf{H}^{\left(11,26\right)} \mathbf{H}^{\left(11,26\right)} \mathbf{H}^{\left(11,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,26\right)} \left(\mathbf{H}^{\left(11,26\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,26\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,26\right)} = \{  \}
+# \mathbf{H}^{\left(11,26\right)} = \{ 11,17, 5, 3, 7,25,15, 9,21,23,19, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,26\right)}\right| = 12 
 # \end{aligned}
 # <codecell>
 example(b=11, m=26) ##   X[n] = 11^n mod 26
@@ -968,21 +968,21 @@ example(b=11, m=26) ##   X[n] = 11^n mod 26
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,27\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,27\right)} \mathbf{H}^{\left(11,27\right)} \mathbf{H}^{\left(11,27\right)} \mathbf{H}^{\left(11,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,27\right)} \left(\mathbf{H}^{\left(11,27\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,27\right)} = \{ , 11,13, 8, 7,23,10, 2,22,26,16,14,19,20, 4,17,25, 5, \cdots \} = \left[ \mathbf{G}^{\left(11,27\right)} \mathbf{H}^{\left(11,27\right)} \mathbf{H}^{\left(11,27\right)} \mathbf{H}^{\left(11,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,27\right)} \left(\mathbf{H}^{\left(11,27\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,27\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,27\right)} = \{  \}
+# \mathbf{H}^{\left(11,27\right)} = \{ 11,13, 8, 7,23,10, 2,22,26,16,14,19,20, 4,17,25, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,27\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,27\right)}\right| = 18 
 # \end{aligned}
 # <codecell>
 example(b=11, m=27) ##   X[n] = 11^n mod 27
@@ -1005,21 +1005,21 @@ example(b=11, m=27) ##   X[n] = 11^n mod 27
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,28\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,28\right)} \mathbf{H}^{\left(11,28\right)} \mathbf{H}^{\left(11,28\right)} \mathbf{H}^{\left(11,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,28\right)} \left(\mathbf{H}^{\left(11,28\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,28\right)} = \{ , 11, 9,15,25,23, \cdots \} = \left[ \mathbf{G}^{\left(11,28\right)} \mathbf{H}^{\left(11,28\right)} \mathbf{H}^{\left(11,28\right)} \mathbf{H}^{\left(11,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,28\right)} \left(\mathbf{H}^{\left(11,28\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,28\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,28\right)} = \{  \}
+# \mathbf{H}^{\left(11,28\right)} = \{ 11, 9,15,25,23, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,28\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,28\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=11, m=28) ##   X[n] = 11^n mod 28
@@ -1042,21 +1042,23 @@ example(b=11, m=28) ##   X[n] = 11^n mod 28
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,29\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,29\right)} \mathbf{H}^{\left(11,29\right)} \mathbf{H}^{\left(11,29\right)} \mathbf{H}^{\left(11,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,29\right)} \left(\mathbf{H}^{\left(11,29\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,29\right)} = \{ , 11, 5,26,25,14, 9,12,16, 2,22,10,23,21,28,18,24, 3, 4,15,20,17,13,27, 7,
+ 19, 6, 8, \cdots \} = \left[ \mathbf{G}^{\left(11,29\right)} \mathbf{H}^{\left(11,29\right)} \mathbf{H}^{\left(11,29\right)} \mathbf{H}^{\left(11,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,29\right)} \left(\mathbf{H}^{\left(11,29\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,29\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,29\right)} = \{  \}
+# \mathbf{H}^{\left(11,29\right)} = \{ 11, 5,26,25,14, 9,12,16, 2,22,10,23,21,28,18,24, 3, 4,15,20,17,13,27, 7,
+ 19, 6, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,29\right)}\right| = 28 
 # \end{aligned}
 # <codecell>
 example(b=11, m=29) ##   X[n] = 11^n mod 29
@@ -1079,21 +1081,21 @@ example(b=11, m=29) ##   X[n] = 11^n mod 29
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,30\right)} \left(\mathbf{H}^{\left(11,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,30\right)} = \{ , 11, \cdots \} = \left[ \mathbf{G}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,30\right)} \left(\mathbf{H}^{\left(11,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,30\right)} = \{  \}
+# \mathbf{H}^{\left(11,30\right)} = \{ 11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(11,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,30\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=11, m=30) ##   X[n] = 11^n mod 30

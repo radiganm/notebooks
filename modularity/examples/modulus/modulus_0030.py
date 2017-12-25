@@ -80,14 +80,14 @@ example(b=2, m=30) ##   X[n] = 2^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(3,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(3,30\right)} \mathbf{H}^{\left(3,30\right)} \mathbf{H}^{\left(3,30\right)} \mathbf{H}^{\left(3,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,30\right)} \left(\mathbf{H}^{\left(3,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(3,30\right)} = \{ ,  3, 9,27, \cdots \} = \left[ \mathbf{G}^{\left(3,30\right)} \mathbf{H}^{\left(3,30\right)} \mathbf{H}^{\left(3,30\right)} \mathbf{H}^{\left(3,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,30\right)} \left(\mathbf{H}^{\left(3,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(3,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(3,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(3,30\right)} = \{  3, 9,27, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -117,21 +117,21 @@ example(b=3, m=30) ##   X[n] = 3^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(4,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(4,30\right)} \mathbf{H}^{\left(4,30\right)} \mathbf{H}^{\left(4,30\right)} \mathbf{H}^{\left(4,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(4,30\right)} \left(\mathbf{H}^{\left(4,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(4,30\right)} = \{ ,  4, \cdots \} = \left[ \mathbf{G}^{\left(4,30\right)} \mathbf{H}^{\left(4,30\right)} \mathbf{H}^{\left(4,30\right)} \mathbf{H}^{\left(4,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(4,30\right)} \left(\mathbf{H}^{\left(4,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(4,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(4,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(4,30\right)} = \{  4, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(4,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(4,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(4,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=4, m=30) ##   X[n] = 4^n mod 30
@@ -154,21 +154,21 @@ example(b=4, m=30) ##   X[n] = 4^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(5,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(5,30\right)} \mathbf{H}^{\left(5,30\right)} \mathbf{H}^{\left(5,30\right)} \mathbf{H}^{\left(5,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(5,30\right)} \left(\mathbf{H}^{\left(5,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(5,30\right)} = \{ ,  5, \cdots \} = \left[ \mathbf{G}^{\left(5,30\right)} \mathbf{H}^{\left(5,30\right)} \mathbf{H}^{\left(5,30\right)} \mathbf{H}^{\left(5,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(5,30\right)} \left(\mathbf{H}^{\left(5,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(5,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(5,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(5,30\right)} = \{  5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(5,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(5,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(5,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=5, m=30) ##   X[n] = 5^n mod 30
@@ -191,21 +191,21 @@ example(b=5, m=30) ##   X[n] = 5^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(6,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(6,30\right)} \mathbf{H}^{\left(6,30\right)} \mathbf{H}^{\left(6,30\right)} \mathbf{H}^{\left(6,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(6,30\right)} \left(\mathbf{H}^{\left(6,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(6,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(6,30\right)} \mathbf{H}^{\left(6,30\right)} \mathbf{H}^{\left(6,30\right)} \mathbf{H}^{\left(6,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(6,30\right)} \left(\mathbf{H}^{\left(6,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(6,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(6,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(6,30\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(6,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(6,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(6,30\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=6, m=30) ##   X[n] = 6^n mod 30
@@ -228,14 +228,14 @@ example(b=6, m=30) ##   X[n] = 6^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(7,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(7,30\right)} \mathbf{H}^{\left(7,30\right)} \mathbf{H}^{\left(7,30\right)} \mathbf{H}^{\left(7,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,30\right)} \left(\mathbf{H}^{\left(7,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(7,30\right)} = \{ ,  7,19,13, \cdots \} = \left[ \mathbf{G}^{\left(7,30\right)} \mathbf{H}^{\left(7,30\right)} \mathbf{H}^{\left(7,30\right)} \mathbf{H}^{\left(7,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,30\right)} \left(\mathbf{H}^{\left(7,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(7,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(7,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(7,30\right)} = \{  7,19,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -265,14 +265,14 @@ example(b=7, m=30) ##   X[n] = 7^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(8,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(8,30\right)} \mathbf{H}^{\left(8,30\right)} \mathbf{H}^{\left(8,30\right)} \mathbf{H}^{\left(8,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(8,30\right)} \left(\mathbf{H}^{\left(8,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(8,30\right)} = \{ ,  8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(8,30\right)} \mathbf{H}^{\left(8,30\right)} \mathbf{H}^{\left(8,30\right)} \mathbf{H}^{\left(8,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(8,30\right)} \left(\mathbf{H}^{\left(8,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(8,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(8,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(8,30\right)} = \{  8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -302,21 +302,21 @@ example(b=8, m=30) ##   X[n] = 8^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,30\right)} \left(\mathbf{H}^{\left(9,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,30\right)} = \{ ,  9, \cdots \} = \left[ \mathbf{G}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \mathbf{H}^{\left(9,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,30\right)} \left(\mathbf{H}^{\left(9,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(9,30\right)} = \{  9, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(9,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(9,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=9, m=30) ##   X[n] = 9^n mod 30
@@ -339,21 +339,21 @@ example(b=9, m=30) ##   X[n] = 9^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(10,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(10,30\right)} \mathbf{H}^{\left(10,30\right)} \mathbf{H}^{\left(10,30\right)} \mathbf{H}^{\left(10,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(10,30\right)} \left(\mathbf{H}^{\left(10,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(10,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(10,30\right)} \mathbf{H}^{\left(10,30\right)} \mathbf{H}^{\left(10,30\right)} \mathbf{H}^{\left(10,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(10,30\right)} \left(\mathbf{H}^{\left(10,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(10,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(10,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(10,30\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(10,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(10,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(10,30\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=10, m=30) ##   X[n] = 10^n mod 30
@@ -376,21 +376,21 @@ example(b=10, m=30) ##   X[n] = 10^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,30\right)} \left(\mathbf{H}^{\left(11,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,30\right)} = \{ , 11, \cdots \} = \left[ \mathbf{G}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \mathbf{H}^{\left(11,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,30\right)} \left(\mathbf{H}^{\left(11,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(11,30\right)} = \{ 11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(11,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(11,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=11, m=30) ##   X[n] = 11^n mod 30
@@ -413,14 +413,14 @@ example(b=11, m=30) ##   X[n] = 11^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,30\right)} \left(\mathbf{H}^{\left(12,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,30\right)} = \{ , 12,24,18, \cdots \} = \left[ \mathbf{G}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,30\right)} \left(\mathbf{H}^{\left(12,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(12,30\right)} = \{ 12,24,18, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -450,14 +450,14 @@ example(b=12, m=30) ##   X[n] = 12^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(13,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(13,30\right)} \mathbf{H}^{\left(13,30\right)} \mathbf{H}^{\left(13,30\right)} \mathbf{H}^{\left(13,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(13,30\right)} \left(\mathbf{H}^{\left(13,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(13,30\right)} = \{ , 13,19, 7, \cdots \} = \left[ \mathbf{G}^{\left(13,30\right)} \mathbf{H}^{\left(13,30\right)} \mathbf{H}^{\left(13,30\right)} \mathbf{H}^{\left(13,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(13,30\right)} \left(\mathbf{H}^{\left(13,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(13,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(13,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(13,30\right)} = \{ 13,19, 7, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -487,21 +487,21 @@ example(b=13, m=30) ##   X[n] = 13^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(14,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(14,30\right)} \mathbf{H}^{\left(14,30\right)} \mathbf{H}^{\left(14,30\right)} \mathbf{H}^{\left(14,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(14,30\right)} \left(\mathbf{H}^{\left(14,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(14,30\right)} = \{ , 14, \cdots \} = \left[ \mathbf{G}^{\left(14,30\right)} \mathbf{H}^{\left(14,30\right)} \mathbf{H}^{\left(14,30\right)} \mathbf{H}^{\left(14,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(14,30\right)} \left(\mathbf{H}^{\left(14,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(14,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(14,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(14,30\right)} = \{ 14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(14,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(14,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(14,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=14, m=30) ##   X[n] = 14^n mod 30
@@ -524,21 +524,21 @@ example(b=14, m=30) ##   X[n] = 14^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(15,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(15,30\right)} \mathbf{H}^{\left(15,30\right)} \mathbf{H}^{\left(15,30\right)} \mathbf{H}^{\left(15,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,30\right)} \left(\mathbf{H}^{\left(15,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(15,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(15,30\right)} \mathbf{H}^{\left(15,30\right)} \mathbf{H}^{\left(15,30\right)} \mathbf{H}^{\left(15,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,30\right)} \left(\mathbf{H}^{\left(15,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(15,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(15,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(15,30\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(15,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(15,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(15,30\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=15, m=30) ##   X[n] = 15^n mod 30
@@ -561,21 +561,21 @@ example(b=15, m=30) ##   X[n] = 15^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(16,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(16,30\right)} \mathbf{H}^{\left(16,30\right)} \mathbf{H}^{\left(16,30\right)} \mathbf{H}^{\left(16,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(16,30\right)} \left(\mathbf{H}^{\left(16,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(16,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(16,30\right)} \mathbf{H}^{\left(16,30\right)} \mathbf{H}^{\left(16,30\right)} \mathbf{H}^{\left(16,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(16,30\right)} \left(\mathbf{H}^{\left(16,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(16,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(16,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(16,30\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(16,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(16,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(16,30\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=16, m=30) ##   X[n] = 16^n mod 30
@@ -598,14 +598,14 @@ example(b=16, m=30) ##   X[n] = 16^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,30\right)} \left(\mathbf{H}^{\left(17,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,30\right)} = \{ , 17,19,23, \cdots \} = \left[ \mathbf{G}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,30\right)} \left(\mathbf{H}^{\left(17,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(17,30\right)} = \{ 17,19,23, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -635,14 +635,14 @@ example(b=17, m=30) ##   X[n] = 17^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,30\right)} \left(\mathbf{H}^{\left(18,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,30\right)} = \{ , 18,24,12, \cdots \} = \left[ \mathbf{G}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \mathbf{H}^{\left(18,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,30\right)} \left(\mathbf{H}^{\left(18,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(18,30\right)} = \{ 18,24,12, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -672,21 +672,21 @@ example(b=18, m=30) ##   X[n] = 18^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(19,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(19,30\right)} \mathbf{H}^{\left(19,30\right)} \mathbf{H}^{\left(19,30\right)} \mathbf{H}^{\left(19,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,30\right)} \left(\mathbf{H}^{\left(19,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(19,30\right)} = \{ , 19, \cdots \} = \left[ \mathbf{G}^{\left(19,30\right)} \mathbf{H}^{\left(19,30\right)} \mathbf{H}^{\left(19,30\right)} \mathbf{H}^{\left(19,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,30\right)} \left(\mathbf{H}^{\left(19,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(19,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(19,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(19,30\right)} = \{ 19, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(19,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(19,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(19,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=19, m=30) ##   X[n] = 19^n mod 30
@@ -709,21 +709,21 @@ example(b=19, m=30) ##   X[n] = 19^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(20,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(20,30\right)} \mathbf{H}^{\left(20,30\right)} \mathbf{H}^{\left(20,30\right)} \mathbf{H}^{\left(20,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(20,30\right)} \left(\mathbf{H}^{\left(20,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(20,30\right)} = \{ , 20, \cdots \} = \left[ \mathbf{G}^{\left(20,30\right)} \mathbf{H}^{\left(20,30\right)} \mathbf{H}^{\left(20,30\right)} \mathbf{H}^{\left(20,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(20,30\right)} \left(\mathbf{H}^{\left(20,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(20,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(20,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(20,30\right)} = \{ 20, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(20,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(20,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(20,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=20, m=30) ##   X[n] = 20^n mod 30
@@ -746,21 +746,21 @@ example(b=20, m=30) ##   X[n] = 20^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(21,30\right)} \mathbf{H}^{\left(21,30\right)} \mathbf{H}^{\left(21,30\right)} \mathbf{H}^{\left(21,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,30\right)} \left(\mathbf{H}^{\left(21,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,30\right)} \mathbf{H}^{\left(21,30\right)} \mathbf{H}^{\left(21,30\right)} \mathbf{H}^{\left(21,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,30\right)} \left(\mathbf{H}^{\left(21,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(21,30\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(21,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(21,30\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=21, m=30) ##   X[n] = 21^n mod 30
@@ -783,14 +783,14 @@ example(b=21, m=30) ##   X[n] = 21^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(22,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(22,30\right)} \mathbf{H}^{\left(22,30\right)} \mathbf{H}^{\left(22,30\right)} \mathbf{H}^{\left(22,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(22,30\right)} \left(\mathbf{H}^{\left(22,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(22,30\right)} = \{ , 22, 4,28, \cdots \} = \left[ \mathbf{G}^{\left(22,30\right)} \mathbf{H}^{\left(22,30\right)} \mathbf{H}^{\left(22,30\right)} \mathbf{H}^{\left(22,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(22,30\right)} \left(\mathbf{H}^{\left(22,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(22,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(22,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(22,30\right)} = \{ 22, 4,28, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -820,14 +820,14 @@ example(b=22, m=30) ##   X[n] = 22^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(23,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(23,30\right)} \mathbf{H}^{\left(23,30\right)} \mathbf{H}^{\left(23,30\right)} \mathbf{H}^{\left(23,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,30\right)} \left(\mathbf{H}^{\left(23,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(23,30\right)} = \{ , 23,19,17, \cdots \} = \left[ \mathbf{G}^{\left(23,30\right)} \mathbf{H}^{\left(23,30\right)} \mathbf{H}^{\left(23,30\right)} \mathbf{H}^{\left(23,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,30\right)} \left(\mathbf{H}^{\left(23,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(23,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(23,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(23,30\right)} = \{ 23,19,17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -857,21 +857,21 @@ example(b=23, m=30) ##   X[n] = 23^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(24,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(24,30\right)} \mathbf{H}^{\left(24,30\right)} \mathbf{H}^{\left(24,30\right)} \mathbf{H}^{\left(24,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(24,30\right)} \left(\mathbf{H}^{\left(24,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(24,30\right)} = \{ , 24, \cdots \} = \left[ \mathbf{G}^{\left(24,30\right)} \mathbf{H}^{\left(24,30\right)} \mathbf{H}^{\left(24,30\right)} \mathbf{H}^{\left(24,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(24,30\right)} \left(\mathbf{H}^{\left(24,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(24,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(24,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(24,30\right)} = \{ 24, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(24,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(24,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(24,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=24, m=30) ##   X[n] = 24^n mod 30
@@ -894,21 +894,21 @@ example(b=24, m=30) ##   X[n] = 24^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(25,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(25,30\right)} \mathbf{H}^{\left(25,30\right)} \mathbf{H}^{\left(25,30\right)} \mathbf{H}^{\left(25,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(25,30\right)} \left(\mathbf{H}^{\left(25,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(25,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(25,30\right)} \mathbf{H}^{\left(25,30\right)} \mathbf{H}^{\left(25,30\right)} \mathbf{H}^{\left(25,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(25,30\right)} \left(\mathbf{H}^{\left(25,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(25,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(25,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(25,30\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(25,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(25,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(25,30\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=25, m=30) ##   X[n] = 25^n mod 30
@@ -931,21 +931,21 @@ example(b=25, m=30) ##   X[n] = 25^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,30\right)} \left(\mathbf{H}^{\left(26,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,30\right)} = \{ , 26, \cdots \} = \left[ \mathbf{G}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,30\right)} \left(\mathbf{H}^{\left(26,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(26,30\right)} = \{ 26, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(26,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(26,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=26, m=30) ##   X[n] = 26^n mod 30
@@ -968,14 +968,14 @@ example(b=26, m=30) ##   X[n] = 26^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(27,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(27,30\right)} \mathbf{H}^{\left(27,30\right)} \mathbf{H}^{\left(27,30\right)} \mathbf{H}^{\left(27,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,30\right)} \left(\mathbf{H}^{\left(27,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(27,30\right)} = \{ , 27, 9, 3, \cdots \} = \left[ \mathbf{G}^{\left(27,30\right)} \mathbf{H}^{\left(27,30\right)} \mathbf{H}^{\left(27,30\right)} \mathbf{H}^{\left(27,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,30\right)} \left(\mathbf{H}^{\left(27,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(27,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(27,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(27,30\right)} = \{ 27, 9, 3, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -1005,14 +1005,14 @@ example(b=27, m=30) ##   X[n] = 27^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,30\right)} \left(\mathbf{H}^{\left(28,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,30\right)} = \{ , 28, 4,22, \cdots \} = \left[ \mathbf{G}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \mathbf{H}^{\left(28,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,30\right)} \left(\mathbf{H}^{\left(28,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(28,30\right)} = \{ 28, 4,22, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -1042,21 +1042,21 @@ example(b=28, m=30) ##   X[n] = 28^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,30\right)} \left(\mathbf{H}^{\left(29,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,30\right)} = \{ , 29, \cdots \} = \left[ \mathbf{G}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \mathbf{H}^{\left(29,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,30\right)} \left(\mathbf{H}^{\left(29,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(29,30\right)} = \{ 29, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(29,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(29,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(29,30\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=29, m=30) ##   X[n] = 29^n mod 30
@@ -1079,21 +1079,21 @@ example(b=29, m=30) ##   X[n] = 29^n mod 30
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(30,30\right)} = \{ ,  2, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(30,30\right)} \mathbf{H}^{\left(30,30\right)} \mathbf{H}^{\left(30,30\right)} \mathbf{H}^{\left(30,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(30,30\right)} \left(\mathbf{H}^{\left(30,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(30,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(30,30\right)} \mathbf{H}^{\left(30,30\right)} \mathbf{H}^{\left(30,30\right)} \mathbf{H}^{\left(30,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(30,30\right)} \left(\mathbf{H}^{\left(30,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(30,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(30,30\right)} = \{  2, 4, 8, \}
+# \mathbf{H}^{\left(30,30\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(30,30\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(30,30\right)}\right| = 4
+# \left|\mathbf{H}^{\left(30,30\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=30, m=30) ##   X[n] = 30^n mod 30

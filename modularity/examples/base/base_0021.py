@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=2) ##   X[n] = 21^n mod 2
@@ -91,10 +91,10 @@ example(b=21, m=2) ##   X[n] = 21^n mod 2
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,3\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=3) ##   X[n] = 21^n mod 3
@@ -128,10 +128,10 @@ example(b=21, m=3) ##   X[n] = 21^n mod 3
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,4\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,4\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=4) ##   X[n] = 21^n mod 4
@@ -165,10 +165,10 @@ example(b=21, m=4) ##   X[n] = 21^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,5\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=5) ##   X[n] = 21^n mod 5
@@ -202,10 +202,10 @@ example(b=21, m=5) ##   X[n] = 21^n mod 5
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,6\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=6) ##   X[n] = 21^n mod 6
@@ -239,10 +239,10 @@ example(b=21, m=6) ##   X[n] = 21^n mod 6
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,7\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=7) ##   X[n] = 21^n mod 7
@@ -265,21 +265,21 @@ example(b=21, m=7) ##   X[n] = 21^n mod 7
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,8\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,8\right)} \mathbf{H}^{\left(21,8\right)} \mathbf{H}^{\left(21,8\right)} \mathbf{H}^{\left(21,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,8\right)} \left(\mathbf{H}^{\left(21,8\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,8\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(21,8\right)} \mathbf{H}^{\left(21,8\right)} \mathbf{H}^{\left(21,8\right)} \mathbf{H}^{\left(21,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,8\right)} \left(\mathbf{H}^{\left(21,8\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,8\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,8\right)} = \{  \}
+# \mathbf{H}^{\left(21,8\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,8\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,8\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=21, m=8) ##   X[n] = 21^n mod 8
@@ -313,10 +313,10 @@ example(b=21, m=8) ##   X[n] = 21^n mod 8
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,9\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,9\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=9) ##   X[n] = 21^n mod 9
@@ -350,10 +350,10 @@ example(b=21, m=9) ##   X[n] = 21^n mod 9
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,10\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=10) ##   X[n] = 21^n mod 10
@@ -376,21 +376,21 @@ example(b=21, m=10) ##   X[n] = 21^n mod 10
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,11\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,11\right)} \mathbf{H}^{\left(21,11\right)} \mathbf{H}^{\left(21,11\right)} \mathbf{H}^{\left(21,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,11\right)} \left(\mathbf{H}^{\left(21,11\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,11\right)} = \{ , 10, \cdots \} = \left[ \mathbf{G}^{\left(21,11\right)} \mathbf{H}^{\left(21,11\right)} \mathbf{H}^{\left(21,11\right)} \mathbf{H}^{\left(21,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,11\right)} \left(\mathbf{H}^{\left(21,11\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,11\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,11\right)} = \{  \}
+# \mathbf{H}^{\left(21,11\right)} = \{ 10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,11\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=21, m=11) ##   X[n] = 21^n mod 11
@@ -424,10 +424,10 @@ example(b=21, m=11) ##   X[n] = 21^n mod 11
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,12\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,12\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=12) ##   X[n] = 21^n mod 12
@@ -450,21 +450,21 @@ example(b=21, m=12) ##   X[n] = 21^n mod 12
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,13\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,13\right)} \mathbf{H}^{\left(21,13\right)} \mathbf{H}^{\left(21,13\right)} \mathbf{H}^{\left(21,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,13\right)} \left(\mathbf{H}^{\left(21,13\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,13\right)} = \{ ,  8,12, 5, \cdots \} = \left[ \mathbf{G}^{\left(21,13\right)} \mathbf{H}^{\left(21,13\right)} \mathbf{H}^{\left(21,13\right)} \mathbf{H}^{\left(21,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,13\right)} \left(\mathbf{H}^{\left(21,13\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,13\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,13\right)} = \{  \}
+# \mathbf{H}^{\left(21,13\right)} = \{  8,12, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,13\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=21, m=13) ##   X[n] = 21^n mod 13
@@ -498,10 +498,10 @@ example(b=21, m=13) ##   X[n] = 21^n mod 13
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,14\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=14) ##   X[n] = 21^n mod 14
@@ -535,10 +535,10 @@ example(b=21, m=14) ##   X[n] = 21^n mod 14
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,15\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=15) ##   X[n] = 21^n mod 15
@@ -561,21 +561,21 @@ example(b=21, m=15) ##   X[n] = 21^n mod 15
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,16\right)} \left(\mathbf{H}^{\left(21,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,16\right)} = \{ ,  5, 9,13, \cdots \} = \left[ \mathbf{G}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \mathbf{H}^{\left(21,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,16\right)} \left(\mathbf{H}^{\left(21,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,16\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,16\right)} = \{  \}
+# \mathbf{H}^{\left(21,16\right)} = \{  5, 9,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,16\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,16\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=21, m=16) ##   X[n] = 21^n mod 16
@@ -598,21 +598,21 @@ example(b=21, m=16) ##   X[n] = 21^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,17\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,17\right)} \mathbf{H}^{\left(21,17\right)} \mathbf{H}^{\left(21,17\right)} \mathbf{H}^{\left(21,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,17\right)} \left(\mathbf{H}^{\left(21,17\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,17\right)} = \{ ,  4,16,13, \cdots \} = \left[ \mathbf{G}^{\left(21,17\right)} \mathbf{H}^{\left(21,17\right)} \mathbf{H}^{\left(21,17\right)} \mathbf{H}^{\left(21,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,17\right)} \left(\mathbf{H}^{\left(21,17\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,17\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,17\right)} = \{  \}
+# \mathbf{H}^{\left(21,17\right)} = \{  4,16,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,17\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=21, m=17) ##   X[n] = 21^n mod 17
@@ -646,10 +646,10 @@ example(b=21, m=17) ##   X[n] = 21^n mod 17
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,18\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,18\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=18) ##   X[n] = 21^n mod 18
@@ -672,21 +672,21 @@ example(b=21, m=18) ##   X[n] = 21^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,19\right)} \mathbf{H}^{\left(21,19\right)} \mathbf{H}^{\left(21,19\right)} \mathbf{H}^{\left(21,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,19\right)} \left(\mathbf{H}^{\left(21,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,19\right)} = \{ ,  2, 4, 8,16,13, 7,14, 9,18,17,15,11, 3, 6,12, 5,10, \cdots \} = \left[ \mathbf{G}^{\left(21,19\right)} \mathbf{H}^{\left(21,19\right)} \mathbf{H}^{\left(21,19\right)} \mathbf{H}^{\left(21,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,19\right)} \left(\mathbf{H}^{\left(21,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,19\right)} = \{  \}
+# \mathbf{H}^{\left(21,19\right)} = \{  2, 4, 8,16,13, 7,14, 9,18,17,15,11, 3, 6,12, 5,10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,19\right)}\right| = 18 
 # \end{aligned}
 # <codecell>
 example(b=21, m=19) ##   X[n] = 21^n mod 19
@@ -720,10 +720,10 @@ example(b=21, m=19) ##   X[n] = 21^n mod 19
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,20\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,20\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=20) ##   X[n] = 21^n mod 20
@@ -757,10 +757,10 @@ example(b=21, m=20) ##   X[n] = 21^n mod 20
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,21\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=21) ##   X[n] = 21^n mod 21
@@ -783,21 +783,21 @@ example(b=21, m=21) ##   X[n] = 21^n mod 21
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,22\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,22\right)} \mathbf{H}^{\left(21,22\right)} \mathbf{H}^{\left(21,22\right)} \mathbf{H}^{\left(21,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,22\right)} \left(\mathbf{H}^{\left(21,22\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,22\right)} = \{ , 21, \cdots \} = \left[ \mathbf{G}^{\left(21,22\right)} \mathbf{H}^{\left(21,22\right)} \mathbf{H}^{\left(21,22\right)} \mathbf{H}^{\left(21,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,22\right)} \left(\mathbf{H}^{\left(21,22\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,22\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,22\right)} = \{  \}
+# \mathbf{H}^{\left(21,22\right)} = \{ 21, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,22\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=21, m=22) ##   X[n] = 21^n mod 22
@@ -820,21 +820,21 @@ example(b=21, m=22) ##   X[n] = 21^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,23\right)} \left(\mathbf{H}^{\left(21,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,23\right)} = \{ , 21, 4,15,16,14,18,10, 3,17,12,22, 2,19, 8, 7, 9, 5,13,20, 6,11, \cdots \} = \left[ \mathbf{G}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,23\right)} \left(\mathbf{H}^{\left(21,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,23\right)} = \{  \}
+# \mathbf{H}^{\left(21,23\right)} = \{ 21, 4,15,16,14,18,10, 3,17,12,22, 2,19, 8, 7, 9, 5,13,20, 6,11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,23\right)}\right| = 22 
 # \end{aligned}
 # <codecell>
 example(b=21, m=23) ##   X[n] = 21^n mod 23
@@ -857,21 +857,21 @@ example(b=21, m=23) ##   X[n] = 21^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,24\right)} \left(\mathbf{H}^{\left(21,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,24\right)} = \{ , 21, \cdots \} = \left[ \mathbf{G}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,24\right)} \left(\mathbf{H}^{\left(21,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,24\right)} = \{  \}
+# \mathbf{H}^{\left(21,24\right)} = \{ 21, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,24\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,24\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=21, m=24) ##   X[n] = 21^n mod 24
@@ -894,21 +894,21 @@ example(b=21, m=24) ##   X[n] = 21^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,25\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,25\right)} \mathbf{H}^{\left(21,25\right)} \mathbf{H}^{\left(21,25\right)} \mathbf{H}^{\left(21,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,25\right)} \left(\mathbf{H}^{\left(21,25\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,25\right)} = \{ , 21,16,11, 6, \cdots \} = \left[ \mathbf{G}^{\left(21,25\right)} \mathbf{H}^{\left(21,25\right)} \mathbf{H}^{\left(21,25\right)} \mathbf{H}^{\left(21,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,25\right)} \left(\mathbf{H}^{\left(21,25\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,25\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,25\right)} = \{  \}
+# \mathbf{H}^{\left(21,25\right)} = \{ 21,16,11, 6, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,25\right)}\right| = 5 
 # \end{aligned}
 # <codecell>
 example(b=21, m=25) ##   X[n] = 21^n mod 25
@@ -931,21 +931,21 @@ example(b=21, m=25) ##   X[n] = 21^n mod 25
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,26\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,26\right)} \mathbf{H}^{\left(21,26\right)} \mathbf{H}^{\left(21,26\right)} \mathbf{H}^{\left(21,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,26\right)} \left(\mathbf{H}^{\left(21,26\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,26\right)} = \{ , 21,25, 5, \cdots \} = \left[ \mathbf{G}^{\left(21,26\right)} \mathbf{H}^{\left(21,26\right)} \mathbf{H}^{\left(21,26\right)} \mathbf{H}^{\left(21,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,26\right)} \left(\mathbf{H}^{\left(21,26\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,26\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,26\right)} = \{  \}
+# \mathbf{H}^{\left(21,26\right)} = \{ 21,25, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,26\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=21, m=26) ##   X[n] = 21^n mod 26
@@ -968,21 +968,21 @@ example(b=21, m=26) ##   X[n] = 21^n mod 26
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,27\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,27\right)} \mathbf{H}^{\left(21,27\right)} \mathbf{H}^{\left(21,27\right)} \mathbf{H}^{\left(21,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,27\right)} \left(\mathbf{H}^{\left(21,27\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,27\right)} = \{ 21,,  \cdots \} = \left[ \mathbf{G}^{\left(21,27\right)} \mathbf{H}^{\left(21,27\right)} \mathbf{H}^{\left(21,27\right)} \mathbf{H}^{\left(21,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,27\right)} \left(\mathbf{H}^{\left(21,27\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(21,27\right)} = \{  \}
+# \mathbf{G}^{\left(21,27\right)} = \{ 21, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(21,27\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,27\right)}\right| = 2 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,27\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=27) ##   X[n] = 21^n mod 27
@@ -1016,10 +1016,10 @@ example(b=21, m=27) ##   X[n] = 21^n mod 27
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,28\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,28\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=28) ##   X[n] = 21^n mod 28
@@ -1042,21 +1042,23 @@ example(b=21, m=28) ##   X[n] = 21^n mod 28
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,29\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(21,29\right)} \mathbf{H}^{\left(21,29\right)} \mathbf{H}^{\left(21,29\right)} \mathbf{H}^{\left(21,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,29\right)} \left(\mathbf{H}^{\left(21,29\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,29\right)} = \{ , 21, 6,10, 7, 2,13,12,20,14, 4,26,24,11,28, 8,23,19,22,27,16,17, 9,15,25,
+  3, 5,18, \cdots \} = \left[ \mathbf{G}^{\left(21,29\right)} \mathbf{H}^{\left(21,29\right)} \mathbf{H}^{\left(21,29\right)} \mathbf{H}^{\left(21,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,29\right)} \left(\mathbf{H}^{\left(21,29\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,29\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,29\right)} = \{  \}
+# \mathbf{H}^{\left(21,29\right)} = \{ 21, 6,10, 7, 2,13,12,20,14, 4,26,24,11,28, 8,23,19,22,27,16,17, 9,15,25,
+  3, 5,18, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,29\right)}\right| = 28 
 # \end{aligned}
 # <codecell>
 example(b=21, m=29) ##   X[n] = 21^n mod 29
@@ -1090,10 +1092,10 @@ example(b=21, m=29) ##   X[n] = 21^n mod 29
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(21,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(21,30\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=21, m=30) ##   X[n] = 21^n mod 30

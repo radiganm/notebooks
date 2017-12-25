@@ -80,18 +80,18 @@ example(b=2, m=24) ##   X[n] = 2^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(3,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(3,24\right)} \mathbf{H}^{\left(3,24\right)} \mathbf{H}^{\left(3,24\right)} \mathbf{H}^{\left(3,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,24\right)} \left(\mathbf{H}^{\left(3,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(3,24\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(3,24\right)} \mathbf{H}^{\left(3,24\right)} \mathbf{H}^{\left(3,24\right)} \mathbf{H}^{\left(3,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,24\right)} \left(\mathbf{H}^{\left(3,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(3,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(3,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(3,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(3,24\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(3,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(3,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(3,24\right)}\right| = 2
@@ -117,21 +117,21 @@ example(b=3, m=24) ##   X[n] = 3^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(4,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(4,24\right)} \mathbf{H}^{\left(4,24\right)} \mathbf{H}^{\left(4,24\right)} \mathbf{H}^{\left(4,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(4,24\right)} \left(\mathbf{H}^{\left(4,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(4,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(4,24\right)} \mathbf{H}^{\left(4,24\right)} \mathbf{H}^{\left(4,24\right)} \mathbf{H}^{\left(4,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(4,24\right)} \left(\mathbf{H}^{\left(4,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(4,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(4,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(4,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(4,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(4,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(4,24\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(4,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(4,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=4, m=24) ##   X[n] = 4^n mod 24
@@ -154,18 +154,18 @@ example(b=4, m=24) ##   X[n] = 4^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(5,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(5,24\right)} \mathbf{H}^{\left(5,24\right)} \mathbf{H}^{\left(5,24\right)} \mathbf{H}^{\left(5,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(5,24\right)} \left(\mathbf{H}^{\left(5,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(5,24\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(5,24\right)} \mathbf{H}^{\left(5,24\right)} \mathbf{H}^{\left(5,24\right)} \mathbf{H}^{\left(5,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(5,24\right)} \left(\mathbf{H}^{\left(5,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(5,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(5,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(5,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(5,24\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(5,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(5,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(5,24\right)}\right| = 2
@@ -191,21 +191,21 @@ example(b=5, m=24) ##   X[n] = 5^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(6,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(6,24\right)} \mathbf{H}^{\left(6,24\right)} \mathbf{H}^{\left(6,24\right)} \mathbf{H}^{\left(6,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(6,24\right)} \left(\mathbf{H}^{\left(6,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(6,24\right)} = \{  6,,  \cdots \} = \left[ \mathbf{G}^{\left(6,24\right)} \mathbf{H}^{\left(6,24\right)} \mathbf{H}^{\left(6,24\right)} \mathbf{H}^{\left(6,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(6,24\right)} \left(\mathbf{H}^{\left(6,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(6,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(6,24\right)} = \{  6, \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(6,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(6,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(6,24\right)}\right| = 2
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(6,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(6,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=6, m=24) ##   X[n] = 6^n mod 24
@@ -228,18 +228,18 @@ example(b=6, m=24) ##   X[n] = 6^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(7,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(7,24\right)} \mathbf{H}^{\left(7,24\right)} \mathbf{H}^{\left(7,24\right)} \mathbf{H}^{\left(7,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,24\right)} \left(\mathbf{H}^{\left(7,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(7,24\right)} = \{ , 7 \cdots \} = \left[ \mathbf{G}^{\left(7,24\right)} \mathbf{H}^{\left(7,24\right)} \mathbf{H}^{\left(7,24\right)} \mathbf{H}^{\left(7,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,24\right)} \left(\mathbf{H}^{\left(7,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(7,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(7,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(7,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(7,24\right)} = \{ 7 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(7,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(7,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(7,24\right)}\right| = 2
@@ -265,18 +265,18 @@ example(b=7, m=24) ##   X[n] = 7^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(8,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(8,24\right)} \mathbf{H}^{\left(8,24\right)} \mathbf{H}^{\left(8,24\right)} \mathbf{H}^{\left(8,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(8,24\right)} \left(\mathbf{H}^{\left(8,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(8,24\right)} = \{ ,  8, \cdots \} = \left[ \mathbf{G}^{\left(8,24\right)} \mathbf{H}^{\left(8,24\right)} \mathbf{H}^{\left(8,24\right)} \mathbf{H}^{\left(8,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(8,24\right)} \left(\mathbf{H}^{\left(8,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(8,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(8,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(8,24\right)} = \{  8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(8,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(8,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(8,24\right)}\right| = 2
@@ -302,21 +302,21 @@ example(b=8, m=24) ##   X[n] = 8^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(9,24\right)} \mathbf{H}^{\left(9,24\right)} \mathbf{H}^{\left(9,24\right)} \mathbf{H}^{\left(9,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,24\right)} \left(\mathbf{H}^{\left(9,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(9,24\right)} \mathbf{H}^{\left(9,24\right)} \mathbf{H}^{\left(9,24\right)} \mathbf{H}^{\left(9,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,24\right)} \left(\mathbf{H}^{\left(9,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(9,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(9,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(9,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(9,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(9,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(9,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=9, m=24) ##   X[n] = 9^n mod 24
@@ -339,21 +339,21 @@ example(b=9, m=24) ##   X[n] = 9^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(10,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(10,24\right)} \mathbf{H}^{\left(10,24\right)} \mathbf{H}^{\left(10,24\right)} \mathbf{H}^{\left(10,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(10,24\right)} \left(\mathbf{H}^{\left(10,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(10,24\right)} = \{ 10,,  \cdots \} = \left[ \mathbf{G}^{\left(10,24\right)} \mathbf{H}^{\left(10,24\right)} \mathbf{H}^{\left(10,24\right)} \mathbf{H}^{\left(10,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(10,24\right)} \left(\mathbf{H}^{\left(10,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(10,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(10,24\right)} = \{ 10, \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(10,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(10,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(10,24\right)}\right| = 2
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(10,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(10,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=10, m=24) ##   X[n] = 10^n mod 24
@@ -376,18 +376,18 @@ example(b=10, m=24) ##   X[n] = 10^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,24\right)} \left(\mathbf{H}^{\left(11,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,24\right)} = \{ , 11, \cdots \} = \left[ \mathbf{G}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \mathbf{H}^{\left(11,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,24\right)} \left(\mathbf{H}^{\left(11,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(11,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(11,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(11,24\right)} = \{ 11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(11,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(11,24\right)}\right| = 2
@@ -413,21 +413,21 @@ example(b=11, m=24) ##   X[n] = 11^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(12,24\right)} \mathbf{H}^{\left(12,24\right)} \mathbf{H}^{\left(12,24\right)} \mathbf{H}^{\left(12,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,24\right)} \left(\mathbf{H}^{\left(12,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,24\right)} \mathbf{H}^{\left(12,24\right)} \mathbf{H}^{\left(12,24\right)} \mathbf{H}^{\left(12,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,24\right)} \left(\mathbf{H}^{\left(12,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(12,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(12,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(12,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(12,24\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(12,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=12, m=24) ##   X[n] = 12^n mod 24
@@ -450,18 +450,18 @@ example(b=12, m=24) ##   X[n] = 12^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(13,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(13,24\right)} \mathbf{H}^{\left(13,24\right)} \mathbf{H}^{\left(13,24\right)} \mathbf{H}^{\left(13,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(13,24\right)} \left(\mathbf{H}^{\left(13,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(13,24\right)} = \{ , 13, \cdots \} = \left[ \mathbf{G}^{\left(13,24\right)} \mathbf{H}^{\left(13,24\right)} \mathbf{H}^{\left(13,24\right)} \mathbf{H}^{\left(13,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(13,24\right)} \left(\mathbf{H}^{\left(13,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(13,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(13,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(13,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(13,24\right)} = \{ 13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(13,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(13,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(13,24\right)}\right| = 2
@@ -487,11 +487,11 @@ example(b=13, m=24) ##   X[n] = 13^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(14,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(14,24\right)} \mathbf{H}^{\left(14,24\right)} \mathbf{H}^{\left(14,24\right)} \mathbf{H}^{\left(14,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(14,24\right)} \left(\mathbf{H}^{\left(14,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(14,24\right)} = \{ 14,,  8, \cdots \} = \left[ \mathbf{G}^{\left(14,24\right)} \mathbf{H}^{\left(14,24\right)} \mathbf{H}^{\left(14,24\right)} \mathbf{H}^{\left(14,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(14,24\right)} \left(\mathbf{H}^{\left(14,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(14,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(14,24\right)} = \{ 14, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(14,24\right)} = \{  8, \}
@@ -524,18 +524,18 @@ example(b=14, m=24) ##   X[n] = 14^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(15,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(15,24\right)} \mathbf{H}^{\left(15,24\right)} \mathbf{H}^{\left(15,24\right)} \mathbf{H}^{\left(15,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,24\right)} \left(\mathbf{H}^{\left(15,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(15,24\right)} = \{ , 15, \cdots \} = \left[ \mathbf{G}^{\left(15,24\right)} \mathbf{H}^{\left(15,24\right)} \mathbf{H}^{\left(15,24\right)} \mathbf{H}^{\left(15,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,24\right)} \left(\mathbf{H}^{\left(15,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(15,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(15,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(15,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(15,24\right)} = \{ 15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(15,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(15,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(15,24\right)}\right| = 2
@@ -561,21 +561,21 @@ example(b=15, m=24) ##   X[n] = 15^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(16,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(16,24\right)} \mathbf{H}^{\left(16,24\right)} \mathbf{H}^{\left(16,24\right)} \mathbf{H}^{\left(16,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(16,24\right)} \left(\mathbf{H}^{\left(16,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(16,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(16,24\right)} \mathbf{H}^{\left(16,24\right)} \mathbf{H}^{\left(16,24\right)} \mathbf{H}^{\left(16,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(16,24\right)} \left(\mathbf{H}^{\left(16,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(16,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(16,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(16,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(16,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(16,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(16,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(16,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(16,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=16, m=24) ##   X[n] = 16^n mod 24
@@ -598,18 +598,18 @@ example(b=16, m=24) ##   X[n] = 16^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,24\right)} \left(\mathbf{H}^{\left(17,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,24\right)} = \{ , 17, \cdots \} = \left[ \mathbf{G}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,24\right)} \left(\mathbf{H}^{\left(17,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(17,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(17,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(17,24\right)} = \{ 17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(17,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(17,24\right)}\right| = 2
@@ -635,21 +635,21 @@ example(b=17, m=24) ##   X[n] = 17^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,24\right)} \left(\mathbf{H}^{\left(18,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,24\right)} = \{ 18,,  \cdots \} = \left[ \mathbf{G}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \mathbf{H}^{\left(18,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,24\right)} \left(\mathbf{H}^{\left(18,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(18,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(18,24\right)} = \{ 18, \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(18,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(18,24\right)}\right| = 2
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(18,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(18,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=18, m=24) ##   X[n] = 18^n mod 24
@@ -672,18 +672,18 @@ example(b=18, m=24) ##   X[n] = 18^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(19,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(19,24\right)} \mathbf{H}^{\left(19,24\right)} \mathbf{H}^{\left(19,24\right)} \mathbf{H}^{\left(19,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,24\right)} \left(\mathbf{H}^{\left(19,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(19,24\right)} = \{ , 19, \cdots \} = \left[ \mathbf{G}^{\left(19,24\right)} \mathbf{H}^{\left(19,24\right)} \mathbf{H}^{\left(19,24\right)} \mathbf{H}^{\left(19,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,24\right)} \left(\mathbf{H}^{\left(19,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(19,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(19,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(19,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(19,24\right)} = \{ 19, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(19,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(19,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(19,24\right)}\right| = 2
@@ -709,18 +709,18 @@ example(b=19, m=24) ##   X[n] = 19^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(20,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(20,24\right)} \mathbf{H}^{\left(20,24\right)} \mathbf{H}^{\left(20,24\right)} \mathbf{H}^{\left(20,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(20,24\right)} \left(\mathbf{H}^{\left(20,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(20,24\right)} = \{ , 16, \cdots \} = \left[ \mathbf{G}^{\left(20,24\right)} \mathbf{H}^{\left(20,24\right)} \mathbf{H}^{\left(20,24\right)} \mathbf{H}^{\left(20,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(20,24\right)} \left(\mathbf{H}^{\left(20,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(20,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(20,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(20,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(20,24\right)} = \{ 16, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(20,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(20,24\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(20,24\right)}\right| = 2
@@ -746,18 +746,18 @@ example(b=20, m=24) ##   X[n] = 20^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,24\right)} \left(\mathbf{H}^{\left(21,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,24\right)} = \{ , 21, \cdots \} = \left[ \mathbf{G}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \mathbf{H}^{\left(21,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,24\right)} \left(\mathbf{H}^{\left(21,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(21,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(21,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(21,24\right)} = \{ 21, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(21,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(21,24\right)}\right| = 2
@@ -783,21 +783,21 @@ example(b=21, m=24) ##   X[n] = 21^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(22,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(22,24\right)} \mathbf{H}^{\left(22,24\right)} \mathbf{H}^{\left(22,24\right)} \mathbf{H}^{\left(22,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(22,24\right)} \left(\mathbf{H}^{\left(22,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(22,24\right)} = \{ 22,,  \cdots \} = \left[ \mathbf{G}^{\left(22,24\right)} \mathbf{H}^{\left(22,24\right)} \mathbf{H}^{\left(22,24\right)} \mathbf{H}^{\left(22,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(22,24\right)} \left(\mathbf{H}^{\left(22,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(22,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(22,24\right)} = \{ 22, \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(22,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(22,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(22,24\right)}\right| = 2
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(22,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(22,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=22, m=24) ##   X[n] = 22^n mod 24
@@ -820,18 +820,18 @@ example(b=22, m=24) ##   X[n] = 22^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(23,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(23,24\right)} \mathbf{H}^{\left(23,24\right)} \mathbf{H}^{\left(23,24\right)} \mathbf{H}^{\left(23,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,24\right)} \left(\mathbf{H}^{\left(23,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(23,24\right)} = \{ , 23, \cdots \} = \left[ \mathbf{G}^{\left(23,24\right)} \mathbf{H}^{\left(23,24\right)} \mathbf{H}^{\left(23,24\right)} \mathbf{H}^{\left(23,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,24\right)} \left(\mathbf{H}^{\left(23,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(23,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(23,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(23,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(23,24\right)} = \{ 23, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(23,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(23,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(23,24\right)}\right| = 2
@@ -857,21 +857,21 @@ example(b=23, m=24) ##   X[n] = 23^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(24,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(24,24\right)} \mathbf{H}^{\left(24,24\right)} \mathbf{H}^{\left(24,24\right)} \mathbf{H}^{\left(24,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(24,24\right)} \left(\mathbf{H}^{\left(24,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(24,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(24,24\right)} \mathbf{H}^{\left(24,24\right)} \mathbf{H}^{\left(24,24\right)} \mathbf{H}^{\left(24,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(24,24\right)} \left(\mathbf{H}^{\left(24,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(24,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(24,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(24,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(24,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(24,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(24,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(24,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(24,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=24, m=24) ##   X[n] = 24^n mod 24
@@ -894,21 +894,21 @@ example(b=24, m=24) ##   X[n] = 24^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(25,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(25,24\right)} \mathbf{H}^{\left(25,24\right)} \mathbf{H}^{\left(25,24\right)} \mathbf{H}^{\left(25,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(25,24\right)} \left(\mathbf{H}^{\left(25,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(25,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(25,24\right)} \mathbf{H}^{\left(25,24\right)} \mathbf{H}^{\left(25,24\right)} \mathbf{H}^{\left(25,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(25,24\right)} \left(\mathbf{H}^{\left(25,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(25,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(25,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(25,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(25,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(25,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(25,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(25,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(25,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=25, m=24) ##   X[n] = 25^n mod 24
@@ -968,18 +968,18 @@ example(b=26, m=24) ##   X[n] = 26^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(27,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(27,24\right)} \mathbf{H}^{\left(27,24\right)} \mathbf{H}^{\left(27,24\right)} \mathbf{H}^{\left(27,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,24\right)} \left(\mathbf{H}^{\left(27,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(27,24\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(27,24\right)} \mathbf{H}^{\left(27,24\right)} \mathbf{H}^{\left(27,24\right)} \mathbf{H}^{\left(27,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,24\right)} \left(\mathbf{H}^{\left(27,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(27,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(27,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(27,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(27,24\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(27,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(27,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(27,24\right)}\right| = 2
@@ -1005,21 +1005,21 @@ example(b=27, m=24) ##   X[n] = 27^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(28,24\right)} \mathbf{H}^{\left(28,24\right)} \mathbf{H}^{\left(28,24\right)} \mathbf{H}^{\left(28,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,24\right)} \left(\mathbf{H}^{\left(28,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(28,24\right)} \mathbf{H}^{\left(28,24\right)} \mathbf{H}^{\left(28,24\right)} \mathbf{H}^{\left(28,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,24\right)} \left(\mathbf{H}^{\left(28,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(28,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(28,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(28,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(28,24\right)}\right| = 1
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(28,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=28, m=24) ##   X[n] = 28^n mod 24
@@ -1042,18 +1042,18 @@ example(b=28, m=24) ##   X[n] = 28^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,24\right)} \left(\mathbf{H}^{\left(29,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,24\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \mathbf{H}^{\left(29,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,24\right)} \left(\mathbf{H}^{\left(29,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(29,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(29,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(29,24\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,24\right)}\right| = 2
+# \left|\mathbf{G}^{\left(29,24\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(29,24\right)}\right| = 2
@@ -1079,21 +1079,21 @@ example(b=29, m=24) ##   X[n] = 29^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(30,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(30,24\right)} \mathbf{H}^{\left(30,24\right)} \mathbf{H}^{\left(30,24\right)} \mathbf{H}^{\left(30,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(30,24\right)} \left(\mathbf{H}^{\left(30,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(30,24\right)} = \{  6,,  \cdots \} = \left[ \mathbf{G}^{\left(30,24\right)} \mathbf{H}^{\left(30,24\right)} \mathbf{H}^{\left(30,24\right)} \mathbf{H}^{\left(30,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(30,24\right)} \left(\mathbf{H}^{\left(30,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(30,24\right)} = \{ 2 \}
+# \mathbf{G}^{\left(30,24\right)} = \{  6, \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(30,24\right)} = \{  8, \}
+# \mathbf{H}^{\left(30,24\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(30,24\right)}\right| = 2
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(30,24\right)}\right| = 2
+# \left|\mathbf{H}^{\left(30,24\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=30, m=24) ##   X[n] = 30^n mod 24

@@ -80,14 +80,14 @@ example(b=2, m=23) ##   X[n] = 2^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(3,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(3,23\right)} \mathbf{H}^{\left(3,23\right)} \mathbf{H}^{\left(3,23\right)} \mathbf{H}^{\left(3,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,23\right)} \left(\mathbf{H}^{\left(3,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(3,23\right)} = \{ ,  3, 9, 4,12,13,16, 2, 6,18, 8, \cdots \} = \left[ \mathbf{G}^{\left(3,23\right)} \mathbf{H}^{\left(3,23\right)} \mathbf{H}^{\left(3,23\right)} \mathbf{H}^{\left(3,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,23\right)} \left(\mathbf{H}^{\left(3,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(3,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(3,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(3,23\right)} = \{  3, 9, 4,12,13,16, 2, 6,18, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -117,14 +117,14 @@ example(b=3, m=23) ##   X[n] = 3^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(4,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(4,23\right)} \mathbf{H}^{\left(4,23\right)} \mathbf{H}^{\left(4,23\right)} \mathbf{H}^{\left(4,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(4,23\right)} \left(\mathbf{H}^{\left(4,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(4,23\right)} = \{ ,  4,16,18, 3,12, 2, 8, 9,13, 6, \cdots \} = \left[ \mathbf{G}^{\left(4,23\right)} \mathbf{H}^{\left(4,23\right)} \mathbf{H}^{\left(4,23\right)} \mathbf{H}^{\left(4,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(4,23\right)} \left(\mathbf{H}^{\left(4,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(4,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(4,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(4,23\right)} = \{  4,16,18, 3,12, 2, 8, 9,13, 6, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -154,21 +154,21 @@ example(b=4, m=23) ##   X[n] = 4^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(5,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(5,23\right)} \mathbf{H}^{\left(5,23\right)} \mathbf{H}^{\left(5,23\right)} \mathbf{H}^{\left(5,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(5,23\right)} \left(\mathbf{H}^{\left(5,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(5,23\right)} = \{ ,  5, 2,10, 4,20, 8,17,16,11, 9,22,18,21,13,19, 3,15, 6, 7,12,14, \cdots \} = \left[ \mathbf{G}^{\left(5,23\right)} \mathbf{H}^{\left(5,23\right)} \mathbf{H}^{\left(5,23\right)} \mathbf{H}^{\left(5,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(5,23\right)} \left(\mathbf{H}^{\left(5,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(5,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(5,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(5,23\right)} = \{  5, 2,10, 4,20, 8,17,16,11, 9,22,18,21,13,19, 3,15, 6, 7,12,14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(5,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(5,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(5,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=5, m=23) ##   X[n] = 5^n mod 23
@@ -191,14 +191,14 @@ example(b=5, m=23) ##   X[n] = 5^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(6,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(6,23\right)} \mathbf{H}^{\left(6,23\right)} \mathbf{H}^{\left(6,23\right)} \mathbf{H}^{\left(6,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(6,23\right)} \left(\mathbf{H}^{\left(6,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(6,23\right)} = \{ ,  6,13, 9, 8, 2,12, 3,18,16, 4, \cdots \} = \left[ \mathbf{G}^{\left(6,23\right)} \mathbf{H}^{\left(6,23\right)} \mathbf{H}^{\left(6,23\right)} \mathbf{H}^{\left(6,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(6,23\right)} \left(\mathbf{H}^{\left(6,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(6,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(6,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(6,23\right)} = \{  6,13, 9, 8, 2,12, 3,18,16, 4, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -228,21 +228,21 @@ example(b=6, m=23) ##   X[n] = 6^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(7,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(7,23\right)} \mathbf{H}^{\left(7,23\right)} \mathbf{H}^{\left(7,23\right)} \mathbf{H}^{\left(7,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,23\right)} \left(\mathbf{H}^{\left(7,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(7,23\right)} = \{ ,  7, 3,21, 9,17, 4, 5,12,15,13,22,16,20, 2,14, 6,19,18,11, 8,10, \cdots \} = \left[ \mathbf{G}^{\left(7,23\right)} \mathbf{H}^{\left(7,23\right)} \mathbf{H}^{\left(7,23\right)} \mathbf{H}^{\left(7,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,23\right)} \left(\mathbf{H}^{\left(7,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(7,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(7,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(7,23\right)} = \{  7, 3,21, 9,17, 4, 5,12,15,13,22,16,20, 2,14, 6,19,18,11, 8,10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(7,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(7,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(7,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=7, m=23) ##   X[n] = 7^n mod 23
@@ -265,14 +265,14 @@ example(b=7, m=23) ##   X[n] = 7^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(8,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(8,23\right)} \mathbf{H}^{\left(8,23\right)} \mathbf{H}^{\left(8,23\right)} \mathbf{H}^{\left(8,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(8,23\right)} \left(\mathbf{H}^{\left(8,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(8,23\right)} = \{ ,  8,18, 6, 2,16,13,12, 4, 9, 3, \cdots \} = \left[ \mathbf{G}^{\left(8,23\right)} \mathbf{H}^{\left(8,23\right)} \mathbf{H}^{\left(8,23\right)} \mathbf{H}^{\left(8,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(8,23\right)} \left(\mathbf{H}^{\left(8,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(8,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(8,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(8,23\right)} = \{  8,18, 6, 2,16,13,12, 4, 9, 3, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -302,14 +302,14 @@ example(b=8, m=23) ##   X[n] = 8^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(9,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,23\right)} \left(\mathbf{H}^{\left(9,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(9,23\right)} = \{ ,  9,12,16, 6, 8, 3, 4,13, 2,18, \cdots \} = \left[ \mathbf{G}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \mathbf{H}^{\left(9,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(9,23\right)} \left(\mathbf{H}^{\left(9,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(9,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(9,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(9,23\right)} = \{  9,12,16, 6, 8, 3, 4,13, 2,18, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -339,21 +339,21 @@ example(b=9, m=23) ##   X[n] = 9^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(10,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(10,23\right)} \mathbf{H}^{\left(10,23\right)} \mathbf{H}^{\left(10,23\right)} \mathbf{H}^{\left(10,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(10,23\right)} \left(\mathbf{H}^{\left(10,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(10,23\right)} = \{ , 10, 8,11,18,19, 6,14, 2,20,16,22,13,15,12, 5, 4,17, 9,21, 3, 7, \cdots \} = \left[ \mathbf{G}^{\left(10,23\right)} \mathbf{H}^{\left(10,23\right)} \mathbf{H}^{\left(10,23\right)} \mathbf{H}^{\left(10,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(10,23\right)} \left(\mathbf{H}^{\left(10,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(10,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(10,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(10,23\right)} = \{ 10, 8,11,18,19, 6,14, 2,20,16,22,13,15,12, 5, 4,17, 9,21, 3, 7, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(10,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(10,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(10,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=10, m=23) ##   X[n] = 10^n mod 23
@@ -376,21 +376,21 @@ example(b=10, m=23) ##   X[n] = 10^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,23\right)} \left(\mathbf{H}^{\left(11,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,23\right)} = \{ , 11, 6,20,13, 5, 9, 7, 8,19, 2,22,12,17, 3,10,18,14,16,15, 4,21, \cdots \} = \left[ \mathbf{G}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \mathbf{H}^{\left(11,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,23\right)} \left(\mathbf{H}^{\left(11,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(11,23\right)} = \{ 11, 6,20,13, 5, 9, 7, 8,19, 2,22,12,17, 3,10,18,14,16,15, 4,21, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(11,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(11,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=11, m=23) ##   X[n] = 11^n mod 23
@@ -413,14 +413,14 @@ example(b=11, m=23) ##   X[n] = 11^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,23\right)} \left(\mathbf{H}^{\left(12,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,23\right)} = \{ , 12, 6, 3,13,18, 9,16, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,23\right)} \left(\mathbf{H}^{\left(12,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(12,23\right)} = \{ 12, 6, 3,13,18, 9,16, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -450,14 +450,14 @@ example(b=12, m=23) ##   X[n] = 12^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(13,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(13,23\right)} \mathbf{H}^{\left(13,23\right)} \mathbf{H}^{\left(13,23\right)} \mathbf{H}^{\left(13,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(13,23\right)} \left(\mathbf{H}^{\left(13,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(13,23\right)} = \{ , 13, 8,12,18, 4, 6, 9, 2, 3,16, \cdots \} = \left[ \mathbf{G}^{\left(13,23\right)} \mathbf{H}^{\left(13,23\right)} \mathbf{H}^{\left(13,23\right)} \mathbf{H}^{\left(13,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(13,23\right)} \left(\mathbf{H}^{\left(13,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(13,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(13,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(13,23\right)} = \{ 13, 8,12,18, 4, 6, 9, 2, 3,16, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -487,21 +487,21 @@ example(b=13, m=23) ##   X[n] = 13^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(14,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(14,23\right)} \mathbf{H}^{\left(14,23\right)} \mathbf{H}^{\left(14,23\right)} \mathbf{H}^{\left(14,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(14,23\right)} \left(\mathbf{H}^{\left(14,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(14,23\right)} = \{ , 14,12, 7, 6,15, 3,19,13,21,18,22, 9,11,16,17, 8,20, 4,10, 2, 5, \cdots \} = \left[ \mathbf{G}^{\left(14,23\right)} \mathbf{H}^{\left(14,23\right)} \mathbf{H}^{\left(14,23\right)} \mathbf{H}^{\left(14,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(14,23\right)} \left(\mathbf{H}^{\left(14,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(14,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(14,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(14,23\right)} = \{ 14,12, 7, 6,15, 3,19,13,21,18,22, 9,11,16,17, 8,20, 4,10, 2, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(14,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(14,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(14,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=14, m=23) ##   X[n] = 14^n mod 23
@@ -524,21 +524,21 @@ example(b=14, m=23) ##   X[n] = 14^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(15,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(15,23\right)} \mathbf{H}^{\left(15,23\right)} \mathbf{H}^{\left(15,23\right)} \mathbf{H}^{\left(15,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,23\right)} \left(\mathbf{H}^{\left(15,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(15,23\right)} = \{ , 15,18,17, 2, 7,13,11, 4,14, 3,22, 8, 5, 6,21,16,10,12,19, 9,20, \cdots \} = \left[ \mathbf{G}^{\left(15,23\right)} \mathbf{H}^{\left(15,23\right)} \mathbf{H}^{\left(15,23\right)} \mathbf{H}^{\left(15,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,23\right)} \left(\mathbf{H}^{\left(15,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(15,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(15,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(15,23\right)} = \{ 15,18,17, 2, 7,13,11, 4,14, 3,22, 8, 5, 6,21,16,10,12,19, 9,20, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(15,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(15,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(15,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=15, m=23) ##   X[n] = 15^n mod 23
@@ -561,14 +561,14 @@ example(b=15, m=23) ##   X[n] = 15^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(16,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(16,23\right)} \mathbf{H}^{\left(16,23\right)} \mathbf{H}^{\left(16,23\right)} \mathbf{H}^{\left(16,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(16,23\right)} \left(\mathbf{H}^{\left(16,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(16,23\right)} = \{ , 16, 3, 2, 9, 6, 4,18,12, 8,13, \cdots \} = \left[ \mathbf{G}^{\left(16,23\right)} \mathbf{H}^{\left(16,23\right)} \mathbf{H}^{\left(16,23\right)} \mathbf{H}^{\left(16,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(16,23\right)} \left(\mathbf{H}^{\left(16,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(16,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(16,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(16,23\right)} = \{ 16, 3, 2, 9, 6, 4,18,12, 8,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -598,21 +598,21 @@ example(b=16, m=23) ##   X[n] = 16^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,23\right)} \left(\mathbf{H}^{\left(17,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,23\right)} = \{ , 17,13,14, 8,21,12,20,18, 7, 4,22, 6,10, 9,15, 2,11, 3, 5,16,19, \cdots \} = \left[ \mathbf{G}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,23\right)} \left(\mathbf{H}^{\left(17,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(17,23\right)} = \{ 17,13,14, 8,21,12,20,18, 7, 4,22, 6,10, 9,15, 2,11, 3, 5,16,19, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(17,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(17,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=17, m=23) ##   X[n] = 17^n mod 23
@@ -635,14 +635,14 @@ example(b=17, m=23) ##   X[n] = 17^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(18,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,23\right)} \left(\mathbf{H}^{\left(18,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(18,23\right)} = \{ , 18, 2,13, 4, 3, 8, 6,16,12, 9, \cdots \} = \left[ \mathbf{G}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \mathbf{H}^{\left(18,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(18,23\right)} \left(\mathbf{H}^{\left(18,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(18,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(18,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(18,23\right)} = \{ 18, 2,13, 4, 3, 8, 6,16,12, 9, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -672,21 +672,21 @@ example(b=18, m=23) ##   X[n] = 18^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(19,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(19,23\right)} \mathbf{H}^{\left(19,23\right)} \mathbf{H}^{\left(19,23\right)} \mathbf{H}^{\left(19,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,23\right)} \left(\mathbf{H}^{\left(19,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(19,23\right)} = \{ , 19,16, 5, 3,11, 2,15, 9,10, 6,22, 4, 7,18,20,12,21, 8,14,13,17, \cdots \} = \left[ \mathbf{G}^{\left(19,23\right)} \mathbf{H}^{\left(19,23\right)} \mathbf{H}^{\left(19,23\right)} \mathbf{H}^{\left(19,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,23\right)} \left(\mathbf{H}^{\left(19,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(19,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(19,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(19,23\right)} = \{ 19,16, 5, 3,11, 2,15, 9,10, 6,22, 4, 7,18,20,12,21, 8,14,13,17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(19,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(19,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(19,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=19, m=23) ##   X[n] = 19^n mod 23
@@ -709,21 +709,21 @@ example(b=19, m=23) ##   X[n] = 19^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(20,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(20,23\right)} \mathbf{H}^{\left(20,23\right)} \mathbf{H}^{\left(20,23\right)} \mathbf{H}^{\left(20,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(20,23\right)} \left(\mathbf{H}^{\left(20,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(20,23\right)} = \{ , 20, 9,19,12,10,16,21, 6, 5, 8,22, 3,14, 4,11,13, 7, 2,17,18,15, \cdots \} = \left[ \mathbf{G}^{\left(20,23\right)} \mathbf{H}^{\left(20,23\right)} \mathbf{H}^{\left(20,23\right)} \mathbf{H}^{\left(20,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(20,23\right)} \left(\mathbf{H}^{\left(20,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(20,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(20,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(20,23\right)} = \{ 20, 9,19,12,10,16,21, 6, 5, 8,22, 3,14, 4,11,13, 7, 2,17,18,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(20,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(20,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(20,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=20, m=23) ##   X[n] = 20^n mod 23
@@ -746,21 +746,21 @@ example(b=20, m=23) ##   X[n] = 20^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(21,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,23\right)} \left(\mathbf{H}^{\left(21,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(21,23\right)} = \{ , 21, 4,15,16,14,18,10, 3,17,12,22, 2,19, 8, 7, 9, 5,13,20, 6,11, \cdots \} = \left[ \mathbf{G}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \mathbf{H}^{\left(21,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(21,23\right)} \left(\mathbf{H}^{\left(21,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(21,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(21,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(21,23\right)} = \{ 21, 4,15,16,14,18,10, 3,17,12,22, 2,19, 8, 7, 9, 5,13,20, 6,11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(21,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(21,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(21,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=21, m=23) ##   X[n] = 21^n mod 23
@@ -783,21 +783,21 @@ example(b=21, m=23) ##   X[n] = 21^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(22,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(22,23\right)} \mathbf{H}^{\left(22,23\right)} \mathbf{H}^{\left(22,23\right)} \mathbf{H}^{\left(22,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(22,23\right)} \left(\mathbf{H}^{\left(22,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(22,23\right)} = \{ , 22, \cdots \} = \left[ \mathbf{G}^{\left(22,23\right)} \mathbf{H}^{\left(22,23\right)} \mathbf{H}^{\left(22,23\right)} \mathbf{H}^{\left(22,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(22,23\right)} \left(\mathbf{H}^{\left(22,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(22,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(22,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(22,23\right)} = \{ 22, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(22,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(22,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(22,23\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=22, m=23) ##   X[n] = 22^n mod 23
@@ -820,21 +820,21 @@ example(b=22, m=23) ##   X[n] = 22^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(23,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(23,23\right)} \mathbf{H}^{\left(23,23\right)} \mathbf{H}^{\left(23,23\right)} \mathbf{H}^{\left(23,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,23\right)} \left(\mathbf{H}^{\left(23,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(23,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(23,23\right)} \mathbf{H}^{\left(23,23\right)} \mathbf{H}^{\left(23,23\right)} \mathbf{H}^{\left(23,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,23\right)} \left(\mathbf{H}^{\left(23,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(23,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(23,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(23,23\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(23,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(23,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(23,23\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=23, m=23) ##   X[n] = 23^n mod 23
@@ -857,21 +857,21 @@ example(b=23, m=23) ##   X[n] = 23^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(24,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(24,23\right)} \mathbf{H}^{\left(24,23\right)} \mathbf{H}^{\left(24,23\right)} \mathbf{H}^{\left(24,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(24,23\right)} \left(\mathbf{H}^{\left(24,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(24,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(24,23\right)} \mathbf{H}^{\left(24,23\right)} \mathbf{H}^{\left(24,23\right)} \mathbf{H}^{\left(24,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(24,23\right)} \left(\mathbf{H}^{\left(24,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(24,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(24,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(24,23\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(24,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(24,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(24,23\right)}\right| = 1
 # \end{aligned}
 # <codecell>
 example(b=24, m=23) ##   X[n] = 24^n mod 23
@@ -931,14 +931,14 @@ example(b=25, m=23) ##   X[n] = 25^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,23\right)} \left(\mathbf{H}^{\left(26,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,23\right)} = \{ ,  3, 9, 4,12,13,16, 2, 6,18, 8, \cdots \} = \left[ \mathbf{G}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,23\right)} \left(\mathbf{H}^{\left(26,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(26,23\right)} = \{  3, 9, 4,12,13,16, 2, 6,18, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -968,14 +968,14 @@ example(b=26, m=23) ##   X[n] = 26^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(27,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(27,23\right)} \mathbf{H}^{\left(27,23\right)} \mathbf{H}^{\left(27,23\right)} \mathbf{H}^{\left(27,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,23\right)} \left(\mathbf{H}^{\left(27,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(27,23\right)} = \{ ,  4,16,18, 3,12, 2, 8, 9,13, 6, \cdots \} = \left[ \mathbf{G}^{\left(27,23\right)} \mathbf{H}^{\left(27,23\right)} \mathbf{H}^{\left(27,23\right)} \mathbf{H}^{\left(27,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,23\right)} \left(\mathbf{H}^{\left(27,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(27,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(27,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(27,23\right)} = \{  4,16,18, 3,12, 2, 8, 9,13, 6, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -1005,21 +1005,21 @@ example(b=27, m=23) ##   X[n] = 27^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(28,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,23\right)} \left(\mathbf{H}^{\left(28,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(28,23\right)} = \{ ,  5, 2,10, 4,20, 8,17,16,11, 9,22,18,21,13,19, 3,15, 6, 7,12,14, \cdots \} = \left[ \mathbf{G}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \mathbf{H}^{\left(28,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(28,23\right)} \left(\mathbf{H}^{\left(28,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(28,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(28,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(28,23\right)} = \{  5, 2,10, 4,20, 8,17,16,11, 9,22,18,21,13,19, 3,15, 6, 7,12,14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(28,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(28,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(28,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=28, m=23) ##   X[n] = 28^n mod 23
@@ -1042,14 +1042,14 @@ example(b=28, m=23) ##   X[n] = 28^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(29,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,23\right)} \left(\mathbf{H}^{\left(29,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(29,23\right)} = \{ ,  6,13, 9, 8, 2,12, 3,18,16, 4, \cdots \} = \left[ \mathbf{G}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \mathbf{H}^{\left(29,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(29,23\right)} \left(\mathbf{H}^{\left(29,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(29,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(29,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(29,23\right)} = \{  6,13, 9, 8, 2,12, 3,18,16, 4, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
@@ -1079,21 +1079,21 @@ example(b=29, m=23) ##   X[n] = 29^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(30,23\right)} = \{ ,  2, 4, 8,16, 9,18,13, 3, 6,12, \cdots \} = \left[ \mathbf{G}^{\left(30,23\right)} \mathbf{H}^{\left(30,23\right)} \mathbf{H}^{\left(30,23\right)} \mathbf{H}^{\left(30,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(30,23\right)} \left(\mathbf{H}^{\left(30,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(30,23\right)} = \{ ,  7, 3,21, 9,17, 4, 5,12,15,13,22,16,20, 2,14, 6,19,18,11, 8,10, \cdots \} = \left[ \mathbf{G}^{\left(30,23\right)} \mathbf{H}^{\left(30,23\right)} \mathbf{H}^{\left(30,23\right)} \mathbf{H}^{\left(30,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(30,23\right)} \left(\mathbf{H}^{\left(30,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(30,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(30,23\right)} = \{  2, 4, 8,16, 9,18,13, 3, 6,12, \}
+# \mathbf{H}^{\left(30,23\right)} = \{  7, 3,21, 9,17, 4, 5,12,15,13,22,16,20, 2,14, 6,19,18,11, 8,10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
 # \left|\mathbf{G}^{\left(30,23\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(30,23\right)}\right| = 11
+# \left|\mathbf{H}^{\left(30,23\right)}\right| = 22
 # \end{aligned}
 # <codecell>
 example(b=30, m=23) ##   X[n] = 30^n mod 23

@@ -60,6 +60,22 @@ def decompose(xs):
   hs = xs[k1:k2]
   return gs,hs
 
+dat = OrderedDict([])
+for b in bs:
+  dat[b] = {}
+  for m in ms:
+    dat[b][m] = {}
+    X   = sequence(b, m)
+    G,H = decompose(X)
+    Gs  = np.array2string(G, separator=',')[1:-3]
+    Hs  = np.array2string(H, separator=',')[1:-3]
+    dat[b][m]['G']   = G 
+    dat[b][m]['H']   = H 
+    dat[b][m]['Gs']  = Gs
+    dat[b][m]['Hs']  = Hs
+    dat[b][m]['G_N'] = len(G)
+    dat[b][m]['H_N'] = len(H)
+
 for b in bs:
   for m in ms:
     X   = sequence(b, m)

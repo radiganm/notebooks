@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=17, m=2) ##   X[n] = 17^n mod 2
@@ -80,21 +80,21 @@ example(b=17, m=2) ##   X[n] = 17^n mod 2
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,3\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,3\right)} \mathbf{H}^{\left(17,3\right)} \mathbf{H}^{\left(17,3\right)} \mathbf{H}^{\left(17,3\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,3\right)} \left(\mathbf{H}^{\left(17,3\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,3\right)} = \{ , 2 \cdots \} = \left[ \mathbf{G}^{\left(17,3\right)} \mathbf{H}^{\left(17,3\right)} \mathbf{H}^{\left(17,3\right)} \mathbf{H}^{\left(17,3\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,3\right)} \left(\mathbf{H}^{\left(17,3\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,3\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,3\right)} = \{  \}
+# \mathbf{H}^{\left(17,3\right)} = \{ 2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,3\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=17, m=3) ##   X[n] = 17^n mod 3
@@ -128,10 +128,10 @@ example(b=17, m=3) ##   X[n] = 17^n mod 3
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,4\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,4\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=17, m=4) ##   X[n] = 17^n mod 4
@@ -154,21 +154,21 @@ example(b=17, m=4) ##   X[n] = 17^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,5\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,5\right)} \mathbf{H}^{\left(17,5\right)} \mathbf{H}^{\left(17,5\right)} \mathbf{H}^{\left(17,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,5\right)} \left(\mathbf{H}^{\left(17,5\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,5\right)} = \{ , 2,4,3 \cdots \} = \left[ \mathbf{G}^{\left(17,5\right)} \mathbf{H}^{\left(17,5\right)} \mathbf{H}^{\left(17,5\right)} \mathbf{H}^{\left(17,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,5\right)} \left(\mathbf{H}^{\left(17,5\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,5\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,5\right)} = \{  \}
+# \mathbf{H}^{\left(17,5\right)} = \{ 2,4,3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,5\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=17, m=5) ##   X[n] = 17^n mod 5
@@ -191,21 +191,21 @@ example(b=17, m=5) ##   X[n] = 17^n mod 5
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,6\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,6\right)} \mathbf{H}^{\left(17,6\right)} \mathbf{H}^{\left(17,6\right)} \mathbf{H}^{\left(17,6\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,6\right)} \left(\mathbf{H}^{\left(17,6\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,6\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(17,6\right)} \mathbf{H}^{\left(17,6\right)} \mathbf{H}^{\left(17,6\right)} \mathbf{H}^{\left(17,6\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,6\right)} \left(\mathbf{H}^{\left(17,6\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,6\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,6\right)} = \{  \}
+# \mathbf{H}^{\left(17,6\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,6\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=17, m=6) ##   X[n] = 17^n mod 6
@@ -228,21 +228,21 @@ example(b=17, m=6) ##   X[n] = 17^n mod 6
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,7\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,7\right)} \mathbf{H}^{\left(17,7\right)} \mathbf{H}^{\left(17,7\right)} \mathbf{H}^{\left(17,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,7\right)} \left(\mathbf{H}^{\left(17,7\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,7\right)} = \{ , 3,2,6,4,5 \cdots \} = \left[ \mathbf{G}^{\left(17,7\right)} \mathbf{H}^{\left(17,7\right)} \mathbf{H}^{\left(17,7\right)} \mathbf{H}^{\left(17,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,7\right)} \left(\mathbf{H}^{\left(17,7\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,7\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,7\right)} = \{  \}
+# \mathbf{H}^{\left(17,7\right)} = \{ 3,2,6,4,5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,7\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=17, m=7) ##   X[n] = 17^n mod 7
@@ -276,10 +276,10 @@ example(b=17, m=7) ##   X[n] = 17^n mod 7
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,8\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,8\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=17, m=8) ##   X[n] = 17^n mod 8
@@ -302,21 +302,21 @@ example(b=17, m=8) ##   X[n] = 17^n mod 8
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,9\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,9\right)} \mathbf{H}^{\left(17,9\right)} \mathbf{H}^{\left(17,9\right)} \mathbf{H}^{\left(17,9\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,9\right)} \left(\mathbf{H}^{\left(17,9\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,9\right)} = \{ , 8 \cdots \} = \left[ \mathbf{G}^{\left(17,9\right)} \mathbf{H}^{\left(17,9\right)} \mathbf{H}^{\left(17,9\right)} \mathbf{H}^{\left(17,9\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,9\right)} \left(\mathbf{H}^{\left(17,9\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,9\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,9\right)} = \{  \}
+# \mathbf{H}^{\left(17,9\right)} = \{ 8 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,9\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,9\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=17, m=9) ##   X[n] = 17^n mod 9
@@ -339,21 +339,21 @@ example(b=17, m=9) ##   X[n] = 17^n mod 9
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,10\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,10\right)} \mathbf{H}^{\left(17,10\right)} \mathbf{H}^{\left(17,10\right)} \mathbf{H}^{\left(17,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,10\right)} \left(\mathbf{H}^{\left(17,10\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,10\right)} = \{ , 7,9,3 \cdots \} = \left[ \mathbf{G}^{\left(17,10\right)} \mathbf{H}^{\left(17,10\right)} \mathbf{H}^{\left(17,10\right)} \mathbf{H}^{\left(17,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,10\right)} \left(\mathbf{H}^{\left(17,10\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,10\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,10\right)} = \{  \}
+# \mathbf{H}^{\left(17,10\right)} = \{ 7,9,3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,10\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=17, m=10) ##   X[n] = 17^n mod 10
@@ -376,21 +376,21 @@ example(b=17, m=10) ##   X[n] = 17^n mod 10
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,11\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,11\right)} \mathbf{H}^{\left(17,11\right)} \mathbf{H}^{\left(17,11\right)} \mathbf{H}^{\left(17,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,11\right)} \left(\mathbf{H}^{\left(17,11\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,11\right)} = \{ ,  6, 3, 7, 9,10, 5, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(17,11\right)} \mathbf{H}^{\left(17,11\right)} \mathbf{H}^{\left(17,11\right)} \mathbf{H}^{\left(17,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,11\right)} \left(\mathbf{H}^{\left(17,11\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,11\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,11\right)} = \{  \}
+# \mathbf{H}^{\left(17,11\right)} = \{  6, 3, 7, 9,10, 5, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,11\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=17, m=11) ##   X[n] = 17^n mod 11
@@ -413,21 +413,21 @@ example(b=17, m=11) ##   X[n] = 17^n mod 11
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,12\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,12\right)} \mathbf{H}^{\left(17,12\right)} \mathbf{H}^{\left(17,12\right)} \mathbf{H}^{\left(17,12\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,12\right)} \left(\mathbf{H}^{\left(17,12\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,12\right)} = \{ , 5 \cdots \} = \left[ \mathbf{G}^{\left(17,12\right)} \mathbf{H}^{\left(17,12\right)} \mathbf{H}^{\left(17,12\right)} \mathbf{H}^{\left(17,12\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,12\right)} \left(\mathbf{H}^{\left(17,12\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,12\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,12\right)} = \{  \}
+# \mathbf{H}^{\left(17,12\right)} = \{ 5 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,12\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,12\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=17, m=12) ##   X[n] = 17^n mod 12
@@ -450,21 +450,21 @@ example(b=17, m=12) ##   X[n] = 17^n mod 12
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,13\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,13\right)} \mathbf{H}^{\left(17,13\right)} \mathbf{H}^{\left(17,13\right)} \mathbf{H}^{\left(17,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,13\right)} \left(\mathbf{H}^{\left(17,13\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,13\right)} = \{ ,  4, 3,12, 9,10, \cdots \} = \left[ \mathbf{G}^{\left(17,13\right)} \mathbf{H}^{\left(17,13\right)} \mathbf{H}^{\left(17,13\right)} \mathbf{H}^{\left(17,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,13\right)} \left(\mathbf{H}^{\left(17,13\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,13\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,13\right)} = \{  \}
+# \mathbf{H}^{\left(17,13\right)} = \{  4, 3,12, 9,10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,13\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=17, m=13) ##   X[n] = 17^n mod 13
@@ -487,21 +487,21 @@ example(b=17, m=13) ##   X[n] = 17^n mod 13
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,14\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,14\right)} \mathbf{H}^{\left(17,14\right)} \mathbf{H}^{\left(17,14\right)} \mathbf{H}^{\left(17,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,14\right)} \left(\mathbf{H}^{\left(17,14\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,14\right)} = \{ ,  3, 9,13,11, 5, \cdots \} = \left[ \mathbf{G}^{\left(17,14\right)} \mathbf{H}^{\left(17,14\right)} \mathbf{H}^{\left(17,14\right)} \mathbf{H}^{\left(17,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,14\right)} \left(\mathbf{H}^{\left(17,14\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,14\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,14\right)} = \{  \}
+# \mathbf{H}^{\left(17,14\right)} = \{  3, 9,13,11, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,14\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=17, m=14) ##   X[n] = 17^n mod 14
@@ -524,21 +524,21 @@ example(b=17, m=14) ##   X[n] = 17^n mod 14
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,15\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,15\right)} \mathbf{H}^{\left(17,15\right)} \mathbf{H}^{\left(17,15\right)} \mathbf{H}^{\left(17,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,15\right)} \left(\mathbf{H}^{\left(17,15\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,15\right)} = \{ , 2,4,8 \cdots \} = \left[ \mathbf{G}^{\left(17,15\right)} \mathbf{H}^{\left(17,15\right)} \mathbf{H}^{\left(17,15\right)} \mathbf{H}^{\left(17,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,15\right)} \left(\mathbf{H}^{\left(17,15\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,15\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,15\right)} = \{  \}
+# \mathbf{H}^{\left(17,15\right)} = \{ 2,4,8 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,15\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=17, m=15) ##   X[n] = 17^n mod 15
@@ -572,10 +572,10 @@ example(b=17, m=15) ##   X[n] = 17^n mod 15
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,16\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,16\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=17, m=16) ##   X[n] = 17^n mod 16
@@ -609,10 +609,10 @@ example(b=17, m=16) ##   X[n] = 17^n mod 16
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,17\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=17, m=17) ##   X[n] = 17^n mod 17
@@ -635,21 +635,21 @@ example(b=17, m=17) ##   X[n] = 17^n mod 17
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,18\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,18\right)} \mathbf{H}^{\left(17,18\right)} \mathbf{H}^{\left(17,18\right)} \mathbf{H}^{\left(17,18\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,18\right)} \left(\mathbf{H}^{\left(17,18\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,18\right)} = \{ , 17, \cdots \} = \left[ \mathbf{G}^{\left(17,18\right)} \mathbf{H}^{\left(17,18\right)} \mathbf{H}^{\left(17,18\right)} \mathbf{H}^{\left(17,18\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,18\right)} \left(\mathbf{H}^{\left(17,18\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,18\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,18\right)} = \{  \}
+# \mathbf{H}^{\left(17,18\right)} = \{ 17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,18\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,18\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=17, m=18) ##   X[n] = 17^n mod 18
@@ -672,21 +672,21 @@ example(b=17, m=18) ##   X[n] = 17^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,19\right)} \mathbf{H}^{\left(17,19\right)} \mathbf{H}^{\left(17,19\right)} \mathbf{H}^{\left(17,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,19\right)} \left(\mathbf{H}^{\left(17,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,19\right)} = \{ , 17, 4,11,16, 6, 7, 5, 9, \cdots \} = \left[ \mathbf{G}^{\left(17,19\right)} \mathbf{H}^{\left(17,19\right)} \mathbf{H}^{\left(17,19\right)} \mathbf{H}^{\left(17,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,19\right)} \left(\mathbf{H}^{\left(17,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,19\right)} = \{  \}
+# \mathbf{H}^{\left(17,19\right)} = \{ 17, 4,11,16, 6, 7, 5, 9, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,19\right)}\right| = 9 
 # \end{aligned}
 # <codecell>
 example(b=17, m=19) ##   X[n] = 17^n mod 19
@@ -709,21 +709,21 @@ example(b=17, m=19) ##   X[n] = 17^n mod 19
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,20\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,20\right)} \mathbf{H}^{\left(17,20\right)} \mathbf{H}^{\left(17,20\right)} \mathbf{H}^{\left(17,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,20\right)} \left(\mathbf{H}^{\left(17,20\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,20\right)} = \{ , 17, 9,13, \cdots \} = \left[ \mathbf{G}^{\left(17,20\right)} \mathbf{H}^{\left(17,20\right)} \mathbf{H}^{\left(17,20\right)} \mathbf{H}^{\left(17,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,20\right)} \left(\mathbf{H}^{\left(17,20\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,20\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,20\right)} = \{  \}
+# \mathbf{H}^{\left(17,20\right)} = \{ 17, 9,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,20\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,20\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=17, m=20) ##   X[n] = 17^n mod 20
@@ -746,21 +746,21 @@ example(b=17, m=20) ##   X[n] = 17^n mod 20
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,21\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,21\right)} \mathbf{H}^{\left(17,21\right)} \mathbf{H}^{\left(17,21\right)} \mathbf{H}^{\left(17,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,21\right)} \left(\mathbf{H}^{\left(17,21\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,21\right)} = \{ , 17,16,20, 4, 5, \cdots \} = \left[ \mathbf{G}^{\left(17,21\right)} \mathbf{H}^{\left(17,21\right)} \mathbf{H}^{\left(17,21\right)} \mathbf{H}^{\left(17,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,21\right)} \left(\mathbf{H}^{\left(17,21\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,21\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,21\right)} = \{  \}
+# \mathbf{H}^{\left(17,21\right)} = \{ 17,16,20, 4, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,21\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=17, m=21) ##   X[n] = 17^n mod 21
@@ -783,21 +783,21 @@ example(b=17, m=21) ##   X[n] = 17^n mod 21
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,22\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,22\right)} \mathbf{H}^{\left(17,22\right)} \mathbf{H}^{\left(17,22\right)} \mathbf{H}^{\left(17,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,22\right)} \left(\mathbf{H}^{\left(17,22\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,22\right)} = \{ , 17, 3, 7, 9,21, 5,19,15,13, \cdots \} = \left[ \mathbf{G}^{\left(17,22\right)} \mathbf{H}^{\left(17,22\right)} \mathbf{H}^{\left(17,22\right)} \mathbf{H}^{\left(17,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,22\right)} \left(\mathbf{H}^{\left(17,22\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,22\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,22\right)} = \{  \}
+# \mathbf{H}^{\left(17,22\right)} = \{ 17, 3, 7, 9,21, 5,19,15,13, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,22\right)}\right| = 10 
 # \end{aligned}
 # <codecell>
 example(b=17, m=22) ##   X[n] = 17^n mod 22
@@ -820,21 +820,21 @@ example(b=17, m=22) ##   X[n] = 17^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,23\right)} \left(\mathbf{H}^{\left(17,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,23\right)} = \{ , 17,13,14, 8,21,12,20,18, 7, 4,22, 6,10, 9,15, 2,11, 3, 5,16,19, \cdots \} = \left[ \mathbf{G}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \mathbf{H}^{\left(17,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,23\right)} \left(\mathbf{H}^{\left(17,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,23\right)} = \{  \}
+# \mathbf{H}^{\left(17,23\right)} = \{ 17,13,14, 8,21,12,20,18, 7, 4,22, 6,10, 9,15, 2,11, 3, 5,16,19, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,23\right)}\right| = 22 
 # \end{aligned}
 # <codecell>
 example(b=17, m=23) ##   X[n] = 17^n mod 23
@@ -857,21 +857,21 @@ example(b=17, m=23) ##   X[n] = 17^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,24\right)} \left(\mathbf{H}^{\left(17,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,24\right)} = \{ , 17, \cdots \} = \left[ \mathbf{G}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \mathbf{H}^{\left(17,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,24\right)} \left(\mathbf{H}^{\left(17,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,24\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,24\right)} = \{  \}
+# \mathbf{H}^{\left(17,24\right)} = \{ 17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,24\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,24\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=17, m=24) ##   X[n] = 17^n mod 24
@@ -894,21 +894,21 @@ example(b=17, m=24) ##   X[n] = 17^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,25\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,25\right)} \mathbf{H}^{\left(17,25\right)} \mathbf{H}^{\left(17,25\right)} \mathbf{H}^{\left(17,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,25\right)} \left(\mathbf{H}^{\left(17,25\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,25\right)} = \{ , 17,14,13,21, 7,19,23,16,22,24, 8,11,12, 4,18, 6, 2, 9, 3, \cdots \} = \left[ \mathbf{G}^{\left(17,25\right)} \mathbf{H}^{\left(17,25\right)} \mathbf{H}^{\left(17,25\right)} \mathbf{H}^{\left(17,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,25\right)} \left(\mathbf{H}^{\left(17,25\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,25\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,25\right)} = \{  \}
+# \mathbf{H}^{\left(17,25\right)} = \{ 17,14,13,21, 7,19,23,16,22,24, 8,11,12, 4,18, 6, 2, 9, 3, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,25\right)}\right| = 20 
 # \end{aligned}
 # <codecell>
 example(b=17, m=25) ##   X[n] = 17^n mod 25
@@ -931,21 +931,21 @@ example(b=17, m=25) ##   X[n] = 17^n mod 25
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,26\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,26\right)} \mathbf{H}^{\left(17,26\right)} \mathbf{H}^{\left(17,26\right)} \mathbf{H}^{\left(17,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,26\right)} \left(\mathbf{H}^{\left(17,26\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,26\right)} = \{ , 17, 3,25, 9,23, \cdots \} = \left[ \mathbf{G}^{\left(17,26\right)} \mathbf{H}^{\left(17,26\right)} \mathbf{H}^{\left(17,26\right)} \mathbf{H}^{\left(17,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,26\right)} \left(\mathbf{H}^{\left(17,26\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,26\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,26\right)} = \{  \}
+# \mathbf{H}^{\left(17,26\right)} = \{ 17, 3,25, 9,23, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,26\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=17, m=26) ##   X[n] = 17^n mod 26
@@ -968,21 +968,21 @@ example(b=17, m=26) ##   X[n] = 17^n mod 26
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,27\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,27\right)} \mathbf{H}^{\left(17,27\right)} \mathbf{H}^{\left(17,27\right)} \mathbf{H}^{\left(17,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,27\right)} \left(\mathbf{H}^{\left(17,27\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,27\right)} = \{ , 17,19,26,10, 8, \cdots \} = \left[ \mathbf{G}^{\left(17,27\right)} \mathbf{H}^{\left(17,27\right)} \mathbf{H}^{\left(17,27\right)} \mathbf{H}^{\left(17,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,27\right)} \left(\mathbf{H}^{\left(17,27\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,27\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,27\right)} = \{  \}
+# \mathbf{H}^{\left(17,27\right)} = \{ 17,19,26,10, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,27\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,27\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=17, m=27) ##   X[n] = 17^n mod 27
@@ -1005,21 +1005,21 @@ example(b=17, m=27) ##   X[n] = 17^n mod 27
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,28\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,28\right)} \mathbf{H}^{\left(17,28\right)} \mathbf{H}^{\left(17,28\right)} \mathbf{H}^{\left(17,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,28\right)} \left(\mathbf{H}^{\left(17,28\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,28\right)} = \{ , 17, 9,13,25, 5, \cdots \} = \left[ \mathbf{G}^{\left(17,28\right)} \mathbf{H}^{\left(17,28\right)} \mathbf{H}^{\left(17,28\right)} \mathbf{H}^{\left(17,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,28\right)} \left(\mathbf{H}^{\left(17,28\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,28\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,28\right)} = \{  \}
+# \mathbf{H}^{\left(17,28\right)} = \{ 17, 9,13,25, 5, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,28\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,28\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=17, m=28) ##   X[n] = 17^n mod 28
@@ -1042,21 +1042,21 @@ example(b=17, m=28) ##   X[n] = 17^n mod 28
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,29\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,29\right)} \mathbf{H}^{\left(17,29\right)} \mathbf{H}^{\left(17,29\right)} \mathbf{H}^{\left(17,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,29\right)} \left(\mathbf{H}^{\left(17,29\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,29\right)} = \{ , 17,28,12, \cdots \} = \left[ \mathbf{G}^{\left(17,29\right)} \mathbf{H}^{\left(17,29\right)} \mathbf{H}^{\left(17,29\right)} \mathbf{H}^{\left(17,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,29\right)} \left(\mathbf{H}^{\left(17,29\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,29\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,29\right)} = \{  \}
+# \mathbf{H}^{\left(17,29\right)} = \{ 17,28,12, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,29\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=17, m=29) ##   X[n] = 17^n mod 29
@@ -1079,21 +1079,21 @@ example(b=17, m=29) ##   X[n] = 17^n mod 29
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(17,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,30\right)} \left(\mathbf{H}^{\left(17,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(17,30\right)} = \{ , 17,19,23, \cdots \} = \left[ \mathbf{G}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \mathbf{H}^{\left(17,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(17,30\right)} \left(\mathbf{H}^{\left(17,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(17,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(17,30\right)} = \{  \}
+# \mathbf{H}^{\left(17,30\right)} = \{ 17,19,23, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(17,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(17,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(17,30\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=17, m=30) ##   X[n] = 17^n mod 30

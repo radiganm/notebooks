@@ -80,21 +80,21 @@ example(b=2, m=4) ##   X[n] = 2^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(3,4\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(3,4\right)} \mathbf{H}^{\left(3,4\right)} \mathbf{H}^{\left(3,4\right)} \mathbf{H}^{\left(3,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,4\right)} \left(\mathbf{H}^{\left(3,4\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(3,4\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(3,4\right)} \mathbf{H}^{\left(3,4\right)} \mathbf{H}^{\left(3,4\right)} \mathbf{H}^{\left(3,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(3,4\right)} \left(\mathbf{H}^{\left(3,4\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(3,4\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(3,4\right)} = \{  \}
+# \mathbf{H}^{\left(3,4\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(3,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(3,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(3,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(3,4\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=3, m=4) ##   X[n] = 3^n mod 4
@@ -128,7 +128,7 @@ example(b=3, m=4) ##   X[n] = 3^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(4,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(4,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(4,4\right)}\right| = 1
@@ -165,7 +165,7 @@ example(b=4, m=4) ##   X[n] = 4^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(5,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(5,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(5,4\right)}\right| = 1
@@ -228,21 +228,21 @@ example(b=6, m=4) ##   X[n] = 6^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(7,4\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(7,4\right)} \mathbf{H}^{\left(7,4\right)} \mathbf{H}^{\left(7,4\right)} \mathbf{H}^{\left(7,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,4\right)} \left(\mathbf{H}^{\left(7,4\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(7,4\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(7,4\right)} \mathbf{H}^{\left(7,4\right)} \mathbf{H}^{\left(7,4\right)} \mathbf{H}^{\left(7,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(7,4\right)} \left(\mathbf{H}^{\left(7,4\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(7,4\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(7,4\right)} = \{  \}
+# \mathbf{H}^{\left(7,4\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(7,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(7,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(7,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(7,4\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=7, m=4) ##   X[n] = 7^n mod 4
@@ -276,7 +276,7 @@ example(b=7, m=4) ##   X[n] = 7^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(8,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(8,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(8,4\right)}\right| = 1
@@ -313,7 +313,7 @@ example(b=8, m=4) ##   X[n] = 8^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(9,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(9,4\right)}\right| = 1
@@ -376,21 +376,21 @@ example(b=10, m=4) ##   X[n] = 10^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(11,4\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,4\right)} \left(\mathbf{H}^{\left(11,4\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(11,4\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \mathbf{H}^{\left(11,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(11,4\right)} \left(\mathbf{H}^{\left(11,4\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(11,4\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(11,4\right)} = \{  \}
+# \mathbf{H}^{\left(11,4\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(11,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(11,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(11,4\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=11, m=4) ##   X[n] = 11^n mod 4
@@ -424,7 +424,7 @@ example(b=11, m=4) ##   X[n] = 11^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(12,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(12,4\right)}\right| = 1
@@ -461,7 +461,7 @@ example(b=12, m=4) ##   X[n] = 12^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(13,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(13,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(13,4\right)}\right| = 1
@@ -524,21 +524,21 @@ example(b=14, m=4) ##   X[n] = 14^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(15,4\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(15,4\right)} \mathbf{H}^{\left(15,4\right)} \mathbf{H}^{\left(15,4\right)} \mathbf{H}^{\left(15,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,4\right)} \left(\mathbf{H}^{\left(15,4\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(15,4\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(15,4\right)} \mathbf{H}^{\left(15,4\right)} \mathbf{H}^{\left(15,4\right)} \mathbf{H}^{\left(15,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(15,4\right)} \left(\mathbf{H}^{\left(15,4\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(15,4\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(15,4\right)} = \{  \}
+# \mathbf{H}^{\left(15,4\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(15,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(15,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(15,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(15,4\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=15, m=4) ##   X[n] = 15^n mod 4
@@ -572,7 +572,7 @@ example(b=15, m=4) ##   X[n] = 15^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(16,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(16,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(16,4\right)}\right| = 1
@@ -609,7 +609,7 @@ example(b=16, m=4) ##   X[n] = 16^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(17,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(17,4\right)}\right| = 1
@@ -672,21 +672,21 @@ example(b=18, m=4) ##   X[n] = 18^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(19,4\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(19,4\right)} \mathbf{H}^{\left(19,4\right)} \mathbf{H}^{\left(19,4\right)} \mathbf{H}^{\left(19,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,4\right)} \left(\mathbf{H}^{\left(19,4\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(19,4\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(19,4\right)} \mathbf{H}^{\left(19,4\right)} \mathbf{H}^{\left(19,4\right)} \mathbf{H}^{\left(19,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(19,4\right)} \left(\mathbf{H}^{\left(19,4\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(19,4\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(19,4\right)} = \{  \}
+# \mathbf{H}^{\left(19,4\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(19,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(19,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(19,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(19,4\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=19, m=4) ##   X[n] = 19^n mod 4
@@ -720,7 +720,7 @@ example(b=19, m=4) ##   X[n] = 19^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(20,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(20,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(20,4\right)}\right| = 1
@@ -757,7 +757,7 @@ example(b=20, m=4) ##   X[n] = 20^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(21,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(21,4\right)}\right| = 1
@@ -820,21 +820,21 @@ example(b=22, m=4) ##   X[n] = 22^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(23,4\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(23,4\right)} \mathbf{H}^{\left(23,4\right)} \mathbf{H}^{\left(23,4\right)} \mathbf{H}^{\left(23,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,4\right)} \left(\mathbf{H}^{\left(23,4\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(23,4\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(23,4\right)} \mathbf{H}^{\left(23,4\right)} \mathbf{H}^{\left(23,4\right)} \mathbf{H}^{\left(23,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(23,4\right)} \left(\mathbf{H}^{\left(23,4\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(23,4\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(23,4\right)} = \{  \}
+# \mathbf{H}^{\left(23,4\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(23,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(23,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(23,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(23,4\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=23, m=4) ##   X[n] = 23^n mod 4
@@ -868,7 +868,7 @@ example(b=23, m=4) ##   X[n] = 23^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(24,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(24,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(24,4\right)}\right| = 1
@@ -905,7 +905,7 @@ example(b=24, m=4) ##   X[n] = 24^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(25,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(25,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(25,4\right)}\right| = 1
@@ -968,21 +968,21 @@ example(b=26, m=4) ##   X[n] = 26^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(27,4\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(27,4\right)} \mathbf{H}^{\left(27,4\right)} \mathbf{H}^{\left(27,4\right)} \mathbf{H}^{\left(27,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,4\right)} \left(\mathbf{H}^{\left(27,4\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(27,4\right)} = \{ , 3 \cdots \} = \left[ \mathbf{G}^{\left(27,4\right)} \mathbf{H}^{\left(27,4\right)} \mathbf{H}^{\left(27,4\right)} \mathbf{H}^{\left(27,4\right)} \cdots \right] = \left[ \mathbf{G}^{\left(27,4\right)} \left(\mathbf{H}^{\left(27,4\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(27,4\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(27,4\right)} = \{  \}
+# \mathbf{H}^{\left(27,4\right)} = \{ 3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(27,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(27,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(27,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(27,4\right)}\right| = 2
 # \end{aligned}
 # <codecell>
 example(b=27, m=4) ##   X[n] = 27^n mod 4
@@ -1016,7 +1016,7 @@ example(b=27, m=4) ##   X[n] = 27^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(28,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(28,4\right)}\right| = 1
@@ -1053,7 +1053,7 @@ example(b=28, m=4) ##   X[n] = 28^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,4\right)}\right| = 1
+# \left|\mathbf{G}^{\left(29,4\right)}\right| = 0
 # \end{aligned}
 # \begin{aligned}
 # \left|\mathbf{H}^{\left(29,4\right)}\right| = 1

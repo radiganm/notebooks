@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=2) ##   X[n] = 12^n mod 2
@@ -91,10 +91,10 @@ example(b=12, m=2) ##   X[n] = 12^n mod 2
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,3\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=3) ##   X[n] = 12^n mod 3
@@ -128,10 +128,10 @@ example(b=12, m=3) ##   X[n] = 12^n mod 3
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,4\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,4\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=4) ##   X[n] = 12^n mod 4
@@ -154,21 +154,21 @@ example(b=12, m=4) ##   X[n] = 12^n mod 4
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,5\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,5\right)} \mathbf{H}^{\left(12,5\right)} \mathbf{H}^{\left(12,5\right)} \mathbf{H}^{\left(12,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,5\right)} \left(\mathbf{H}^{\left(12,5\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,5\right)} = \{ , 2,4,3 \cdots \} = \left[ \mathbf{G}^{\left(12,5\right)} \mathbf{H}^{\left(12,5\right)} \mathbf{H}^{\left(12,5\right)} \mathbf{H}^{\left(12,5\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,5\right)} \left(\mathbf{H}^{\left(12,5\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,5\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,5\right)} = \{  \}
+# \mathbf{H}^{\left(12,5\right)} = \{ 2,4,3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,5\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=12, m=5) ##   X[n] = 12^n mod 5
@@ -202,10 +202,10 @@ example(b=12, m=5) ##   X[n] = 12^n mod 5
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,6\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=6) ##   X[n] = 12^n mod 6
@@ -228,21 +228,21 @@ example(b=12, m=6) ##   X[n] = 12^n mod 6
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,7\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,7\right)} \mathbf{H}^{\left(12,7\right)} \mathbf{H}^{\left(12,7\right)} \mathbf{H}^{\left(12,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,7\right)} \left(\mathbf{H}^{\left(12,7\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,7\right)} = \{ , 5,4,6,2,3 \cdots \} = \left[ \mathbf{G}^{\left(12,7\right)} \mathbf{H}^{\left(12,7\right)} \mathbf{H}^{\left(12,7\right)} \mathbf{H}^{\left(12,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,7\right)} \left(\mathbf{H}^{\left(12,7\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,7\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,7\right)} = \{  \}
+# \mathbf{H}^{\left(12,7\right)} = \{ 5,4,6,2,3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,7\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=12, m=7) ##   X[n] = 12^n mod 7
@@ -276,10 +276,10 @@ example(b=12, m=7) ##   X[n] = 12^n mod 7
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,8\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,8\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=8) ##   X[n] = 12^n mod 8
@@ -313,10 +313,10 @@ example(b=12, m=8) ##   X[n] = 12^n mod 8
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,9\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,9\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=9) ##   X[n] = 12^n mod 9
@@ -339,21 +339,21 @@ example(b=12, m=9) ##   X[n] = 12^n mod 9
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,10\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,10\right)} \mathbf{H}^{\left(12,10\right)} \mathbf{H}^{\left(12,10\right)} \mathbf{H}^{\left(12,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,10\right)} \left(\mathbf{H}^{\left(12,10\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,10\right)} = \{ , 2,4,8 \cdots \} = \left[ \mathbf{G}^{\left(12,10\right)} \mathbf{H}^{\left(12,10\right)} \mathbf{H}^{\left(12,10\right)} \mathbf{H}^{\left(12,10\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,10\right)} \left(\mathbf{H}^{\left(12,10\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,10\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,10\right)} = \{  \}
+# \mathbf{H}^{\left(12,10\right)} = \{ 2,4,8 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,10\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=12, m=10) ##   X[n] = 12^n mod 10
@@ -387,10 +387,10 @@ example(b=12, m=10) ##   X[n] = 12^n mod 10
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,11\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=11) ##   X[n] = 12^n mod 11
@@ -424,10 +424,10 @@ example(b=12, m=11) ##   X[n] = 12^n mod 11
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,12\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,12\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=12) ##   X[n] = 12^n mod 12
@@ -450,21 +450,21 @@ example(b=12, m=12) ##   X[n] = 12^n mod 12
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,13\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,13\right)} \mathbf{H}^{\left(12,13\right)} \mathbf{H}^{\left(12,13\right)} \mathbf{H}^{\left(12,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,13\right)} \left(\mathbf{H}^{\left(12,13\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,13\right)} = \{ , 12, \cdots \} = \left[ \mathbf{G}^{\left(12,13\right)} \mathbf{H}^{\left(12,13\right)} \mathbf{H}^{\left(12,13\right)} \mathbf{H}^{\left(12,13\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,13\right)} \left(\mathbf{H}^{\left(12,13\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,13\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,13\right)} = \{  \}
+# \mathbf{H}^{\left(12,13\right)} = \{ 12, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,13\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=12, m=13) ##   X[n] = 12^n mod 13
@@ -487,21 +487,21 @@ example(b=12, m=13) ##   X[n] = 12^n mod 13
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,14\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,14\right)} \mathbf{H}^{\left(12,14\right)} \mathbf{H}^{\left(12,14\right)} \mathbf{H}^{\left(12,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,14\right)} \left(\mathbf{H}^{\left(12,14\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,14\right)} = \{ , 12, 4, 6, 2,10, \cdots \} = \left[ \mathbf{G}^{\left(12,14\right)} \mathbf{H}^{\left(12,14\right)} \mathbf{H}^{\left(12,14\right)} \mathbf{H}^{\left(12,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,14\right)} \left(\mathbf{H}^{\left(12,14\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,14\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,14\right)} = \{  \}
+# \mathbf{H}^{\left(12,14\right)} = \{ 12, 4, 6, 2,10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,14\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=12, m=14) ##   X[n] = 12^n mod 14
@@ -524,21 +524,21 @@ example(b=12, m=14) ##   X[n] = 12^n mod 14
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,15\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,15\right)} \mathbf{H}^{\left(12,15\right)} \mathbf{H}^{\left(12,15\right)} \mathbf{H}^{\left(12,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,15\right)} \left(\mathbf{H}^{\left(12,15\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,15\right)} = \{ , 12, 9, 3, \cdots \} = \left[ \mathbf{G}^{\left(12,15\right)} \mathbf{H}^{\left(12,15\right)} \mathbf{H}^{\left(12,15\right)} \mathbf{H}^{\left(12,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,15\right)} \left(\mathbf{H}^{\left(12,15\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,15\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,15\right)} = \{  \}
+# \mathbf{H}^{\left(12,15\right)} = \{ 12, 9, 3, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,15\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=12, m=15) ##   X[n] = 12^n mod 15
@@ -572,10 +572,10 @@ example(b=12, m=15) ##   X[n] = 12^n mod 15
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,16\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,16\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=16) ##   X[n] = 12^n mod 16
@@ -598,21 +598,21 @@ example(b=12, m=16) ##   X[n] = 12^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,17\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,17\right)} \mathbf{H}^{\left(12,17\right)} \mathbf{H}^{\left(12,17\right)} \mathbf{H}^{\left(12,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,17\right)} \left(\mathbf{H}^{\left(12,17\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,17\right)} = \{ , 12, 8,11,13, 3, 2, 7,16, 5, 9, 6, 4,14,15,10, \cdots \} = \left[ \mathbf{G}^{\left(12,17\right)} \mathbf{H}^{\left(12,17\right)} \mathbf{H}^{\left(12,17\right)} \mathbf{H}^{\left(12,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,17\right)} \left(\mathbf{H}^{\left(12,17\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,17\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,17\right)} = \{  \}
+# \mathbf{H}^{\left(12,17\right)} = \{ 12, 8,11,13, 3, 2, 7,16, 5, 9, 6, 4,14,15,10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,17\right)}\right| = 16 
 # \end{aligned}
 # <codecell>
 example(b=12, m=17) ##   X[n] = 12^n mod 17
@@ -646,10 +646,10 @@ example(b=12, m=17) ##   X[n] = 12^n mod 17
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,18\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,18\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=18) ##   X[n] = 12^n mod 18
@@ -672,21 +672,21 @@ example(b=12, m=18) ##   X[n] = 12^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,19\right)} \mathbf{H}^{\left(12,19\right)} \mathbf{H}^{\left(12,19\right)} \mathbf{H}^{\left(12,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,19\right)} \left(\mathbf{H}^{\left(12,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,19\right)} = \{ , 12,11,18, 7, 8, \cdots \} = \left[ \mathbf{G}^{\left(12,19\right)} \mathbf{H}^{\left(12,19\right)} \mathbf{H}^{\left(12,19\right)} \mathbf{H}^{\left(12,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,19\right)} \left(\mathbf{H}^{\left(12,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,19\right)} = \{  \}
+# \mathbf{H}^{\left(12,19\right)} = \{ 12,11,18, 7, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,19\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=12, m=19) ##   X[n] = 12^n mod 19
@@ -709,21 +709,21 @@ example(b=12, m=19) ##   X[n] = 12^n mod 19
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,20\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,20\right)} \mathbf{H}^{\left(12,20\right)} \mathbf{H}^{\left(12,20\right)} \mathbf{H}^{\left(12,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,20\right)} \left(\mathbf{H}^{\left(12,20\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,20\right)} = \{ , 12, 4, 8, \cdots \} = \left[ \mathbf{G}^{\left(12,20\right)} \mathbf{H}^{\left(12,20\right)} \mathbf{H}^{\left(12,20\right)} \mathbf{H}^{\left(12,20\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,20\right)} \left(\mathbf{H}^{\left(12,20\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,20\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,20\right)} = \{  \}
+# \mathbf{H}^{\left(12,20\right)} = \{ 12, 4, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,20\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,20\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=12, m=20) ##   X[n] = 12^n mod 20
@@ -746,21 +746,21 @@ example(b=12, m=20) ##   X[n] = 12^n mod 20
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,21\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,21\right)} \mathbf{H}^{\left(12,21\right)} \mathbf{H}^{\left(12,21\right)} \mathbf{H}^{\left(12,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,21\right)} \left(\mathbf{H}^{\left(12,21\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,21\right)} = \{ , 12,18, 6, 9, 3, \cdots \} = \left[ \mathbf{G}^{\left(12,21\right)} \mathbf{H}^{\left(12,21\right)} \mathbf{H}^{\left(12,21\right)} \mathbf{H}^{\left(12,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,21\right)} \left(\mathbf{H}^{\left(12,21\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,21\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,21\right)} = \{  \}
+# \mathbf{H}^{\left(12,21\right)} = \{ 12,18, 6, 9, 3, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,21\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=12, m=21) ##   X[n] = 12^n mod 21
@@ -794,10 +794,10 @@ example(b=12, m=21) ##   X[n] = 12^n mod 21
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,22\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=22) ##   X[n] = 12^n mod 22
@@ -820,21 +820,21 @@ example(b=12, m=22) ##   X[n] = 12^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,23\right)} \left(\mathbf{H}^{\left(12,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,23\right)} = \{ , 12, 6, 3,13,18, 9,16, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \mathbf{H}^{\left(12,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,23\right)} \left(\mathbf{H}^{\left(12,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,23\right)} = \{  \}
+# \mathbf{H}^{\left(12,23\right)} = \{ 12, 6, 3,13,18, 9,16, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,23\right)}\right| = 11 
 # \end{aligned}
 # <codecell>
 example(b=12, m=23) ##   X[n] = 12^n mod 23
@@ -868,10 +868,10 @@ example(b=12, m=23) ##   X[n] = 12^n mod 23
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,24\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,24\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=24) ##   X[n] = 12^n mod 24
@@ -894,21 +894,21 @@ example(b=12, m=24) ##   X[n] = 12^n mod 24
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,25\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,25\right)} \mathbf{H}^{\left(12,25\right)} \mathbf{H}^{\left(12,25\right)} \mathbf{H}^{\left(12,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,25\right)} \left(\mathbf{H}^{\left(12,25\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,25\right)} = \{ , 12,19, 3,11, 7, 9, 8,21, 2,24,13, 6,22,14,18,16,17, 4,23, \cdots \} = \left[ \mathbf{G}^{\left(12,25\right)} \mathbf{H}^{\left(12,25\right)} \mathbf{H}^{\left(12,25\right)} \mathbf{H}^{\left(12,25\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,25\right)} \left(\mathbf{H}^{\left(12,25\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,25\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,25\right)} = \{  \}
+# \mathbf{H}^{\left(12,25\right)} = \{ 12,19, 3,11, 7, 9, 8,21, 2,24,13, 6,22,14,18,16,17, 4,23, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,25\right)}\right| = 20 
 # \end{aligned}
 # <codecell>
 example(b=12, m=25) ##   X[n] = 12^n mod 25
@@ -931,21 +931,21 @@ example(b=12, m=25) ##   X[n] = 12^n mod 25
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,26\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,26\right)} \mathbf{H}^{\left(12,26\right)} \mathbf{H}^{\left(12,26\right)} \mathbf{H}^{\left(12,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,26\right)} \left(\mathbf{H}^{\left(12,26\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,26\right)} = \{ , 12, \cdots \} = \left[ \mathbf{G}^{\left(12,26\right)} \mathbf{H}^{\left(12,26\right)} \mathbf{H}^{\left(12,26\right)} \mathbf{H}^{\left(12,26\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,26\right)} \left(\mathbf{H}^{\left(12,26\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,26\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,26\right)} = \{  \}
+# \mathbf{H}^{\left(12,26\right)} = \{ 12, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,26\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=12, m=26) ##   X[n] = 12^n mod 26
@@ -968,21 +968,21 @@ example(b=12, m=26) ##   X[n] = 12^n mod 26
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,27\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,27\right)} \mathbf{H}^{\left(12,27\right)} \mathbf{H}^{\left(12,27\right)} \mathbf{H}^{\left(12,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,27\right)} \left(\mathbf{H}^{\left(12,27\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,27\right)} = \{ 12,,  \cdots \} = \left[ \mathbf{G}^{\left(12,27\right)} \mathbf{H}^{\left(12,27\right)} \mathbf{H}^{\left(12,27\right)} \mathbf{H}^{\left(12,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,27\right)} \left(\mathbf{H}^{\left(12,27\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(12,27\right)} = \{  \}
+# \mathbf{G}^{\left(12,27\right)} = \{ 12, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(12,27\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,27\right)}\right| = 2 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,27\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=12, m=27) ##   X[n] = 12^n mod 27
@@ -1005,21 +1005,21 @@ example(b=12, m=27) ##   X[n] = 12^n mod 27
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,28\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,28\right)} \mathbf{H}^{\left(12,28\right)} \mathbf{H}^{\left(12,28\right)} \mathbf{H}^{\left(12,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,28\right)} \left(\mathbf{H}^{\left(12,28\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,28\right)} = \{ , 12, 4,20,16,24, \cdots \} = \left[ \mathbf{G}^{\left(12,28\right)} \mathbf{H}^{\left(12,28\right)} \mathbf{H}^{\left(12,28\right)} \mathbf{H}^{\left(12,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,28\right)} \left(\mathbf{H}^{\left(12,28\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,28\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,28\right)} = \{  \}
+# \mathbf{H}^{\left(12,28\right)} = \{ 12, 4,20,16,24, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,28\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,28\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=12, m=28) ##   X[n] = 12^n mod 28
@@ -1042,21 +1042,21 @@ example(b=12, m=28) ##   X[n] = 12^n mod 28
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,29\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,29\right)} \mathbf{H}^{\left(12,29\right)} \mathbf{H}^{\left(12,29\right)} \mathbf{H}^{\left(12,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,29\right)} \left(\mathbf{H}^{\left(12,29\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,29\right)} = \{ , 12,28,17, \cdots \} = \left[ \mathbf{G}^{\left(12,29\right)} \mathbf{H}^{\left(12,29\right)} \mathbf{H}^{\left(12,29\right)} \mathbf{H}^{\left(12,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,29\right)} \left(\mathbf{H}^{\left(12,29\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,29\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,29\right)} = \{  \}
+# \mathbf{H}^{\left(12,29\right)} = \{ 12,28,17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,29\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=12, m=29) ##   X[n] = 12^n mod 29
@@ -1079,21 +1079,21 @@ example(b=12, m=29) ##   X[n] = 12^n mod 29
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(12,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,30\right)} \left(\mathbf{H}^{\left(12,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(12,30\right)} = \{ , 12,24,18, \cdots \} = \left[ \mathbf{G}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \mathbf{H}^{\left(12,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(12,30\right)} \left(\mathbf{H}^{\left(12,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(12,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(12,30\right)} = \{  \}
+# \mathbf{H}^{\left(12,30\right)} = \{ 12,24,18, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(12,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(12,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(12,30\right)}\right| = 4 
 # \end{aligned}
 # <codecell>
 example(b=12, m=30) ##   X[n] = 12^n mod 30

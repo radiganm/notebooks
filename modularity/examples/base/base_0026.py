@@ -54,10 +54,10 @@ def example(b,m):
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,2\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,2\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,2\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,2\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=2) ##   X[n] = 26^n mod 2
@@ -80,21 +80,21 @@ example(b=26, m=2) ##   X[n] = 26^n mod 2
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,3\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,3\right)} \mathbf{H}^{\left(26,3\right)} \mathbf{H}^{\left(26,3\right)} \mathbf{H}^{\left(26,3\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,3\right)} \left(\mathbf{H}^{\left(26,3\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,3\right)} = \{ , 2 \cdots \} = \left[ \mathbf{G}^{\left(26,3\right)} \mathbf{H}^{\left(26,3\right)} \mathbf{H}^{\left(26,3\right)} \mathbf{H}^{\left(26,3\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,3\right)} \left(\mathbf{H}^{\left(26,3\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,3\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,3\right)} = \{  \}
+# \mathbf{H}^{\left(26,3\right)} = \{ 2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,3\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,3\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,3\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,3\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=3) ##   X[n] = 26^n mod 3
@@ -128,10 +128,10 @@ example(b=26, m=3) ##   X[n] = 26^n mod 3
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,4\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,4\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,4\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,4\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=4) ##   X[n] = 26^n mod 4
@@ -165,10 +165,10 @@ example(b=26, m=4) ##   X[n] = 26^n mod 4
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,5\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,5\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,5\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,5\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=5) ##   X[n] = 26^n mod 5
@@ -191,21 +191,21 @@ example(b=26, m=5) ##   X[n] = 26^n mod 5
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,6\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,6\right)} \mathbf{H}^{\left(26,6\right)} \mathbf{H}^{\left(26,6\right)} \mathbf{H}^{\left(26,6\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,6\right)} \left(\mathbf{H}^{\left(26,6\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,6\right)} = \{ , 2 \cdots \} = \left[ \mathbf{G}^{\left(26,6\right)} \mathbf{H}^{\left(26,6\right)} \mathbf{H}^{\left(26,6\right)} \mathbf{H}^{\left(26,6\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,6\right)} \left(\mathbf{H}^{\left(26,6\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,6\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,6\right)} = \{  \}
+# \mathbf{H}^{\left(26,6\right)} = \{ 2 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,6\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,6\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,6\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,6\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=6) ##   X[n] = 26^n mod 6
@@ -228,21 +228,21 @@ example(b=26, m=6) ##   X[n] = 26^n mod 6
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,7\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,7\right)} \mathbf{H}^{\left(26,7\right)} \mathbf{H}^{\left(26,7\right)} \mathbf{H}^{\left(26,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,7\right)} \left(\mathbf{H}^{\left(26,7\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,7\right)} = \{ , 5,4,6,2,3 \cdots \} = \left[ \mathbf{G}^{\left(26,7\right)} \mathbf{H}^{\left(26,7\right)} \mathbf{H}^{\left(26,7\right)} \mathbf{H}^{\left(26,7\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,7\right)} \left(\mathbf{H}^{\left(26,7\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,7\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,7\right)} = \{  \}
+# \mathbf{H}^{\left(26,7\right)} = \{ 5,4,6,2,3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,7\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,7\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,7\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,7\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=26, m=7) ##   X[n] = 26^n mod 7
@@ -265,21 +265,21 @@ example(b=26, m=7) ##   X[n] = 26^n mod 7
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,8\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,8\right)} \mathbf{H}^{\left(26,8\right)} \mathbf{H}^{\left(26,8\right)} \mathbf{H}^{\left(26,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,8\right)} \left(\mathbf{H}^{\left(26,8\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,8\right)} = \{ 2,  \cdots \} = \left[ \mathbf{G}^{\left(26,8\right)} \mathbf{H}^{\left(26,8\right)} \mathbf{H}^{\left(26,8\right)} \mathbf{H}^{\left(26,8\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,8\right)} \left(\mathbf{H}^{\left(26,8\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(26,8\right)} = \{  \}
+# \mathbf{G}^{\left(26,8\right)} = \{ 2 \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(26,8\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,8\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,8\right)}\right| = 2 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,8\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,8\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=8) ##   X[n] = 26^n mod 8
@@ -302,21 +302,21 @@ example(b=26, m=8) ##   X[n] = 26^n mod 8
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,9\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,9\right)} \mathbf{H}^{\left(26,9\right)} \mathbf{H}^{\left(26,9\right)} \mathbf{H}^{\left(26,9\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,9\right)} \left(\mathbf{H}^{\left(26,9\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,9\right)} = \{ , 8 \cdots \} = \left[ \mathbf{G}^{\left(26,9\right)} \mathbf{H}^{\left(26,9\right)} \mathbf{H}^{\left(26,9\right)} \mathbf{H}^{\left(26,9\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,9\right)} \left(\mathbf{H}^{\left(26,9\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,9\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,9\right)} = \{  \}
+# \mathbf{H}^{\left(26,9\right)} = \{ 8 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,9\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,9\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,9\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,9\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=9) ##   X[n] = 26^n mod 9
@@ -350,10 +350,10 @@ example(b=26, m=9) ##   X[n] = 26^n mod 9
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,10\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,10\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,10\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,10\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=10) ##   X[n] = 26^n mod 10
@@ -376,21 +376,21 @@ example(b=26, m=10) ##   X[n] = 26^n mod 10
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,11\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,11\right)} \mathbf{H}^{\left(26,11\right)} \mathbf{H}^{\left(26,11\right)} \mathbf{H}^{\left(26,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,11\right)} \left(\mathbf{H}^{\left(26,11\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,11\right)} = \{ , 4,5,9,3 \cdots \} = \left[ \mathbf{G}^{\left(26,11\right)} \mathbf{H}^{\left(26,11\right)} \mathbf{H}^{\left(26,11\right)} \mathbf{H}^{\left(26,11\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,11\right)} \left(\mathbf{H}^{\left(26,11\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,11\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,11\right)} = \{  \}
+# \mathbf{H}^{\left(26,11\right)} = \{ 4,5,9,3 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,11\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,11\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,11\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,11\right)}\right| = 5 
 # \end{aligned}
 # <codecell>
 example(b=26, m=11) ##   X[n] = 26^n mod 11
@@ -413,21 +413,21 @@ example(b=26, m=11) ##   X[n] = 26^n mod 11
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,12\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,12\right)} \mathbf{H}^{\left(26,12\right)} \mathbf{H}^{\left(26,12\right)} \mathbf{H}^{\left(26,12\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,12\right)} \left(\mathbf{H}^{\left(26,12\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,12\right)} = \{ , 4 \cdots \} = \left[ \mathbf{G}^{\left(26,12\right)} \mathbf{H}^{\left(26,12\right)} \mathbf{H}^{\left(26,12\right)} \mathbf{H}^{\left(26,12\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,12\right)} \left(\mathbf{H}^{\left(26,12\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,12\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,12\right)} = \{  \}
+# \mathbf{H}^{\left(26,12\right)} = \{ 4 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,12\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,12\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,12\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,12\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=12) ##   X[n] = 26^n mod 12
@@ -461,10 +461,10 @@ example(b=26, m=12) ##   X[n] = 26^n mod 12
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,13\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,13\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,13\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,13\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=13) ##   X[n] = 26^n mod 13
@@ -487,21 +487,21 @@ example(b=26, m=13) ##   X[n] = 26^n mod 13
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,14\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,14\right)} \mathbf{H}^{\left(26,14\right)} \mathbf{H}^{\left(26,14\right)} \mathbf{H}^{\left(26,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,14\right)} \left(\mathbf{H}^{\left(26,14\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,14\right)} = \{ , 12, 4, 6, 2,10, \cdots \} = \left[ \mathbf{G}^{\left(26,14\right)} \mathbf{H}^{\left(26,14\right)} \mathbf{H}^{\left(26,14\right)} \mathbf{H}^{\left(26,14\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,14\right)} \left(\mathbf{H}^{\left(26,14\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,14\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,14\right)} = \{  \}
+# \mathbf{H}^{\left(26,14\right)} = \{ 12, 4, 6, 2,10, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,14\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,14\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,14\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,14\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=26, m=14) ##   X[n] = 26^n mod 14
@@ -524,21 +524,21 @@ example(b=26, m=14) ##   X[n] = 26^n mod 14
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,15\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,15\right)} \mathbf{H}^{\left(26,15\right)} \mathbf{H}^{\left(26,15\right)} \mathbf{H}^{\left(26,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,15\right)} \left(\mathbf{H}^{\left(26,15\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,15\right)} = \{ , 11, \cdots \} = \left[ \mathbf{G}^{\left(26,15\right)} \mathbf{H}^{\left(26,15\right)} \mathbf{H}^{\left(26,15\right)} \mathbf{H}^{\left(26,15\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,15\right)} \left(\mathbf{H}^{\left(26,15\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,15\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,15\right)} = \{  \}
+# \mathbf{H}^{\left(26,15\right)} = \{ 11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,15\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,15\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,15\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,15\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=15) ##   X[n] = 26^n mod 15
@@ -561,21 +561,21 @@ example(b=26, m=15) ##   X[n] = 26^n mod 15
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,16\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,16\right)} \left(\mathbf{H}^{\left(26,16\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,16\right)} = \{ 10, 4,,  \cdots \} = \left[ \mathbf{G}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \mathbf{H}^{\left(26,16\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,16\right)} \left(\mathbf{H}^{\left(26,16\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(26,16\right)} = \{  \}
+# \mathbf{G}^{\left(26,16\right)} = \{ 10, 4, \}
 # \end{aligned}
 # \begin{aligned}
 # \mathbf{H}^{\left(26,16\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,16\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,16\right)}\right| = 3 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,16\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,16\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=16) ##   X[n] = 26^n mod 16
@@ -598,21 +598,21 @@ example(b=26, m=16) ##   X[n] = 26^n mod 16
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,17\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,17\right)} \mathbf{H}^{\left(26,17\right)} \mathbf{H}^{\left(26,17\right)} \mathbf{H}^{\left(26,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,17\right)} \left(\mathbf{H}^{\left(26,17\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,17\right)} = \{ ,  9,13,15,16, 8, 4, 2, \cdots \} = \left[ \mathbf{G}^{\left(26,17\right)} \mathbf{H}^{\left(26,17\right)} \mathbf{H}^{\left(26,17\right)} \mathbf{H}^{\left(26,17\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,17\right)} \left(\mathbf{H}^{\left(26,17\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,17\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,17\right)} = \{  \}
+# \mathbf{H}^{\left(26,17\right)} = \{  9,13,15,16, 8, 4, 2, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,17\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,17\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,17\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,17\right)}\right| = 8 
 # \end{aligned}
 # <codecell>
 example(b=26, m=17) ##   X[n] = 26^n mod 17
@@ -635,21 +635,21 @@ example(b=26, m=17) ##   X[n] = 26^n mod 17
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,18\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,18\right)} \mathbf{H}^{\left(26,18\right)} \mathbf{H}^{\left(26,18\right)} \mathbf{H}^{\left(26,18\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,18\right)} \left(\mathbf{H}^{\left(26,18\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,18\right)} = \{ ,  8, \cdots \} = \left[ \mathbf{G}^{\left(26,18\right)} \mathbf{H}^{\left(26,18\right)} \mathbf{H}^{\left(26,18\right)} \mathbf{H}^{\left(26,18\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,18\right)} \left(\mathbf{H}^{\left(26,18\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,18\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,18\right)} = \{  \}
+# \mathbf{H}^{\left(26,18\right)} = \{  8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,18\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,18\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,18\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,18\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=18) ##   X[n] = 26^n mod 18
@@ -672,21 +672,21 @@ example(b=26, m=18) ##   X[n] = 26^n mod 18
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,19\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,19\right)} \mathbf{H}^{\left(26,19\right)} \mathbf{H}^{\left(26,19\right)} \mathbf{H}^{\left(26,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,19\right)} \left(\mathbf{H}^{\left(26,19\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,19\right)} = \{ ,  7,11, \cdots \} = \left[ \mathbf{G}^{\left(26,19\right)} \mathbf{H}^{\left(26,19\right)} \mathbf{H}^{\left(26,19\right)} \mathbf{H}^{\left(26,19\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,19\right)} \left(\mathbf{H}^{\left(26,19\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,19\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,19\right)} = \{  \}
+# \mathbf{H}^{\left(26,19\right)} = \{  7,11, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,19\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,19\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,19\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,19\right)}\right| = 3 
 # \end{aligned}
 # <codecell>
 example(b=26, m=19) ##   X[n] = 26^n mod 19
@@ -720,10 +720,10 @@ example(b=26, m=19) ##   X[n] = 26^n mod 19
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,20\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,20\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,20\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,20\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=20) ##   X[n] = 26^n mod 20
@@ -746,21 +746,21 @@ example(b=26, m=20) ##   X[n] = 26^n mod 20
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,21\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,21\right)} \mathbf{H}^{\left(26,21\right)} \mathbf{H}^{\left(26,21\right)} \mathbf{H}^{\left(26,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,21\right)} \left(\mathbf{H}^{\left(26,21\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,21\right)} = \{ ,  5, 4,20,16,17, \cdots \} = \left[ \mathbf{G}^{\left(26,21\right)} \mathbf{H}^{\left(26,21\right)} \mathbf{H}^{\left(26,21\right)} \mathbf{H}^{\left(26,21\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,21\right)} \left(\mathbf{H}^{\left(26,21\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,21\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,21\right)} = \{  \}
+# \mathbf{H}^{\left(26,21\right)} = \{  5, 4,20,16,17, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,21\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,21\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,21\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,21\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=26, m=21) ##   X[n] = 26^n mod 21
@@ -783,21 +783,21 @@ example(b=26, m=21) ##   X[n] = 26^n mod 21
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,22\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,22\right)} \mathbf{H}^{\left(26,22\right)} \mathbf{H}^{\left(26,22\right)} \mathbf{H}^{\left(26,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,22\right)} \left(\mathbf{H}^{\left(26,22\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,22\right)} = \{ ,  4,16,20,14, \cdots \} = \left[ \mathbf{G}^{\left(26,22\right)} \mathbf{H}^{\left(26,22\right)} \mathbf{H}^{\left(26,22\right)} \mathbf{H}^{\left(26,22\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,22\right)} \left(\mathbf{H}^{\left(26,22\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,22\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,22\right)} = \{  \}
+# \mathbf{H}^{\left(26,22\right)} = \{  4,16,20,14, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,22\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,22\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,22\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,22\right)}\right| = 5 
 # \end{aligned}
 # <codecell>
 example(b=26, m=22) ##   X[n] = 26^n mod 22
@@ -820,21 +820,21 @@ example(b=26, m=22) ##   X[n] = 26^n mod 22
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,23\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,23\right)} \left(\mathbf{H}^{\left(26,23\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,23\right)} = \{ ,  3, 9, 4,12,13,16, 2, 6,18, 8, \cdots \} = \left[ \mathbf{G}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \mathbf{H}^{\left(26,23\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,23\right)} \left(\mathbf{H}^{\left(26,23\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,23\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,23\right)} = \{  \}
+# \mathbf{H}^{\left(26,23\right)} = \{  3, 9, 4,12,13,16, 2, 6,18, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,23\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,23\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,23\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,23\right)}\right| = 11 
 # \end{aligned}
 # <codecell>
 example(b=26, m=23) ##   X[n] = 26^n mod 23
@@ -857,21 +857,21 @@ example(b=26, m=23) ##   X[n] = 26^n mod 23
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,24\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,24\right)} \mathbf{H}^{\left(26,24\right)} \mathbf{H}^{\left(26,24\right)} \mathbf{H}^{\left(26,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,24\right)} \left(\mathbf{H}^{\left(26,24\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,24\right)} = \{ 2,  8, \cdots \} = \left[ \mathbf{G}^{\left(26,24\right)} \mathbf{H}^{\left(26,24\right)} \mathbf{H}^{\left(26,24\right)} \mathbf{H}^{\left(26,24\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,24\right)} \left(\mathbf{H}^{\left(26,24\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(26,24\right)} = \{  \}
+# \mathbf{G}^{\left(26,24\right)} = \{ 2 \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,24\right)} = \{  \}
+# \mathbf{H}^{\left(26,24\right)} = \{  8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,24\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,24\right)}\right| = 2 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,24\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,24\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=24) ##   X[n] = 26^n mod 24
@@ -905,10 +905,10 @@ example(b=26, m=24) ##   X[n] = 26^n mod 24
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,25\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,25\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,25\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,25\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=25) ##   X[n] = 26^n mod 25
@@ -942,10 +942,10 @@ example(b=26, m=25) ##   X[n] = 26^n mod 25
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,26\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,26\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,26\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,26\right)}\right| = 1 
 # \end{aligned}
 # <codecell>
 example(b=26, m=26) ##   X[n] = 26^n mod 26
@@ -968,21 +968,21 @@ example(b=26, m=26) ##   X[n] = 26^n mod 26
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,27\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,27\right)} \mathbf{H}^{\left(26,27\right)} \mathbf{H}^{\left(26,27\right)} \mathbf{H}^{\left(26,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,27\right)} \left(\mathbf{H}^{\left(26,27\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,27\right)} = \{ , 26, \cdots \} = \left[ \mathbf{G}^{\left(26,27\right)} \mathbf{H}^{\left(26,27\right)} \mathbf{H}^{\left(26,27\right)} \mathbf{H}^{\left(26,27\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,27\right)} \left(\mathbf{H}^{\left(26,27\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,27\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,27\right)} = \{  \}
+# \mathbf{H}^{\left(26,27\right)} = \{ 26, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,27\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,27\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,27\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,27\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=27) ##   X[n] = 26^n mod 27
@@ -1005,21 +1005,21 @@ example(b=26, m=27) ##   X[n] = 26^n mod 27
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,28\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,28\right)} \mathbf{H}^{\left(26,28\right)} \mathbf{H}^{\left(26,28\right)} \mathbf{H}^{\left(26,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,28\right)} \left(\mathbf{H}^{\left(26,28\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,28\right)} = \{ ,  4,20,16,24, 8, \cdots \} = \left[ \mathbf{G}^{\left(26,28\right)} \mathbf{H}^{\left(26,28\right)} \mathbf{H}^{\left(26,28\right)} \mathbf{H}^{\left(26,28\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,28\right)} \left(\mathbf{H}^{\left(26,28\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,28\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,28\right)} = \{  \}
+# \mathbf{H}^{\left(26,28\right)} = \{  4,20,16,24, 8, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,28\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,28\right)}\right| = 1 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,28\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,28\right)}\right| = 6 
 # \end{aligned}
 # <codecell>
 example(b=26, m=28) ##   X[n] = 26^n mod 28
@@ -1042,21 +1042,23 @@ example(b=26, m=28) ##   X[n] = 26^n mod 28
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,29\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,29\right)} \mathbf{H}^{\left(26,29\right)} \mathbf{H}^{\left(26,29\right)} \mathbf{H}^{\left(26,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,29\right)} \left(\mathbf{H}^{\left(26,29\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,29\right)} = \{ , 26, 9, 2,23,18, 4,17, 7, 8, 5,14,16,10,28, 3,20,27, 6,11,25,12,22,21,24,
+ 15,13,19, \cdots \} = \left[ \mathbf{G}^{\left(26,29\right)} \mathbf{H}^{\left(26,29\right)} \mathbf{H}^{\left(26,29\right)} \mathbf{H}^{\left(26,29\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,29\right)} \left(\mathbf{H}^{\left(26,29\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,29\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,29\right)} = \{  \}
+# \mathbf{H}^{\left(26,29\right)} = \{ 26, 9, 2,23,18, 4,17, 7, 8, 5,14,16,10,28, 3,20,27, 6,11,25,12,22,21,24,
+ 15,13,19, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,29\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,29\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,29\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,29\right)}\right| = 28 
 # \end{aligned}
 # <codecell>
 example(b=26, m=29) ##   X[n] = 26^n mod 29
@@ -1079,21 +1081,21 @@ example(b=26, m=29) ##   X[n] = 26^n mod 29
 # \end{aligned}
 # yeilding
 # \begin{aligned}
-# \mathbf{X}^{\left(26,30\right)} = \{ ,  \cdots \} = \left[ \mathbf{G}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,30\right)} \left(\mathbf{H}^{\left(26,30\right)}\right)^{*} \right]
+# \mathbf{X}^{\left(26,30\right)} = \{ , 26, \cdots \} = \left[ \mathbf{G}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \mathbf{H}^{\left(26,30\right)} \cdots \right] = \left[ \mathbf{G}^{\left(26,30\right)} \left(\mathbf{H}^{\left(26,30\right)}\right)^{*} \right]
 # \end{aligned}
 # where
 # \begin{aligned}
 # \mathbf{G}^{\left(26,30\right)} = \{  \}
 # \end{aligned}
 # \begin{aligned}
-# \mathbf{H}^{\left(26,30\right)} = \{  \}
+# \mathbf{H}^{\left(26,30\right)} = \{ 26, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,30\right)}\right| = 0
+# \left|\mathbf{G}^{\left(26,30\right)}\right| = 0 
 # \end{aligned}
 # \begin{aligned}
-# \left|\mathbf{H}^{\left(26,30\right)}\right| = 1
+# \left|\mathbf{H}^{\left(26,30\right)}\right| = 2 
 # \end{aligned}
 # <codecell>
 example(b=26, m=30) ##   X[n] = 26^n mod 30
