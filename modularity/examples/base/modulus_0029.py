@@ -36,7 +36,9 @@ def example(b,m):
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -46,13 +48,17 @@ def example(b,m):
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,2\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,2\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -69,7 +75,9 @@ example(b=2, m=2) ##   X[n] = 2^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 3
 # \end{aligned}
 # yeilding
@@ -79,13 +87,17 @@ example(b=2, m=2) ##   X[n] = 2^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,3\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,3\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,3\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,3\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,3\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,3\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -102,7 +114,9 @@ example(b=2, m=3) ##   X[n] = 2^n mod 3
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 4
 # \end{aligned}
 # yeilding
@@ -112,13 +126,17 @@ example(b=2, m=3) ##   X[n] = 2^n mod 3
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,4\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,4\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,4\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,4\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,4\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,4\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -135,7 +153,9 @@ example(b=2, m=4) ##   X[n] = 2^n mod 4
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 5
 # \end{aligned}
 # yeilding
@@ -145,13 +165,17 @@ example(b=2, m=4) ##   X[n] = 2^n mod 4
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,5\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,5\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,5\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,5\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,5\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,5\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -168,7 +192,9 @@ example(b=2, m=5) ##   X[n] = 2^n mod 5
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 6
 # \end{aligned}
 # yeilding
@@ -178,13 +204,17 @@ example(b=2, m=5) ##   X[n] = 2^n mod 5
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,6\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,6\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,6\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,6\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,6\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,6\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -201,7 +231,9 @@ example(b=2, m=6) ##   X[n] = 2^n mod 6
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 7
 # \end{aligned}
 # yeilding
@@ -211,13 +243,17 @@ example(b=2, m=6) ##   X[n] = 2^n mod 6
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,7\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,7\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,7\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,7\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,7\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,7\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -234,7 +270,9 @@ example(b=2, m=7) ##   X[n] = 2^n mod 7
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 8
 # \end{aligned}
 # yeilding
@@ -244,13 +282,17 @@ example(b=2, m=7) ##   X[n] = 2^n mod 7
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,8\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,8\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,8\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,8\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,8\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,8\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -267,7 +309,9 @@ example(b=2, m=8) ##   X[n] = 2^n mod 8
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 9
 # \end{aligned}
 # yeilding
@@ -277,13 +321,17 @@ example(b=2, m=8) ##   X[n] = 2^n mod 8
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,9\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,9\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,9\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,9\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,9\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,9\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -300,7 +348,9 @@ example(b=2, m=9) ##   X[n] = 2^n mod 9
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 10
 # \end{aligned}
 # yeilding
@@ -310,13 +360,17 @@ example(b=2, m=9) ##   X[n] = 2^n mod 9
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,10\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,10\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,10\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,10\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,10\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,10\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -333,7 +387,9 @@ example(b=2, m=10) ##   X[n] = 2^n mod 10
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 11
 # \end{aligned}
 # yeilding
@@ -343,13 +399,17 @@ example(b=2, m=10) ##   X[n] = 2^n mod 10
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,11\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,11\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,11\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,11\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,11\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,11\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -366,7 +426,9 @@ example(b=2, m=11) ##   X[n] = 2^n mod 11
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 12
 # \end{aligned}
 # yeilding
@@ -376,13 +438,17 @@ example(b=2, m=11) ##   X[n] = 2^n mod 11
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,12\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,12\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,12\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,12\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,12\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,12\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -399,7 +465,9 @@ example(b=2, m=12) ##   X[n] = 2^n mod 12
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 13
 # \end{aligned}
 # yeilding
@@ -409,13 +477,17 @@ example(b=2, m=12) ##   X[n] = 2^n mod 12
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,13\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,13\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,13\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,13\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,13\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,13\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -432,7 +504,9 @@ example(b=2, m=13) ##   X[n] = 2^n mod 13
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 14
 # \end{aligned}
 # yeilding
@@ -442,13 +516,17 @@ example(b=2, m=13) ##   X[n] = 2^n mod 13
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,14\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,14\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,14\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,14\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,14\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,14\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -465,7 +543,9 @@ example(b=2, m=14) ##   X[n] = 2^n mod 14
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 15
 # \end{aligned}
 # yeilding
@@ -475,13 +555,17 @@ example(b=2, m=14) ##   X[n] = 2^n mod 14
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,15\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,15\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,15\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,15\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,15\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,15\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -498,7 +582,9 @@ example(b=2, m=15) ##   X[n] = 2^n mod 15
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 16
 # \end{aligned}
 # yeilding
@@ -508,13 +594,17 @@ example(b=2, m=15) ##   X[n] = 2^n mod 15
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,16\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,16\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,16\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,16\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,16\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,16\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -531,7 +621,9 @@ example(b=2, m=16) ##   X[n] = 2^n mod 16
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 17
 # \end{aligned}
 # yeilding
@@ -541,13 +633,17 @@ example(b=2, m=16) ##   X[n] = 2^n mod 16
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,17\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,17\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,17\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,17\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,17\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,17\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -564,7 +660,9 @@ example(b=2, m=17) ##   X[n] = 2^n mod 17
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 18
 # \end{aligned}
 # yeilding
@@ -574,13 +672,17 @@ example(b=2, m=17) ##   X[n] = 2^n mod 17
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,18\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,18\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,18\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,18\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,18\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,18\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -597,7 +699,9 @@ example(b=2, m=18) ##   X[n] = 2^n mod 18
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 19
 # \end{aligned}
 # yeilding
@@ -607,13 +711,17 @@ example(b=2, m=18) ##   X[n] = 2^n mod 18
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,19\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,19\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,19\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,19\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,19\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,19\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -630,7 +738,9 @@ example(b=2, m=19) ##   X[n] = 2^n mod 19
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 20
 # \end{aligned}
 # yeilding
@@ -640,13 +750,17 @@ example(b=2, m=19) ##   X[n] = 2^n mod 19
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,20\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,20\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,20\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,20\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,20\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,20\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -663,7 +777,9 @@ example(b=2, m=20) ##   X[n] = 2^n mod 20
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 21
 # \end{aligned}
 # yeilding
@@ -673,13 +789,17 @@ example(b=2, m=20) ##   X[n] = 2^n mod 20
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,21\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,21\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,21\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,21\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,21\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,21\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -696,7 +816,9 @@ example(b=2, m=21) ##   X[n] = 2^n mod 21
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 22
 # \end{aligned}
 # yeilding
@@ -706,13 +828,17 @@ example(b=2, m=21) ##   X[n] = 2^n mod 21
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,22\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,22\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,22\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,22\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,22\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,22\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -729,7 +855,9 @@ example(b=2, m=22) ##   X[n] = 2^n mod 22
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 23
 # \end{aligned}
 # yeilding
@@ -739,13 +867,17 @@ example(b=2, m=22) ##   X[n] = 2^n mod 22
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,23\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,23\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,23\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,23\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,23\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,23\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -762,7 +894,9 @@ example(b=2, m=23) ##   X[n] = 2^n mod 23
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 24
 # \end{aligned}
 # yeilding
@@ -772,13 +906,17 @@ example(b=2, m=23) ##   X[n] = 2^n mod 23
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,24\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,24\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,24\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,24\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,24\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,24\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -795,7 +933,9 @@ example(b=2, m=24) ##   X[n] = 2^n mod 24
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 25
 # \end{aligned}
 # yeilding
@@ -805,13 +945,17 @@ example(b=2, m=24) ##   X[n] = 2^n mod 24
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,25\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,25\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,25\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,25\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,25\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,25\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -828,7 +972,9 @@ example(b=2, m=25) ##   X[n] = 2^n mod 25
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 26
 # \end{aligned}
 # yeilding
@@ -838,13 +984,17 @@ example(b=2, m=25) ##   X[n] = 2^n mod 25
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,26\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,26\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,26\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,26\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,26\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,26\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -861,7 +1011,9 @@ example(b=2, m=26) ##   X[n] = 2^n mod 26
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 27
 # \end{aligned}
 # yeilding
@@ -871,13 +1023,17 @@ example(b=2, m=26) ##   X[n] = 2^n mod 26
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,27\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,27\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,27\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,27\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,27\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,27\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -894,7 +1050,9 @@ example(b=2, m=27) ##   X[n] = 2^n mod 27
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 28
 # \end{aligned}
 # yeilding
@@ -904,13 +1062,17 @@ example(b=2, m=27) ##   X[n] = 2^n mod 27
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,28\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,28\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,28\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,28\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,28\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,28\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -927,7 +1089,9 @@ example(b=2, m=28) ##   X[n] = 2^n mod 28
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 29
 # \end{aligned}
 # yeilding
@@ -937,13 +1101,17 @@ example(b=2, m=28) ##   X[n] = 2^n mod 28
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,29\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,29\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,29\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,29\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,29\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,29\right)}\right| = 28
 # \end{aligned}
 # <codecell>
@@ -960,7 +1128,9 @@ example(b=2, m=29) ##   X[n] = 2^n mod 29
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 30
 # \end{aligned}
 # yeilding
@@ -970,13 +1140,17 @@ example(b=2, m=29) ##   X[n] = 2^n mod 29
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,30\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,30\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,30\right)} = \{  2, 4, 8,16, 3, 6,12,24,19, 9,18, 7,14,28,27,25,21,13,26,23,17, 5,10,20,
  11,22,15, \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,30\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,30\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,30\right)}\right| = 28
 # \end{aligned}
 # <codecell>

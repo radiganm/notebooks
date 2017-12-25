@@ -107,7 +107,9 @@ print("check:  %d == %d" % (b**(m-1) % m, 1))
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 5
 # \end{aligned}
 # yeilding
@@ -116,12 +118,16 @@ print("check:  %d == %d" % (b**(m-1) % m, 1))
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,5\right)} = \varnothing \\
+# \mathbf{G}^{\left(2,5\right)} = \varnothing
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,5\right)} = \{ 2, 4, 3, 1 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,5\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,5\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,5\right)}\right| = 4
 # \end{aligned}
 # <codecell>
@@ -150,7 +156,9 @@ print("check:  %d == %d" % (b**(m-1) % m, 1))
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 7
 # \end{aligned}
 # yeilding
@@ -159,12 +167,16 @@ print("check:  %d == %d" % (b**(m-1) % m, 1))
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,7\right)} = \varnothing \\
+# \mathbf{G}^{\left(2,7\right)} = \varnothing
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,7\right)} = \{ 2, 4, 1 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,7\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,7\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,7\right)}\right| = 3
 # \end{aligned}
 # <codecell>
@@ -194,7 +206,9 @@ print("check:  %d == %d" % (b**(m-1) % m, 1))
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 3 \\
+# b = 3
+# \end{aligned}
+# \begin{aligned}
 # m = 7
 # \end{aligned}
 # yeilding
@@ -203,12 +217,16 @@ print("check:  %d == %d" % (b**(m-1) % m, 1))
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(3,7\right)} = \varnothing \\
+# \mathbf{G}^{\left(3,7\right)} = \varnothing
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(3,7\right)} = \{ 3, 2, 6, 4, 5, 1 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(3,7\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(3,7\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(3,7\right)}\right| = 6
 # \end{aligned}
 # <codecell>
@@ -238,7 +256,9 @@ print("check:  %d == %d" % (b**(m-1) % m, 1))
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 5 \\
+# b = 5
+# \end{aligned}
+# \begin{aligned}
 # m = 7
 # \end{aligned}
 # yeilding
@@ -247,12 +267,16 @@ print("check:  %d == %d" % (b**(m-1) % m, 1))
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(5,7\right)} = \varnothing \\
+# \mathbf{G}^{\left(5,7\right)} = \varnothing
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(5,7\right)} = \{ 5, 4, 6, 2, 3, 1 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(5,7\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(5,7\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(5,7\right)}\right| = 6
 # \end{aligned}
 # <codecell>
@@ -270,7 +294,9 @@ example(b=5, m=7) ##   X[n] = 5^n mod 7
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 10
 # \end{aligned}
 # yeilding
@@ -279,12 +305,16 @@ example(b=5, m=7) ##   X[n] = 5^n mod 7
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,10\right)} = \varnothing \\
+# \mathbf{G}^{\left(2,10\right)} = \varnothing
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,10\right)} = \{ 2, 4, 8, 6 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,10\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,10\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,10\right)}\right| = 4
 # \end{aligned}
 # <codecell>
@@ -299,7 +329,9 @@ example(b=2, m=10) ##   X[n] = 2^n mod 10
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 4 \\
+# b = 4
+# \end{aligned}
+# \begin{aligned}
 # m = 10
 # \end{aligned}
 # yeilding
@@ -308,12 +340,16 @@ example(b=2, m=10) ##   X[n] = 2^n mod 10
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(4,10\right)} = \varnothing \\
+# \mathbf{G}^{\left(4,10\right)} = \varnothing
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(4,10\right)} = \{ 4, 6 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(4,10\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(4,10\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(4,10\right)}\right| = 2
 # \end{aligned}
 # <codecell>
@@ -328,7 +364,9 @@ example(b=4, m=10) ##   X[n] = 4^n mod 10
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 8 \\
+# b = 8
+# \end{aligned}
+# \begin{aligned}
 # m = 10
 # \end{aligned}
 # yeilding
@@ -337,12 +375,16 @@ example(b=4, m=10) ##   X[n] = 4^n mod 10
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(8,10\right)} = \varnothing \\
+# \mathbf{G}^{\left(8,10\right)} = \varnothing
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(8,10\right)} = \{ 8, 6, 2, 4 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(8,10\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(8,10\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(8,10\right)}\right| = 4
 # \end{aligned}
 # <codecell>
@@ -361,7 +403,9 @@ example(b=8, m=10) ##   X[n] = 8^n mod 10
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 12 \\
+# b = 12
+# \end{aligned}
+# \begin{aligned}
 # m = 40
 # \end{aligned}
 # yeilding
@@ -370,12 +414,16 @@ example(b=8, m=10) ##   X[n] = 8^n mod 10
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(12,40\right)} = \{ 12 \} \\
+# \mathbf{G}^{\left(12,40\right)} = \{ 12 \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(12,40\right)} = \{ 24, 8, 16, 32 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,40\right)}\right| = 1 \\
+# \left|\mathbf{G}^{\left(12,40\right)}\right| = 1
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(12,40\right)}\right| = 4
 # \end{aligned}
 # <codecell>
@@ -390,7 +438,9 @@ example(b=12, m=40) ##   X[n] = 12^n mod 40
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 45 \\
+# b = 45
+# \end{aligned}
+# \begin{aligned}
 # m = 175
 # \end{aligned}
 # yeilding
@@ -399,12 +449,16 @@ example(b=12, m=40) ##   X[n] = 12^n mod 40
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(45,175\right)} = \{ 45 \} \\
+# \mathbf{G}^{\left(45,175\right)} = \{ 45 \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(45,175\right)} = \{ 45, 100, 125, 25, 75, 50, 150 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(45,175\right)}\right| = 1 \\
+# \left|\mathbf{G}^{\left(45,175\right)}\right| = 1
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(45,175\right)}\right| = 6
 # \end{aligned}
 # <codecell>
@@ -419,7 +473,9 @@ example(b=45, m=175) ##   X[n] = 45^n mod 175
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 45 \\
+# b = 45
+# \end{aligned}
+# \begin{aligned}
 # m = 189
 # \end{aligned}
 # yeilding
@@ -428,12 +484,16 @@ example(b=45, m=175) ##   X[n] = 45^n mod 175
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(45,189\right)} = \{ 45 \} \\
+# \mathbf{G}^{\left(45,189\right)} = \{ 45 \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(45,189\right)} = \{ 135, 27, 81, 54, 108 \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(45,189\right)}\right| = 1 \\
+# \left|\mathbf{G}^{\left(45,189\right)}\right| = 1
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(45,189\right)}\right| = 5
 # \end{aligned}
 # <codecell>

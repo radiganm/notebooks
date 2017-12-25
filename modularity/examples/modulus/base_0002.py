@@ -36,7 +36,9 @@ def example(b,m):
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 2 \\
+# b = 2
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -45,12 +47,16 @@ def example(b,m):
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(2,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(2,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(2,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(2,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(2,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(2,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -67,7 +73,9 @@ example(b=2, m=2) ##   X[n] = 2^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 3 \\
+# b = 3
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -76,12 +84,16 @@ example(b=2, m=2) ##   X[n] = 2^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(3,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(3,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(3,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(3,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(3,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(3,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -98,7 +110,9 @@ example(b=3, m=2) ##   X[n] = 3^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 4 \\
+# b = 4
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -107,12 +121,16 @@ example(b=3, m=2) ##   X[n] = 3^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(4,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(4,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(4,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(4,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(4,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(4,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -129,7 +147,9 @@ example(b=4, m=2) ##   X[n] = 4^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 5 \\
+# b = 5
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -138,12 +158,16 @@ example(b=4, m=2) ##   X[n] = 4^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(5,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(5,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(5,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(5,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(5,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(5,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -160,7 +184,9 @@ example(b=5, m=2) ##   X[n] = 5^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 6 \\
+# b = 6
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -169,12 +195,16 @@ example(b=5, m=2) ##   X[n] = 5^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(6,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(6,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(6,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(6,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(6,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(6,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -191,7 +221,9 @@ example(b=6, m=2) ##   X[n] = 6^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 7 \\
+# b = 7
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -200,12 +232,16 @@ example(b=6, m=2) ##   X[n] = 6^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(7,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(7,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(7,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(7,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(7,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(7,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -222,7 +258,9 @@ example(b=7, m=2) ##   X[n] = 7^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 8 \\
+# b = 8
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -231,12 +269,16 @@ example(b=7, m=2) ##   X[n] = 7^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(8,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(8,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(8,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(8,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(8,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(8,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -253,7 +295,9 @@ example(b=8, m=2) ##   X[n] = 8^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 9 \\
+# b = 9
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -262,12 +306,16 @@ example(b=8, m=2) ##   X[n] = 8^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(9,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(9,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(9,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(9,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(9,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(9,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -284,7 +332,9 @@ example(b=9, m=2) ##   X[n] = 9^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 10 \\
+# b = 10
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -293,12 +343,16 @@ example(b=9, m=2) ##   X[n] = 9^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(10,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(10,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(10,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(10,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(10,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(10,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -315,7 +369,9 @@ example(b=10, m=2) ##   X[n] = 10^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 11 \\
+# b = 11
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -324,12 +380,16 @@ example(b=10, m=2) ##   X[n] = 10^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(11,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(11,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(11,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(11,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(11,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(11,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -346,7 +406,9 @@ example(b=11, m=2) ##   X[n] = 11^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 12 \\
+# b = 12
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -355,12 +417,16 @@ example(b=11, m=2) ##   X[n] = 11^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(12,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(12,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(12,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(12,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(12,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(12,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -377,7 +443,9 @@ example(b=12, m=2) ##   X[n] = 12^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 13 \\
+# b = 13
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -386,12 +454,16 @@ example(b=12, m=2) ##   X[n] = 12^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(13,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(13,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(13,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(13,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(13,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(13,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -408,7 +480,9 @@ example(b=13, m=2) ##   X[n] = 13^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 14 \\
+# b = 14
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -417,12 +491,16 @@ example(b=13, m=2) ##   X[n] = 13^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(14,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(14,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(14,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(14,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(14,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(14,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -439,7 +517,9 @@ example(b=14, m=2) ##   X[n] = 14^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 15 \\
+# b = 15
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -448,12 +528,16 @@ example(b=14, m=2) ##   X[n] = 14^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(15,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(15,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(15,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(15,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(15,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(15,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -470,7 +554,9 @@ example(b=15, m=2) ##   X[n] = 15^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 16 \\
+# b = 16
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -479,12 +565,16 @@ example(b=15, m=2) ##   X[n] = 15^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(16,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(16,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(16,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(16,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(16,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(16,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -501,7 +591,9 @@ example(b=16, m=2) ##   X[n] = 16^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 17 \\
+# b = 17
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -510,12 +602,16 @@ example(b=16, m=2) ##   X[n] = 16^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(17,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(17,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(17,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(17,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(17,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(17,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -532,7 +628,9 @@ example(b=17, m=2) ##   X[n] = 17^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 18 \\
+# b = 18
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -541,12 +639,16 @@ example(b=17, m=2) ##   X[n] = 17^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(18,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(18,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(18,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(18,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(18,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(18,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -563,7 +665,9 @@ example(b=18, m=2) ##   X[n] = 18^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 19 \\
+# b = 19
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -572,12 +676,16 @@ example(b=18, m=2) ##   X[n] = 18^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(19,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(19,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(19,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(19,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(19,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(19,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -594,7 +702,9 @@ example(b=19, m=2) ##   X[n] = 19^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 20 \\
+# b = 20
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -603,12 +713,16 @@ example(b=19, m=2) ##   X[n] = 19^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(20,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(20,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(20,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(20,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(20,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(20,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -625,7 +739,9 @@ example(b=20, m=2) ##   X[n] = 20^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 21 \\
+# b = 21
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -634,12 +750,16 @@ example(b=20, m=2) ##   X[n] = 20^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(21,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(21,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(21,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(21,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(21,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(21,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -656,7 +776,9 @@ example(b=21, m=2) ##   X[n] = 21^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 22 \\
+# b = 22
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -665,12 +787,16 @@ example(b=21, m=2) ##   X[n] = 21^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(22,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(22,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(22,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(22,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(22,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(22,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -687,7 +813,9 @@ example(b=22, m=2) ##   X[n] = 22^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 23 \\
+# b = 23
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -696,12 +824,16 @@ example(b=22, m=2) ##   X[n] = 22^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(23,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(23,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(23,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(23,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(23,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(23,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -718,7 +850,9 @@ example(b=23, m=2) ##   X[n] = 23^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 24 \\
+# b = 24
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -727,12 +861,16 @@ example(b=23, m=2) ##   X[n] = 23^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(24,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(24,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(24,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(24,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(24,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(24,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -749,7 +887,9 @@ example(b=24, m=2) ##   X[n] = 24^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 25 \\
+# b = 25
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -758,12 +898,16 @@ example(b=24, m=2) ##   X[n] = 24^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(25,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(25,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(25,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(25,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(25,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(25,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -780,7 +924,9 @@ example(b=25, m=2) ##   X[n] = 25^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 26 \\
+# b = 26
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -789,12 +935,16 @@ example(b=25, m=2) ##   X[n] = 25^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(26,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(26,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(26,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(26,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(26,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(26,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -811,7 +961,9 @@ example(b=26, m=2) ##   X[n] = 26^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 27 \\
+# b = 27
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -820,12 +972,16 @@ example(b=26, m=2) ##   X[n] = 26^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(27,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(27,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(27,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(27,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(27,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(27,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -842,7 +998,9 @@ example(b=27, m=2) ##   X[n] = 27^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 28 \\
+# b = 28
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -851,12 +1009,16 @@ example(b=27, m=2) ##   X[n] = 27^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(28,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(28,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(28,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(28,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(28,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(28,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -873,7 +1035,9 @@ example(b=28, m=2) ##   X[n] = 28^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 29 \\
+# b = 29
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -882,12 +1046,16 @@ example(b=28, m=2) ##   X[n] = 28^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(29,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(29,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(29,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(29,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(29,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(29,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>
@@ -904,7 +1072,9 @@ example(b=29, m=2) ##   X[n] = 29^n mod 2
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = 30 \\
+# b = 30
+# \end{aligned}
+# \begin{aligned}
 # m = 2
 # \end{aligned}
 # yeilding
@@ -913,12 +1083,16 @@ example(b=29, m=2) ##   X[n] = 29^n mod 2
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left(30,2\right)} = \{  \} \\
+# \mathbf{G}^{\left(30,2\right)} = \{  \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left(30,2\right)} = \{  \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left(30,2\right)}\right| = 0 \\
+# \left|\mathbf{G}^{\left(30,2\right)}\right| = 0
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left(30,2\right)}\right| = 1
 # \end{aligned}
 # <codecell>

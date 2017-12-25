@@ -36,7 +36,9 @@ def example(b,m):
 # \end{aligned}
 # with
 # \begin{aligned}
-# b = {{b}} \\
+# b = {{b}}
+# \end{aligned}
+# \begin{aligned}
 # m = {{m}}
 # \end{aligned}
 # yeilding
@@ -45,12 +47,16 @@ def example(b,m):
 # \end{aligned}
 # where
 # \begin{aligned}
-# \mathbf{G}^{\left({{b}},{{m}}\right)} = \{ {{Gs}} \} \\
+# \mathbf{G}^{\left({{b}},{{m}}\right)} = \{ {{Gs}} \}
+# \end{aligned}
+# \begin{aligned}
 # \mathbf{H}^{\left({{b}},{{m}}\right)} = \{ {{Hs}} \}
 # \end{aligned}
 # so we have
 # \begin{aligned}
-# \left|\mathbf{G}^{\left({{b}},{{m}}\right)}\right| = {{G_N}} \\
+# \left|\mathbf{G}^{\left({{b}},{{m}}\right)}\right| = {{G_N}}
+# \end{aligned}
+# \begin{aligned}
 # \left|\mathbf{H}^{\left({{b}},{{m}}\right)}\right| = {{H_N}}
 # \end{aligned}
 # <codecell>
