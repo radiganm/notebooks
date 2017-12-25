@@ -17,7 +17,7 @@
 # <headingcell level=2>
 # Introduction
 # <markdowncell>
-# For an integer seqence $n = 1, 2, \cdots \infty$, and choice of integers $b, m \in \mathbb{Z^+}$, what is the behavior of the sequence $\mathbf{X}_n = b^n \mod m$?
+# For an integer seqence $n = 1, 2, \cdots \infty$, and choice of integers $b$, $m$ $\in$ $\mathbb{Z}^{+}$, what is the behavior of the sequence $\mathbf{X}_n = b^n \mod m$?
 
 
 # <headingcell level=2>
@@ -29,7 +29,7 @@
 # <headingcell level=2>
 # Notation
 # <markdowncell>
-# For an integer seqence $n = 1, 2, \cdots \infty$, and choice of integers $b, m \in \mathbb{Z^+}$, what is the behavior of the sequence $\mathbf{X}_n = b^n \mod m$?
+# For an integer seqence $n = 1, 2, \cdots \infty$, and choice of integers $b$, $m$ $\in$ $\mathbb{Z}^{+}$, what is the behavior of the sequence $\mathbf{X}_n = b^n \mod m$?
 
 
 # <headingcell level=2>
