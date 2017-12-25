@@ -12,182 +12,182 @@
 ** by Base
 
 
-- [[./examples/base/modulus_0002.ipynb][base b = 2: ./examples/base/modulus_0002.ipynb]]
+- [[./examples/base/base_0002.ipynb][base b = 2: ./examples/base/base_0002.ipynb]]
 
 
-- [[./examples/base/modulus_0003.ipynb][base b = 3: ./examples/base/modulus_0003.ipynb]]
+- [[./examples/base/base_0003.ipynb][base b = 3: ./examples/base/base_0003.ipynb]]
 
 
-- [[./examples/base/modulus_0004.ipynb][base b = 4: ./examples/base/modulus_0004.ipynb]]
+- [[./examples/base/base_0004.ipynb][base b = 4: ./examples/base/base_0004.ipynb]]
 
 
-- [[./examples/base/modulus_0005.ipynb][base b = 5: ./examples/base/modulus_0005.ipynb]]
+- [[./examples/base/base_0005.ipynb][base b = 5: ./examples/base/base_0005.ipynb]]
 
 
-- [[./examples/base/modulus_0006.ipynb][base b = 6: ./examples/base/modulus_0006.ipynb]]
+- [[./examples/base/base_0006.ipynb][base b = 6: ./examples/base/base_0006.ipynb]]
 
 
-- [[./examples/base/modulus_0007.ipynb][base b = 7: ./examples/base/modulus_0007.ipynb]]
+- [[./examples/base/base_0007.ipynb][base b = 7: ./examples/base/base_0007.ipynb]]
 
 
-- [[./examples/base/modulus_0008.ipynb][base b = 8: ./examples/base/modulus_0008.ipynb]]
+- [[./examples/base/base_0008.ipynb][base b = 8: ./examples/base/base_0008.ipynb]]
 
 
-- [[./examples/base/modulus_0009.ipynb][base b = 9: ./examples/base/modulus_0009.ipynb]]
+- [[./examples/base/base_0009.ipynb][base b = 9: ./examples/base/base_0009.ipynb]]
 
 
-- [[./examples/base/modulus_0010.ipynb][base b = 10: ./examples/base/modulus_0010.ipynb]]
+- [[./examples/base/base_0010.ipynb][base b = 10: ./examples/base/base_0010.ipynb]]
 
 
-- [[./examples/base/modulus_0011.ipynb][base b = 11: ./examples/base/modulus_0011.ipynb]]
+- [[./examples/base/base_0011.ipynb][base b = 11: ./examples/base/base_0011.ipynb]]
 
 
-- [[./examples/base/modulus_0012.ipynb][base b = 12: ./examples/base/modulus_0012.ipynb]]
+- [[./examples/base/base_0012.ipynb][base b = 12: ./examples/base/base_0012.ipynb]]
 
 
-- [[./examples/base/modulus_0013.ipynb][base b = 13: ./examples/base/modulus_0013.ipynb]]
+- [[./examples/base/base_0013.ipynb][base b = 13: ./examples/base/base_0013.ipynb]]
 
 
-- [[./examples/base/modulus_0014.ipynb][base b = 14: ./examples/base/modulus_0014.ipynb]]
+- [[./examples/base/base_0014.ipynb][base b = 14: ./examples/base/base_0014.ipynb]]
 
 
-- [[./examples/base/modulus_0015.ipynb][base b = 15: ./examples/base/modulus_0015.ipynb]]
+- [[./examples/base/base_0015.ipynb][base b = 15: ./examples/base/base_0015.ipynb]]
 
 
-- [[./examples/base/modulus_0016.ipynb][base b = 16: ./examples/base/modulus_0016.ipynb]]
+- [[./examples/base/base_0016.ipynb][base b = 16: ./examples/base/base_0016.ipynb]]
 
 
-- [[./examples/base/modulus_0017.ipynb][base b = 17: ./examples/base/modulus_0017.ipynb]]
+- [[./examples/base/base_0017.ipynb][base b = 17: ./examples/base/base_0017.ipynb]]
 
 
-- [[./examples/base/modulus_0018.ipynb][base b = 18: ./examples/base/modulus_0018.ipynb]]
+- [[./examples/base/base_0018.ipynb][base b = 18: ./examples/base/base_0018.ipynb]]
 
 
-- [[./examples/base/modulus_0019.ipynb][base b = 19: ./examples/base/modulus_0019.ipynb]]
+- [[./examples/base/base_0019.ipynb][base b = 19: ./examples/base/base_0019.ipynb]]
 
 
-- [[./examples/base/modulus_0020.ipynb][base b = 20: ./examples/base/modulus_0020.ipynb]]
+- [[./examples/base/base_0020.ipynb][base b = 20: ./examples/base/base_0020.ipynb]]
 
 
-- [[./examples/base/modulus_0021.ipynb][base b = 21: ./examples/base/modulus_0021.ipynb]]
+- [[./examples/base/base_0021.ipynb][base b = 21: ./examples/base/base_0021.ipynb]]
 
 
-- [[./examples/base/modulus_0022.ipynb][base b = 22: ./examples/base/modulus_0022.ipynb]]
+- [[./examples/base/base_0022.ipynb][base b = 22: ./examples/base/base_0022.ipynb]]
 
 
-- [[./examples/base/modulus_0023.ipynb][base b = 23: ./examples/base/modulus_0023.ipynb]]
+- [[./examples/base/base_0023.ipynb][base b = 23: ./examples/base/base_0023.ipynb]]
 
 
-- [[./examples/base/modulus_0024.ipynb][base b = 24: ./examples/base/modulus_0024.ipynb]]
+- [[./examples/base/base_0024.ipynb][base b = 24: ./examples/base/base_0024.ipynb]]
 
 
-- [[./examples/base/modulus_0025.ipynb][base b = 25: ./examples/base/modulus_0025.ipynb]]
+- [[./examples/base/base_0025.ipynb][base b = 25: ./examples/base/base_0025.ipynb]]
 
 
-- [[./examples/base/modulus_0026.ipynb][base b = 26: ./examples/base/modulus_0026.ipynb]]
+- [[./examples/base/base_0026.ipynb][base b = 26: ./examples/base/base_0026.ipynb]]
 
 
-- [[./examples/base/modulus_0027.ipynb][base b = 27: ./examples/base/modulus_0027.ipynb]]
+- [[./examples/base/base_0027.ipynb][base b = 27: ./examples/base/base_0027.ipynb]]
 
 
-- [[./examples/base/modulus_0028.ipynb][base b = 28: ./examples/base/modulus_0028.ipynb]]
+- [[./examples/base/base_0028.ipynb][base b = 28: ./examples/base/base_0028.ipynb]]
 
 
-- [[./examples/base/modulus_0029.ipynb][base b = 29: ./examples/base/modulus_0029.ipynb]]
+- [[./examples/base/base_0029.ipynb][base b = 29: ./examples/base/base_0029.ipynb]]
 
 
-- [[./examples/base/modulus_0030.ipynb][base b = 30: ./examples/base/modulus_0030.ipynb]]
+- [[./examples/base/base_0030.ipynb][base b = 30: ./examples/base/base_0030.ipynb]]
 
 
 
 ** by Modulus
 
 
-- [[./examples/modulus/base_0002.ipynb][modulus m = 2: ./examples/modulus/base_0002.ipynb]]
+- [[./examples/modulus/modulus_0002.ipynb][modulus m = 2: ./examples/modulus/modulus_0002.ipynb]]
 
 
-- [[./examples/modulus/base_0003.ipynb][modulus m = 3: ./examples/modulus/base_0003.ipynb]]
+- [[./examples/modulus/modulus_0003.ipynb][modulus m = 3: ./examples/modulus/modulus_0003.ipynb]]
 
 
-- [[./examples/modulus/base_0004.ipynb][modulus m = 4: ./examples/modulus/base_0004.ipynb]]
+- [[./examples/modulus/modulus_0004.ipynb][modulus m = 4: ./examples/modulus/modulus_0004.ipynb]]
 
 
-- [[./examples/modulus/base_0005.ipynb][modulus m = 5: ./examples/modulus/base_0005.ipynb]]
+- [[./examples/modulus/modulus_0005.ipynb][modulus m = 5: ./examples/modulus/modulus_0005.ipynb]]
 
 
-- [[./examples/modulus/base_0006.ipynb][modulus m = 6: ./examples/modulus/base_0006.ipynb]]
+- [[./examples/modulus/modulus_0006.ipynb][modulus m = 6: ./examples/modulus/modulus_0006.ipynb]]
 
 
-- [[./examples/modulus/base_0007.ipynb][modulus m = 7: ./examples/modulus/base_0007.ipynb]]
+- [[./examples/modulus/modulus_0007.ipynb][modulus m = 7: ./examples/modulus/modulus_0007.ipynb]]
 
 
-- [[./examples/modulus/base_0008.ipynb][modulus m = 8: ./examples/modulus/base_0008.ipynb]]
+- [[./examples/modulus/modulus_0008.ipynb][modulus m = 8: ./examples/modulus/modulus_0008.ipynb]]
 
 
-- [[./examples/modulus/base_0009.ipynb][modulus m = 9: ./examples/modulus/base_0009.ipynb]]
+- [[./examples/modulus/modulus_0009.ipynb][modulus m = 9: ./examples/modulus/modulus_0009.ipynb]]
 
 
-- [[./examples/modulus/base_0010.ipynb][modulus m = 10: ./examples/modulus/base_0010.ipynb]]
+- [[./examples/modulus/modulus_0010.ipynb][modulus m = 10: ./examples/modulus/modulus_0010.ipynb]]
 
 
-- [[./examples/modulus/base_0011.ipynb][modulus m = 11: ./examples/modulus/base_0011.ipynb]]
+- [[./examples/modulus/modulus_0011.ipynb][modulus m = 11: ./examples/modulus/modulus_0011.ipynb]]
 
 
-- [[./examples/modulus/base_0012.ipynb][modulus m = 12: ./examples/modulus/base_0012.ipynb]]
+- [[./examples/modulus/modulus_0012.ipynb][modulus m = 12: ./examples/modulus/modulus_0012.ipynb]]
 
 
-- [[./examples/modulus/base_0013.ipynb][modulus m = 13: ./examples/modulus/base_0013.ipynb]]
+- [[./examples/modulus/modulus_0013.ipynb][modulus m = 13: ./examples/modulus/modulus_0013.ipynb]]
 
 
-- [[./examples/modulus/base_0014.ipynb][modulus m = 14: ./examples/modulus/base_0014.ipynb]]
+- [[./examples/modulus/modulus_0014.ipynb][modulus m = 14: ./examples/modulus/modulus_0014.ipynb]]
 
 
-- [[./examples/modulus/base_0015.ipynb][modulus m = 15: ./examples/modulus/base_0015.ipynb]]
+- [[./examples/modulus/modulus_0015.ipynb][modulus m = 15: ./examples/modulus/modulus_0015.ipynb]]
 
 
-- [[./examples/modulus/base_0016.ipynb][modulus m = 16: ./examples/modulus/base_0016.ipynb]]
+- [[./examples/modulus/modulus_0016.ipynb][modulus m = 16: ./examples/modulus/modulus_0016.ipynb]]
 
 
-- [[./examples/modulus/base_0017.ipynb][modulus m = 17: ./examples/modulus/base_0017.ipynb]]
+- [[./examples/modulus/modulus_0017.ipynb][modulus m = 17: ./examples/modulus/modulus_0017.ipynb]]
 
 
-- [[./examples/modulus/base_0018.ipynb][modulus m = 18: ./examples/modulus/base_0018.ipynb]]
+- [[./examples/modulus/modulus_0018.ipynb][modulus m = 18: ./examples/modulus/modulus_0018.ipynb]]
 
 
-- [[./examples/modulus/base_0019.ipynb][modulus m = 19: ./examples/modulus/base_0019.ipynb]]
+- [[./examples/modulus/modulus_0019.ipynb][modulus m = 19: ./examples/modulus/modulus_0019.ipynb]]
 
 
-- [[./examples/modulus/base_0020.ipynb][modulus m = 20: ./examples/modulus/base_0020.ipynb]]
+- [[./examples/modulus/modulus_0020.ipynb][modulus m = 20: ./examples/modulus/modulus_0020.ipynb]]
 
 
-- [[./examples/modulus/base_0021.ipynb][modulus m = 21: ./examples/modulus/base_0021.ipynb]]
+- [[./examples/modulus/modulus_0021.ipynb][modulus m = 21: ./examples/modulus/modulus_0021.ipynb]]
 
 
-- [[./examples/modulus/base_0022.ipynb][modulus m = 22: ./examples/modulus/base_0022.ipynb]]
+- [[./examples/modulus/modulus_0022.ipynb][modulus m = 22: ./examples/modulus/modulus_0022.ipynb]]
 
 
-- [[./examples/modulus/base_0023.ipynb][modulus m = 23: ./examples/modulus/base_0023.ipynb]]
+- [[./examples/modulus/modulus_0023.ipynb][modulus m = 23: ./examples/modulus/modulus_0023.ipynb]]
 
 
-- [[./examples/modulus/base_0024.ipynb][modulus m = 24: ./examples/modulus/base_0024.ipynb]]
+- [[./examples/modulus/modulus_0024.ipynb][modulus m = 24: ./examples/modulus/modulus_0024.ipynb]]
 
 
-- [[./examples/modulus/base_0025.ipynb][modulus m = 25: ./examples/modulus/base_0025.ipynb]]
+- [[./examples/modulus/modulus_0025.ipynb][modulus m = 25: ./examples/modulus/modulus_0025.ipynb]]
 
 
-- [[./examples/modulus/base_0026.ipynb][modulus m = 26: ./examples/modulus/base_0026.ipynb]]
+- [[./examples/modulus/modulus_0026.ipynb][modulus m = 26: ./examples/modulus/modulus_0026.ipynb]]
 
 
-- [[./examples/modulus/base_0027.ipynb][modulus m = 27: ./examples/modulus/base_0027.ipynb]]
+- [[./examples/modulus/modulus_0027.ipynb][modulus m = 27: ./examples/modulus/modulus_0027.ipynb]]
 
 
-- [[./examples/modulus/base_0028.ipynb][modulus m = 28: ./examples/modulus/base_0028.ipynb]]
+- [[./examples/modulus/modulus_0028.ipynb][modulus m = 28: ./examples/modulus/modulus_0028.ipynb]]
 
 
-- [[./examples/modulus/base_0029.ipynb][modulus m = 29: ./examples/modulus/base_0029.ipynb]]
+- [[./examples/modulus/modulus_0029.ipynb][modulus m = 29: ./examples/modulus/modulus_0029.ipynb]]
 
 
-- [[./examples/modulus/base_0030.ipynb][modulus m = 30: ./examples/modulus/base_0030.ipynb]]
+- [[./examples/modulus/modulus_0030.ipynb][modulus m = 30: ./examples/modulus/modulus_0030.ipynb]]
 
 
 

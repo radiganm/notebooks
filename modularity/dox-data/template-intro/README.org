@@ -12,14 +12,14 @@
 ** by Base
 
 {% for b_n, b in enumerate(bs) %}
-- [[./examples/base/modulus_{{'%4.4d'%b}}.ipynb][base b = {{b}}: ./examples/base/modulus_{{'%4.4d'%b}}.ipynb]]
+- [[./examples/base/base_{{'%4.4d'%b}}.ipynb][base b = {{b}}: ./examples/base/base_{{'%4.4d'%b}}.ipynb]]
 
 {% endfor %}
 
 ** by Modulus
 
 {% for m_n, m in enumerate(ms) %}
-- [[./examples/modulus/base_{{'%4.4d'%m}}.ipynb][modulus m = {{m}}: ./examples/modulus/base_{{'%4.4d'%m}}.ipynb]]
+- [[./examples/modulus/modulus_{{'%4.4d'%m}}.ipynb][modulus m = {{m}}: ./examples/modulus/modulus_{{'%4.4d'%m}}.ipynb]]
 
 {% endfor %}
 
