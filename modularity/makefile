@@ -12,7 +12,7 @@
 ##  A copy of the license is included in the section entitled "GNU Free 
 ##  Documentation License".
 
-.PHONY: convert dox
+.PHONY: convert convert-intro convert-examples dox
 
 .DEFAULT_GOAL := default
 
@@ -29,8 +29,12 @@ output          = ./examples
 
 default: convert
 
-convert: dox dox-intro
+convert: convert-intro convert-examples
+
+convert-intro: dox-intro
 	$(pyconvert) $(target).py $(target).ipynb
+
+convert-examples: dox
 	$(pyconvert_batch) $(output)
 
 dox: $(source)

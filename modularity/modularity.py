@@ -29,8 +29,7 @@
 # <headingcell level=2>
 # Notation
 # <markdowncell>
-# For an integer seqence $n = 1, 2, \cdots \infty$, and choice of integers $b$, $m$ $\in$ $\mathbb{Z}^{+}$, what is the behavior of the sequence $\mathbf{X}_n = b^n \mod m$?
-
+# Writing $\mathbf{X}^{\left(b,m\right)} = \left[ \mathbf{G}^{\left(b,m\right)} \left(\mathbf{H}^{\left(b,m\right)}\right)^{*} \right]$ $= b^n \mod m$ for $n = 1, 2, \cdots \infty$ annotations the generated sequence with the generator parameters, so that properties sequences can be compared with this context conveniently accessible.
 
 # <headingcell level=2>
 # Normalization
