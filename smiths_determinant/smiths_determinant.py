@@ -27,7 +27,7 @@
 # $$
 # \varphi\left(n\right)
 # =
-# n \displaystyle{\prod_{p_k \mid n}\varphi\left(1 - \frac{1}{p_k}\right)}
+# n \displaystyle{\prod_{p_k \mid n}\left(1 - \frac{1}{p_k}\right)}
 # $$
 # 
 # and $p_k$ are distinct prime numbers with $p_k < n$
